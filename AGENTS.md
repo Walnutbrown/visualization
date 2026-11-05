@@ -9,9 +9,9 @@
 | 역할 (displayName) | 워크트리 경로 | 핵심 책임 및 권한 제한 |
 |---|---|---|
 | **`main`** | `/Users/jeong-ingyeong/orca/visualization` | 기준 브랜치(`main`). 병합 완료 후 `git pull --ff-only`로 항상 최신 상태 유지. |
-| **`뿌리기`** | `/Users/jeong-ingyeong/orca/workspaces/visualization/뿌리기-3` | 사용자 요구사항 분석 및 코드 경로 사전 검증 후 GitHub Issue 생성 (`일개미` 라벨 부착). **직접 코드 수정·PR 생성·병합 금지.** |
+| **`뿌리기`** | `/Users/jeong-ingyeong/orca/workspaces/visualization/뿌리기` | 사용자 요구사항 분석 및 코드 경로 사전 검증 후 GitHub Issue 생성 (`일개미` 라벨 부착). **직접 코드 수정·PR 생성·병합 금지.** |
 | **`일개미`** | `/Users/jeong-ingyeong/orca/workspaces/visualization/일개미` | 5분 주기 자동화 조정자. 열린 `일개미` 이슈마다 하위 워크트리(`issue-<번호>`)에 일꾼을 배정하여 구현·테스트·PR 생성·피드백 반영 수행. **단독 병합 금지.** |
-| **`감독`** | `/Users/jeong-ingyeong/orca/workspaces/visualization/pearleye` | 독립 리뷰어 및 최종 병합권자. PR 게이트·코드 정합성·테스트를 독립 검증하여 문제 없으면 승인 SHA 병합, 문제 있으면 `ask`로 일개미에게 반환. 매시간 정각 사람이 읽기 쉬운 근황 요약 보고 수행. |
+| **`감독`** | `/Users/jeong-ingyeong/orca/workspaces/visualization/감독` | 독립 리뷰어 및 최종 병합권자. PR 게이트·코드 정합성·테스트를 독립 검증하여 문제 없으면 승인 SHA 병합, 문제 있으면 `ask`로 일개미에게 반환. 매시간 정각 사람이 읽기 쉬운 근황 요약 보고 수행. |
 | **`질문`** | `/Users/jeong-ingyeong/orca/workspaces/visualization/질문` | 사용자의 이해를 돕기 위해 아키텍처 및 시각화 구조 위주로 설명·질의응답 수행. |
 
 ---
@@ -48,7 +48,7 @@
    - 감독이 PR을 병합하면 `/Users/jeong-ingyeong/orca/visualization` (`main`)에서 작업 트리가 깨끗한지 확인 후 `git pull --ff-only`를 실행하여 `origin/main`과 동기화합니다.
 2. **하위 워크트리 자동 정리**:
    - PR 병합·감독 리뷰·로컬 동기화가 완료된 후, 해당 `issue-<번호>` 하위 워크트리의 `git status --porcelain`이 비어 있고 push 안 된 커밋이 없을 때만 `orca worktree rm --worktree path:<경로>`로 제거합니다 (`--force`, `--delete-branch` 금지).
-   - `main`, `뿌리기-3`, `일개미`, `pearleye`, `질문` 등 역할 워크트리는 절대 제거하지 않습니다.
+   - `main`, `뿌리기`, `일개미`, `감독`, `질문` 등 역할 워크트리는 절대 제거하지 않습니다.
 
 ---
 
