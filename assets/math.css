@@ -1,0 +1,6 @@
+.math-inline .katex, .math-block .katex { font-size: max(1.08em, var(--t-body)); word-break: normal; overflow-wrap: normal; }
+.math-block { min-width: 0; max-width: 100%; overflow-x: auto; padding: 8px 0; }
+.math-block .katex-display { margin: 0; text-align: left; }
+.math-block .katex-display > .katex { text-align: left; }
+.math-inline { color: inherit; }
+span.math-block { display: block; }
