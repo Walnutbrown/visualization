@@ -35,6 +35,18 @@ class SnapshotTest(unittest.TestCase):
         for row in tag_rows:
             self.assertLessEqual(set(re.findall(r"`([^`]+)`", row[1])), known, row[0])
 
+    def test_gallery_review_scope_and_basis(self):
+        rows = [line.split(" | ") for line in read(VIS / "gallery-tags.md").splitlines() if line.startswith("| `")]
+        for row in rows:
+            self.assertEqual(len(row), 6, row[0])
+            self.assertIn(row[2], {"근거 확인", "검토 후 판단 불가"}, row[0])
+            self.assertEqual(row[1] == "-", row[2] == "검토 후 판단 불가", row[0])
+            self.assertIn(row[3], {"원본 화면 검토", "원본 접근 실패", "원본 대체·제한 화면", "원본 렌더링 실패"}, row[0])
+            self.assertGreater(len(row[4]), 35, row[0])
+            self.assertNotIn("별도 기록", row[4], row[0])
+            if row[3] != "원본 화면 검토":
+                self.assertIn("상세", row[4], row[0])
+
     def test_counts_match_index(self):
         self.assertEqual((len(MAIN), len(DETAIL), len(PRINCIPLES)), (95, 95, 20))
         rows = [l for l in read(VIS / "catalog.md").splitlines() if l.startswith("| `")]

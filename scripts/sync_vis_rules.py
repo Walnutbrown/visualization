@@ -147,7 +147,7 @@ def gallery_index(entries):
     rows = ["# 갤러리 색인 (vis.hwpark.net 스냅샷)", "",
             f"{SITE}/gallery/ 작품 {len(entries)}개 (고전 {sum(e['kind'] == '고전' for e in entries)} + IIB {sum(e['kind'] == 'IIB' for e in entries)}). "
             "시안과 완성 단계에서 같은 형태로 잘 만든 작품을 찾는 용도다. 고전은 사이트에 수상·한 줄 설명이 없어 `-`로 둔다. "
-            "작품과 기법의 연결은 사이트에 없으므로 `gallery-tags.md`에 따로 둔다. 생성 파일이므로 직접 고치지 말고 `scripts/sync_vis_rules.py`로 갱신한다.", "",
+            "작품과 기법의 연결은 `gallery-tags.md`에서 별도로 검토·관리한다. 생성 파일이므로 직접 고치지 말고 `scripts/sync_vis_rules.py`로 갱신한다.", "",
             "| slug | 제목 | 제작자 | 연도 | 구분 | 수상 | 분야 | 한 줄 설명 | 사이트 | 원본 |", "|---|---|---|---|---|---|---|---|---|---|"]
     for e in sorted(entries, key=lambda e: (e["kind"] != "고전", e["year"], e["title"])):
         rows.append(f"| `{e['slug']}` | " + " | ".join(cell(e[k]) for k in ["title", "creator", "year", "kind", "award", "field", "summary"])

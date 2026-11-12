@@ -1,126 +1,132 @@
 # 갤러리 기법 태그
 
-이 연결은 사이트에 없는 우리 판단이다. 상세 설명과 원본 응답에서 카탈로그 기법을 확인할 수 없으면 비워 둔다. 원본 응답은 HTML 앞부분을 확인한 것으로, 이미지와 인터랙션을 완전히 검토했다는 뜻은 아니다. 원본이 접근 불가한 경우 상세 설명으로 확인한 기법만 기록한다.
+수집 메타데이터와 분리해 관리하는 수동 판단이다. 2026-11-12에 120개 상세 본문을 읽고 모든 원본 URL에 브라우저 접근을 시도했다. 열린 범위에서 첫 화면과 대표 시각물 구간을 검토했고 실패·대체 화면은 구분했다. 작품 전체·책 전권·모든 상호작용을 감수한 기록은 아니다. 태그의 적용 범위는 각 행의 근거와 관측 기록으로 한정한다.
 
-| 작품 slug | 기법 slug | 원본 접근 |
-|---|---|---|
-| `playfair-commercial-political-atlas-1786` | `line-graph`, `bar-chart` | HTML 응답 |
-| `snow-cholera-map-1854` | `dot-map` | HTML 응답 |
-| `nightingale-rose-diagram-1858` | `nightingale-rose` | HTML 응답 |
-| `minard-napoleon-march-1869` | `flow-map` | HTML 응답 |
-| `muybridge-horse-in-motion-1878` | `small-multiples` | HTML 응답 |
-| `booth-poverty-map-london-1889` | - | HTML 응답 |
-| `dubois-data-portraits-1900` | - | 접근 제한: HTTP Error 403 |
-| `beck-london-underground-map-1933` | - | HTML 응답 |
-| `bertin-semiology-of-graphics-1967` | - | HTML 응답 |
-| `tufte-visual-display-sparklines-1983` | - | 접근 제한: HTTP Error 403 |
-| `wilkinson-grammar-of-graphics-1999` | - | HTML 응답 |
-| `gapminder-wealth-health-nations-2006` | `bubble-chart`, `playback-scrub` | HTML 응답 |
-| `bostock-d3-2011` | - | HTML 응답 |
-| `nyt-512-paths-to-white-house-2012` | - | HTML 응답 |
-| `dear-data-2015` | - | HTML 응답 |
-| `data-sketches-2017` | - | HTML 응답 |
-| `pudding-film-dialogue-2017` | `dot-matrix-chart` | HTML 응답 |
-| `johns-hopkins-covid-dashboard-2020` | - | 접근 제한: HTTP Error 403 |
-| `nyt-extremely-detailed-election-map-2021` | `choropleth`, `semantic-zoom` | 접근 제한: HTTP Error 403 |
-| `observable-framework-2024` | - | 접근 제한: HTTP Error 429 |
-| `oct-26-the-day-women-start-working-for-free-2018` | - | 접근 제한: 타임아웃 |
-| `10-years-on-2019` | - | HTML 응답 |
-| `3121-desperate-journeys-2019` | `unit-chart` | HTML 응답 |
-| `a-view-on-despair-2019` | - | HTML 응답 |
-| `cartographers-of-north-korea-2019` | - | HTML 응답 |
-| `codex-atlanticus-2019` | `faceted-filter`, `sort` | HTML 응답 |
-| `earth-at-night-mountains-of-light-2019` | - | HTML 응답 |
-| `explore-the-ocean-2019` | - | HTML 응답 |
-| `fewer-fireworks-for-celebration-better-air-quality-2019` | `radial-bar-chart`, `small-multiples`, `sort` | HTML 응답 |
-| `flowmap-blue-2019` | `flow-map` | HTML 응답 |
-| `how-god-has-spoken-before-and-after-the-silence-2019` | - | HTML 응답 |
-| `how-kerala-s-dams-failed-2019` | - | HTML 응답 |
-| `in-a-warming-world-the-fight-for-water-2019` | - | 접근 제한: HTTP Error 403 |
-| `information-visualization-design-under-the-overview-of--2019` | - | 접근 제한: HTTP Error 403 |
-| `live-bmx-data-visualization-2019` | - | HTML 응답 |
-| `migration-waves-2019` | - | HTML 응답 |
-| `space-junk-2019` | - | 접근 제한: HTTP Error 403 |
-| `the-forbidden-city-2019` | - | HTML 응답 |
-| `the-invisible-crime-2019` | - | 접근 제한: HTTP Error 404 |
-| `irregular-outfields-of-baseball-2019` | - | HTML 응답 |
-| `the-millions-who-left-2019` | - | 접근 제한: HTTP Error 403 |
-| `visualizing-the-history-of-fugazi-2019` | `bar-chart`, `timeline` | HTML 응답 |
-| `wedding-data-viz-2019` | `network-diagram` | 접근 제한: HTTP Error 403 |
-| `abandoned-at-sea-2022` | - | HTML 응답 |
-| `anatomy-of-the-lismore-disaster-2022` | - | HTML 응답 |
-| `animated-sport-results-2022` | - | HTML 응답 |
-| `culture-in-the-crosshairs-2022` | - | HTML 응답 |
-| `degrees-of-uncertainty-2022` | - | HTML 응답 |
-| `gender-and-language-2022` | - | HTML 응답 |
-| `heartbeats-2022` | - | HTML 응답 |
-| `how-you-play-spades-2022` | - | HTML 응답 |
-| `i-am-a-book-2022` | - | 접근 제한: HTTP Error 404 |
-| `k-means-clustering-explainer-2022` | - | HTML 응답 |
-| `life-under-curfew-2022` | - | HTML 응답 |
-| `mta-ridership-changes-2022` | - | HTML 응답 |
-| `made-to-measure-2022` | - | HTML 응답 |
-| `precision-mapping-to-end-child-deaths-2022` | `bubble-map` | HTML 응답 |
-| `rising-sea-levels-2022` | - | HTML 응답 |
-| `spain-lives-in-flats-2022` | - | HTML 응답 |
-| `sternenhimmel-der-menschheit-2022` | - | HTML 응답 |
-| `the-shape-of-dreams-2022` | - | HTML 응답 |
-| `hong-kong-protests-first-100-days-2022` | `timeline` | HTML 응답 |
-| `thunder-roads-2022` | - | HTML 응답 |
-| `spotify-and-the-decline-of-english-2022` | - | 접근 제한: HTTP Error 403 |
-| `and-the-earth-shakes-2023` | - | HTML 응답 |
-| `atlas-of-sustainable-development-goals-2023` | - | HTML 응답 |
-| `boreal-ablaze-2023` | `line-graph`, `bar-chart` | HTML 응답 |
-| `britain-s-shadowy-border-2023` | - | HTML 응답 |
-| `die-stadtflucht-2023` | - | 접근 제한: HTTP Error 403 |
-| `fentanyl-is-fast-cheap-and-deadly-2023` | `bar-chart` | HTML 응답 |
-| `pele-s-greatest-achievements-2023` | `timeline` | HTML 응답 |
-| `how-do-we-compare-2023` | `text-search-filter`, `tooltip` | HTML 응답 |
-| `jesus-christ-superstar-2023` | - | 접근 제한: HTTP Error 403 |
-| `journey-into-sleep-2023` | - | HTML 응답 |
-| `la-guerra-dei-chip-2023` | - | HTML 응답 |
-| `lebron-james-scoring-title-2023` | - | 접근 제한: HTTP Error 402 |
-| `modern-art-movements-2023` | `timeline` | HTML 응답 |
-| `my-digital-double-and-me-2023` | - | HTML 응답 |
-| `north-korea-s-missiles-2023` | - | HTML 응답 |
-| `on-upward-mobility-2023` | - | HTML 응답 |
-| `ripple-effect-2023` | - | HTML 응답 |
-| `say-cheese-with-your-chart-2023` | - | HTML 응답 |
-| `screens-of-august-2023` | `stacked-bar-chart` | HTML 응답 |
-| `shades-of-darkness-2023` | - | HTML 응답 |
-| `the-sounds-of-cdmx-2023` | - | HTML 응답 |
-| `the-collapse-of-insects-2023` | - | HTML 응답 |
-| `traditional-chinese-color-libraries-2023` | - | 접근 제한: 연결 실패 |
-| `turkey-s-toxic-dust-2023` | - | HTML 응답 |
-| `climate-conscious-india-2024` | - | 접근 제한: HTTP Error 404 |
-| `a-torrent-of-trash-2024` | - | HTML 응답 |
-| `beyond-crisis-lives-saved-2024` | `bar-chart`, `tooltip` | HTML 응답 |
-| `beyond-the-score-wynton-marsalis-2024` | - | 접근 제한: HTTP Error 403 |
-| `born-to-be-wild-an-investigation-into-australian-magpie-2024` | - | HTML 응답 |
-| `buildings-wrapped-in-solid-gasoline-2024` | - | HTML 응답 |
-| `databeads-2024` | - | HTML 응답 |
-| `games-of-two-eras-2024` | - | HTML 응답 |
-| `hello-from-the-data-vandals-2024` | - | HTML 응답 |
-| `how-san-francisco-s-japantown-was-devastated-by-mass-in-2024` | - | HTML 응답 |
-| `2024-u-s-election-vote-by-vote-2024` | `dot-map` | 접근 제한: 타임아웃 |
-| `i-want-a-better-catastrophe-2024` | - | HTML 응답 |
-| `is-the-love-song-dying-2024` | `area-graph` | HTML 응답 |
-| `lives-in-limbo-2024` | - | HTML 응답 |
-| `material-interactions-quilting-2024` | - | 접근 제한: HTTP Error 404 |
-| `moody-s-10-major-risks-shaping-insurance-today-2024` | - | HTML 응답 |
-| `moody-s-office-vacancies-2024` | - | HTML 응답 |
-| `navigate-obstacles-to-electrification-2024` | - | HTML 응답 |
-| `pathways-to-prosperity-2024` | - | 접근 제한: HTTP Error 403 |
-| `seeing-agent-based-modelling-2024` | - | HTML 응답 |
-| `seeking-shadow-2024` | - | 접근 제한: 연결 실패 |
-| `swiss-mountains-2024` | - | HTML 응답 |
-| `the-birdsong-of-sorrow-above-ukraine-2024` | - | HTML 응답 |
-| `the-emoji-biosphere-2024` | - | HTML 응답 |
-| `the-roots-of-racism-2024` | - | HTML 응답 |
-| `the-united-states-of-abortion-mazes-2024` | - | HTML 응답 |
-| `the-sudan-famine-watchdog-2024` | - | HTML 응답 |
-| `this-is-a-teenager-2024` | - | HTML 응답 |
-| `total-eclipse-2024` | `small-multiples` | HTML 응답 |
-| `vertical-momentum-2024` | - | HTML 응답 |
-| `world-in-tangible-fragments-2024` | - | HTML 응답 |
-| `zoonotic-web-2024` | - | HTML 응답 |
+**상태 구분:** `원본 접근 실패`는 탐색 시간 초과·DNS·차단으로 작품을 보지 못한 경우, `원본 대체·제한 화면`은 오류·폐기·판매·소개·구독 등의 화면만 확인한 경우, `원본 렌더링 실패`는 문서가 열려도 작품 그래픽이 나타나지 않은 경우다. `원본 화면 검토`도 아래 명시한 부분 검토이며, 별도 조작을 기록하지 않은 작품은 스크롤 외 데이터 조작을 검토하지 않았다. 접근 실패를 원본 검토 완료로 세지 않는다.
+
+**판단 구분:** `검토 후 판단 불가`는 상세 및 가능한 원본 범위로 기법을 특정할 수 없어 태그를 비운 경우다. 미검토와 동의어가 아니다. 이 표에는 상세 미검토 행이 없지만, 원본 작품을 못 본 경우와 미실행 조작은 각 행에 남겼다. 접근 불가라도 상세가 데이터-마크 대응이나 조작을 구체적으로 설명하면 `상세` 근거로만 태깅했다. 형태나 작품 제목만으로 추측하지 않았다.
+
+상세·원본 URL은 [gallery.md](gallery.md)의 같은 slug 행을 따른다. [120개 원본의 탐색 결과·오류·상세 스냅샷 해시·조작 결과](https://github.com/Walnutbrown/visualization/blob/pr-assets/issue-3/source-review.json)와 [대표 조작 화면·재현 근거](https://github.com/Walnutbrown/visualization/blob/pr-assets/issue-3/evidence.md)를 함께 확인할 수 있다. 사이트에 표시된 기법 링크를 그대로 복제한 표는 아니다.
+
+| 작품 slug | 기법 slug | 판단 | 원본 상태 | 검토 범위와 판단 근거 | 태그 근거 |
+|---|---|---|---|---|---|
+| `playfair-commercial-political-atlas-1786` | `line-graph`, `bar-chart` | 근거 확인 | 원본 화면 검토 | 원본 통계 그래픽 절이 Atlas의 시계열 선과 막대 차트 수록을 설명하고 무역수지 도판 일부를 화면에서 확인. 상세의 수입·수출선 인코딩 설명과 부합. 책 전권과 모든 도판은 미검토. | 상세·원본 |
+| `snow-cholera-map-1854` | `dot-map` | 근거 확인 | 원본 화면 검토 | 주소마다 사망자를 쌓아 위치로 표시한다는 상세의 구체적 설명을 근거로 태깅. 원본 사건 본문과 위치도 화면을 검토했으며 역사 지도 원판의 확대 검토는 하지 않음. | 상세 |
+| `nightingale-rose-diagram-1858` | `nightingale-rose` | 근거 확인 | 원본 화면 검토 | 상세가 월별 사망 원인을 부채꼴 면적으로 표현한다고 명시. 원본 통계 절의 본문 화면을 검토했으나 도판 원판은 이번 범위에서 확인하지 못해 태그 근거를 상세로 한정. | 상세 |
+| `minard-napoleon-march-1869` | `flow-map` | 근거 확인 | 원본 화면 검토 | 원본 확대 이미지에서 행군 경로와 병력에 비례하는 띠 너비를 확인; 하단 온도선은 이번 태깅 범위에서 제외. | 상세·원본 |
+| `muybridge-horse-in-motion-1878` | `small-multiples` | 근거 확인 | 원본 화면 검토 | 원본에 동일 크기의 연속 촬영 프레임이 격자로 놓임; 상세도 시간별 프레임 비교를 설명. 정적 사진이며 별도 조작 없음. | 상세·원본 |
+| `booth-poverty-map-london-1889` | - | 검토 후 판단 불가 | 원본 렌더링 실패 | 상세는 거리별 소득 등급의 색상 부호화를 설명하지만, 원본 지도는 빈 타일로 나타남; 면 단위 채색도인지 확정하지 않아 비움. | - |
+| `dubois-data-portraits-1900` | - | 검토 후 판단 불가 | 원본 대체·제한 화면 | 상세는 여러 손그림과 나선·비례 면적을 설명하나 개별 작품별 대응이 없음; 원본 보안 확인 화면에서 중단되어 비움. | - |
+| `beck-london-underground-map-1933` | `network-diagram` | 근거 확인 | 원본 화면 검토 | 상세의 역·노선 연결과 환승 중심 설계가 노드·링크 정의에 부합. 원본 역사 절의 지도 이미지는 1908년 판본까지 확인했으며 1933년 원판은 미검토하므로 태그 근거는 상세에 한정. | 상세 |
+| `bertin-semiology-of-graphics-1967` | - | 검토 후 판단 불가 | 원본 대체·제한 화면 | 원본이 책 전체 대신 저자 Jacques Bertin 소개로 이동; 상세의 시각 변수 이론만으로 특정 차트 적용을 판단할 수 없음. | - |
+| `tufte-visual-display-sparklines-1983` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 책 판매 페이지와 인쇄 펼침면 예시를 검토; 상세는 여러 설계 원칙을 소개하나 단일 차트나 스파크라인 적용을 특정하지 않아 비움. | - |
+| `wilkinson-grammar-of-graphics-1999` | - | 검토 후 판단 불가 | 원본 대체·제한 화면 | 원본 책 서지·판매 페이지에서 쿠키 안내가 표시됨; 상세는 시각화 문법의 저작 설명으로 특정 작품의 기법 사용 근거가 아님. | - |
+| `gapminder-wealth-health-nations-2006` | `bubble-chart`, `playback-scrub` | 근거 확인 | 원본 접근 실패 | 상세가 소득·기대수명·인구를 축과 원 크기로 매핑하고 재생 버튼을 설명; 원본 브라우저 탐색 실패로 실제 실행은 확인 못함. | 상세 |
+| `bostock-d3-2011` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 D3 홈페이지의 여러 예시 썸네일과 소개를 검토; 라이브러리 전체에 임의의 한 작품 기법을 부여하지 않음. | - |
+| `nyt-512-paths-to-white-house-2012` | `dendrogram`, `click-to-select` | 근거 확인 | 원본 화면 검토 | 원본 경합주 분기 트리에서 Florida의 Dem을 선택하자 미정 주 9→8개, 승리 경로 431→255와 76→1로 갱신됨. 상세의 주별 승리 조합 트리 설명과 부합. 다른 511가지 조합은 미검토. 조작: Florida의 Dem 선택 → 미정 주 9→8개, Obama 경로 431→255·Romney 76→1로 변화하고 트리가 갱신됨. | 상세·원본 |
+| `dear-data-2015` | - | 검토 후 판단 불가 | 원본 대체·제한 화면 | 원본이 신간 홍보 스플래시로 표시되어 52주 엽서 원작을 찾지 못함; 상세의 손그림 엽서 교환 설명만으로 특정 카탈로그 형태를 확정 못함. | - |
+| `data-sketches-2017` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 책 소개와 여러 프로젝트 카드·원형 예시를 검토; 월별 서로 다른 24개 작업의 컬렉션이므로 대표 기법을 임의로 일반화하지 않음. | - |
+| `pudding-film-dialogue-2017` | `stacked-bar-chart` | 근거 확인 | 원본 화면 검토 | 원본에서 영화별 남녀 대사 비율의 가로 누적 막대 배열을 확인; 기존 dot-matrix-chart는 실제 본 범위와 맞지 않아 교체. 별도 검색·필터 동작은 미검토. | 상세·원본 |
+| `johns-hopkins-covid-dashboard-2020` | - | 검토 후 판단 불가 | 원본 대체·제한 화면 | 원본은 데이터 수집 종료 안내와 비어 있는 대시보드 자리만 표시; 상세의 지도·누적 카운터·시계열이라는 일반 설명으로 세부 차트 형태를 확정하지 않음. | - |
+| `nyt-extremely-detailed-election-map-2021` | `choropleth`, `semantic-zoom` | 근거 확인 | 원본 화면 검토 | 원본 지도에서 득표 차에 따른 선거구 채색과 Zoom in 4회 후 도시·선거구 세부 경계·명칭이 드러남을 확인. 상세의 선거구별 채색·시맨틱 줌 설명과 부합. 조작: Zoom in 버튼 4회 → 전국 화면에서 도시·선거구 상세 경계와 이름이 드러나는 확대 화면 확인. | 상세·원본 |
+| `observable-framework-2024` | - | 검토 후 판단 불가 | 원본 접근 실패 | 원본 탐색이 커밋되지 않아 문서 화면을 얻지 못함; 상세는 작성 도구의 구조 설명으로 특정 시각화 적용을 뒷받침하지 않음. | - |
+| `oct-26-the-day-women-start-working-for-free-2018` | - | 검토 후 판단 불가 | 원본 접근 실패 | 상세는 임금 비율을 달력 날짜로 바꾼 설명; 원본 탐색이 시간 초과해 실제 달력 또는 차트 구조를 확인 못하므로 비움. | - |
+| `10-years-on-2019` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본은 10 Years On 표지·인물 사진과 5개 보도 진입점으로 구성; 상세도 회고 패키지를 설명할 뿐 차트 형태를 특정하지 않음. | - |
+| `3121-desperate-journeys-2019` | - | 검토 후 판단 불가 | 원본 접근 실패 | 원본 탐색 시간 초과로 작품 화면을 얻지 못함; 상세는 반복되는 시각화로 사람의 규모를 보여준다고만 하여 unit-chart의 고정 단위 아이콘을 확증 못하므로 기존 태그 제거. | - |
+| `a-view-on-despair-2019` | - | 검토 후 판단 불가 | 원본 접근 실패 | 원본 탐색 실패; 상세의 나무·파도·구름 은유와 보조 차트 설명에는 카탈로그 기법에 일대일 대응할 정밀한 형태 근거가 없어 비움. | - |
+| `cartographers-of-north-korea-2019` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 제목과 북한 배경 지도·기여자 그래픽 영역을 검토; 상세는 OSM 데이터와 인터뷰 연구 방법을 설명. 관찰 범위의 지도 부호화와 데이터 대응이 불명확하여 비움. | - |
+| `codex-atlanticus-2019` | `faceted-filter`, `sort` | 근거 확인 | 원본 화면 검토 | 원본 EXPLORE THE CODEX 진입 후 Geometry and Algebra 선택으로 1119→515페이지로 좁혀지고 chronological로 페이지가 재배열됨을 확인. 상세의 주제 필터·시간순 정렬 설명과 부합. 조작: EXPLORE THE CODEX 진입, Geometry and Algebra 필터, chronological 정렬 선택 → 선택 페이지 1119→515로 바뀌고 연대순 재배열 화면 확인. | 상세·원본 |
+| `earth-at-night-mountains-of-light-2019` | `zoom-and-pan` | 근거 확인 | 원본 화면 검토 | 원본에서 야간 광량으로 높이가 정해진 3D 지형을 확인하고 확대 두 번·드래그로 관측 시점 변화를 확인. 상세의 조명 기반 지형 설명과 부합. 지형 형상 자체에는 임의의 차트 태그를 부여하지 않음. 조작: 확대 두 번 후 지도 드래그 → 3D 지형의 관측 시점과 확대 수준이 바뀜. | 상세·원본 |
+| `explore-the-ocean-2019` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 제작사 소개와 설치 디스플레이 사진·3D 해양 예시를 검토; 실제 탐사선 멀티터치 장치에는 접근 못함. 상세의 챕터·에피소드 구성만으로 차트 유형을 정하지 않음. | - |
+| `fewer-fireworks-for-celebration-better-air-quality-2019` | `radial-bar-chart`, `small-multiples`, `sort` | 근거 확인 | 원본 접근 실패 | 원본 탐색 실패; 상세가 시간별 PM2.5 농도를 방사형 막대 길이로 표시하고 도시별 반복 배치·대기질 순위 재정렬을 명시. 세 기법 모두 상세 기반 판단이며 실행 검증은 아님. | 상세 |
+| `flowmap-blue-2019` | `flow-map`, `text-search-filter` | 근거 확인 | 원본 화면 검토 | 원본 스위스 이주 데모에서 출발·도착지를 잇는 이동량 흐름을 확인하고 Zür 검색 후 Zürich 선택으로 521510건 중 113999건만 남음. 상세의 출발·도착 이동량 설명과 부합. 조작: 스위스 이주 데모 진입, Zür 검색, Zürich 선택 → 이동 521510건 중 113999건으로 필터되고 지도 흐름이 바뀜. | 상세·원본 |
+| `how-god-has-spoken-before-and-after-the-silence-2019` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 책 소개와 축소된 도판 예시를 검토; 상세의 말씀을 음파 형태로 표현한 은유가 시간축 측정값을 연결한 line-graph라는 근거는 없어 비움. | - |
+| `how-kerala-s-dams-failed-2019` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 표지와 저수지·댐 지도를 검토; 상세는 홍수 원인 분석을 설명하나 지도 마크의 정확한 카탈로그 대응은 판단 불가. 뒤쪽 모든 차트까지 검토한 것으로 보지 않음. | - |
+| `in-a-warming-world-the-fight-for-water-2019` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 기사 제목과 강 관련 일러스트 부분을 검토; 상세가 공유 수자원과 국가 수를 말하지만 차트 구조를 특정하지 않아 비움. | - |
+| `information-visualization-design-under-the-overview-of--2019` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 Behance의 항생제 내성 포스터 일부와 설명을 검토; 여러 복합 도표의 축·단위가 이 검토 범위에서 읽히지 않아 모양만으로 차트 태그를 부여하지 않음. | - |
+| `live-bmx-data-visualization-2019` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 제작사 사례 페이지의 BMX 영상 표지·집계 숫자를 검토; 상세는 선수의 움직임과 속도를 타이어 자국으로 표현한다고 하나 해당 카탈로그 기법을 확정 못함. 실제 현장 장치는 미검토. | - |
+| `migration-waves-2019` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 Migration Waves 인쇄 그래픽 제목 부분을 검토; 상세의 물결 은유만으로 흐름 지도나 영역 그래프라는 데이터 대응을 확정할 수 없어 비움. | - |
+| `space-junk-2019` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 Space Junk 인쇄물의 범례·물체 종류별 기호를 검토; 상세는 거리·수·질량·시계를 다룬다고 하나 축과 기호 매핑을 모두 확인하지 못해 특정 기법은 비움. | - |
+| `the-forbidden-city-2019` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 기사 첫 궁궐 일러스트와 안내 팝업을 검토; 상세의 지도·VR·영상은 매체 설명이며 이 범위에서 기법 인코딩을 특정할 수 없어 비움. | - |
+| `the-invisible-crime-2019` | - | 검토 후 판단 불가 | 원본 대체·제한 화면 | 원본이 404 오류 페이지로 표시됨; 상세는 취재와 멀티미디어·규모를 다룬다고만 하여 차트 형태 판단 불가. | - |
+| `irregular-outfields-of-baseball-2019` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 야구장 표지·평면 비교 일부와 쿠키 안내를 검토; 상세는 30개 구장의 7유형 분류를 설명하지만 통일된 소형 패널 반복인지까지 확인 못해 비움. | - |
+| `the-millions-who-left-2019` | - | 검토 후 판단 불가 | 원본 대체·제한 화면 | 원본은 기사 본문 앞 쿠키·구독 선택 창이 내용을 가림; 상세의 동독 인구 이동 서사만으로 형태를 확정 못함. 유료 접근 선택은 실행하지 않음. | - |
+| `visualizing-the-history-of-fugazi-2019` | - | 검토 후 판단 불가 | 원본 접근 실패 | 원본 탐색이 커밋되지 않음; 상세는 함께 공연한 밴드·장소·기부처의 인쇄 연작을 설명할 뿐 막대와 타임라인은 명시하지 않아 기존 두 태그 제거. | - |
+| `wedding-data-viz-2019` | `network-diagram` | 근거 확인 | 원본 접근 실패 | 원본 탐색 시간 초과; 상세 본문이 하객을 노드, 하객 사이 관계를 연결한 대형 관계망 배너로 명시. 네트워크만 상세 기반으로 유지하고 이름표 크기는 버블 차트로 일반화하지 않음. | 상세 |
+| `abandoned-at-sea-2022` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 표지·스크롤 일부와 오디오 안내를 검토; 상세는 위험 지도의 존재를 말하지만 지도 부호화까지 특정하지 않아 비움. 오디오·지도 내부 조작은 미검토. 조작: 이야기 iframe 내부 스크롤 → 표지에서 Why do the Rohingya leave 본문 구간으로 바뀜; 오디오·지도 내부 탐색은 미검토. | - |
+| `anatomy-of-the-lismore-disaster-2022` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 첫 3D 지형도와 재난 시간순 본문을 검토; 상세의 3D 모델링과 재난 단계 설명만으로 카탈로그의 데이터 차트를 특정하지 않음. | - |
+| `animated-sport-results-2022` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 경기별 GIF 예시와 수영 순위 애니메이션을 검토; 상세의 타임라인 삼각형은 일반 사건 타임라인과 다른 전용 인코딩. 자동 GIF 외 별도 조작은 없음. | - |
+| `culture-in-the-crosshairs-2022` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 건축물 3D와 스크롤 설명의 레이저 모델 일부를 검토; 상세도 포인트 클라우드와 스트리밍을 설명하지만 관측 점군을 데이터 산점도로 동일시하지 않음. | - |
+| `degrees-of-uncertainty-2022` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 유튜브의 다큐멘터리 도입 재생 화면과 설명을 확인; 24분 전편은 미검토. 상세의 기온 추세와 영상 매체 설명만으로 실제 차트 형태를 확정 못함. | - |
+| `gender-and-language-2022` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 언어 설명과 she/he 텍스트 전환을 스크롤로 확인; 상세는 언어별 성별 표현을 일러스트로 설명하므로 수치 차트 기법에 해당하는 근거 부족. | - |
+| `heartbeats-2022` | `click-to-select` | 근거 확인 | 원본 화면 검토 | 원본에서 Play muted for now 후 Human 타일을 클릭하자 심박 72 BPM·기대수명·총 박동 수 상세가 열림. 상세의 동물 선택 후 심박 정보 제공 설명과 부합. 조작: Play muted for now 선택 후 Human 타일 클릭 → Human 심박 72 BPM·기대수명 79 years·총 박동 수 패널 표시. | 상세·원본 |
+| `how-you-play-spades-2022` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 카드형 서사 첫 부분과 설문 질문 컨트롤 존재를 확인; 상세는 설문 기반 스토리와 실물 카드에 집중. 실제 차트 인코딩을 확인한 뒤 추가할 수 있어 이번에는 비움. 조작: 가로 방향 휠 스크롤 → 카드 이야기 2/41에서 5–7/41 구간으로 진행됨; 후반 설문 조작은 미검토. | - |
+| `i-am-a-book-2022` | - | 검토 후 판단 불가 | 원본 대체·제한 화면 | 원본 Website Expired 화면으로 작품 접근 불가; 상세의 크기·소리 등 1대1 물리화는 이 카탈로그의 특정 차트 형태로 확정할 수 없어 비움. | - |
+| `k-means-clustering-explainer-2022` | `scatterplot`, `parametric-manipulation` | 근거 확인 | 원본 화면 검토 | 원본에서 두 변수의 점 분포를 확인하고 Datasets의 Number of Samples를 4로 바꾸자 네 점으로 갱신됨. 원본의 산점도 설명과 상세의 입력 조정 후 즉시 반응하는 작동 근거를 함께 확인. 조작: Datasets의 Number of Samples를 4로 변경 후 Tab → 산점도에서 표본이 네 점으로 바뀜. | 상세·원본 |
+| `life-under-curfew-2022` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 행사 벽화 사진과 제목을 검토; 상세의 종이 선·밧줄 연결은 참가자의 현장 데이터 물리화로서 화면 차트의 축·순서 대응을 확인 못해 비움. | - |
+| `mta-ridership-changes-2022` | - | 검토 후 판단 불가 | 원본 렌더링 실패 | 원본 URL은 열리나 빈 배경으로 시각화가 렌더링되지 않음; 상세도 지하철을 통한 불평등 서사라는 범위라 지도·차트 형태를 확정 못함. | - |
+| `made-to-measure-2022` | - | 검토 후 판단 불가 | 원본 대체·제한 화면 | 원본 experience에 진입하자 브라우저 사용 기록 수집에 대한 동의를 요구함. 동의하지 않아 전체 실험은 검토하지 않았으며 상세의 영화·검색 UI 설명만으로 기법을 특정 못해 비움. 조작: experience 진입 후 DECLINE 선택 → 동의를 거부하자 1:03:06 영상 플레이어가 표시됨; 인터랙티브 전체 실험과 영상 전편은 미검토. | - |
+| `precision-mapping-to-end-child-deaths-2022` | - | 검토 후 판단 불가 | 원본 대체·제한 화면 | 원본이 Data visualization unavailable로 이동하고 폐기된 도구라고 명시; 상세는 지역별 사망률과 스크롤 이야기만 설명하여 bubble-map의 원 크기 대응 근거가 없어 기존 태그 제거. | - |
+| `rising-sea-levels-2022` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 해수면 주얼리 제품 사진·범례 설명을 검토; 상세는 착용 가능한 해수면 표현을 설명. 물성만으로 기존 차트 카탈로그에 끼워 맞추지 않음. | - |
+| `spain-lives-in-flats-2022` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 건물 높이 3D 지도와 스크롤 설명 전환을 확인; 상세도 건물 외곽선·높이 표현을 명시. 임의의 버블 지도·단계 구분도로 분류하지 않음. 조작: 스크롤로 도시 사례와 마지막 지도 탐색 진입점 확인 → 건물 3D·설명 전환과 Explore the height map of your city 링크 확인; 별도 지도 페이지는 미검토. | - |
+| `sternenhimmel-der-menschheit-2022` | `click-to-select` | 근거 확인 | 원본 화면 검토 | 원본에서 쿠키 거부 후 Tuareg 선택·Explore를 실행하자 해당 문화의 이야기와 별자리 탐색 안내가 열림. 일부 텍스처는 로딩 중이라 별자리 형상 전체·음성은 미검토. 조작: 쿠키 거부, 안내 다음, Tuareg 선택, Explore 클릭 → 문화별 선택 패널과 [emay] Tuareg 이야기·별자리 탐색 안내가 열림; 텍스처 일부 로딩 상태. | 상세·원본 |
+| `the-shape-of-dreams-2022` | - | 검토 후 판단 불가 | 원본 접근 실패 | 원본 브라우저 탐색이 커밋되지 않음; 상세의 꿈 관련 검색 질문과 Google Trends라는 소재 설명에는 기법 인코딩이 없어 비움. | - |
+| `hong-kong-protests-first-100-days-2022` | `timeline` | 근거 확인 | 원본 화면 검토 | 원본 제목과 June부터 이어지는 날짜·사건 설명을 확인; 상세가 시위 첫 100일을 일러스트 타임라인으로 명시. 정적 설명 그래픽이며 별도 데이터 조작은 없음. | 상세·원본 |
+| `thunder-roads-2022` | - | 검토 후 판단 불가 | 원본 접근 실패 | 원본 탐색 시간 초과; 상세는 F1 인터랙티브 연작이라는 구성만 설명하고 차트 형태를 명시하지 않아 비움. | - |
+| `spotify-and-the-decline-of-english-2022` | - | 검토 후 판단 불가 | 원본 접근 실패 | 원본 탐색 시간 초과; 상세의 국가·언어별 탐색과 음악 청취 설명만으로 차트 형식 또는 조작 구현을 확정 못함. | - |
+| `and-the-earth-shakes-2023` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 지구 표지와 지진 지도, 연대·규모·판 선택 요소를 확인; 상세는 지진 역사·유형이라는 내용 설명. 선택 요소의 데이터 변경 결과는 미검토. 조작: 1900-1909 필터 선택 시도 → 원본 select 요소의 영역이 0이라 입력을 받지 못함; 필터 동작 결과는 확인 못함. | - |
+| `atlas-of-sustainable-development-goals-2023` | `text-search-filter` | 근거 확인 | 원본 화면 검토 | 원본 국가 검색에 Korea를 입력해 두 결과로 좁힌 뒤 방향키와 Enter로 KOREA, DEM. PEOPLE’S REP. 선택 상태를 확인. 상세의 17개 목표별 인터랙티브 아틀라스 중 공통 국가 선택 기능만 태깅; 개별 17개 스토리 전체는 미검토. 조작: 국가 검색 Korea 입력 후 방향키·Enter로 항목 선택 → 검색 결과 두 항목 중 KOREA, DEM. PEOPLE’S REP. 선택 상태가 표시됨; 17개 스토리 전체는 미검토. | 상세·원본 |
+| `boreal-ablaze-2023` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 도입과 지도 영역을 검토했으나 일부 시각 요소 로딩 미완료; 상세는 시간 추세만 설명하여 선·막대 형태까지 확정 못해 기존 두 태그 제거. | - |
+| `britain-s-shadowy-border-2023` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 보트 영상·스크롤 도입을 검토; 상세의 하나의 지도로 빈도·감시·개별 여정을 잇는 설명으로는 정확한 지도 부호화를 판단 못함. | - |
+| `die-stadtflucht-2023` | `text-search-filter` | 근거 확인 | 원본 대체·제한 화면 | 원본은 쿠키·구독 선택 창이 덮고 있음; 상세가 고향 도시를 검색해 도시별 30년 변화를 찾는 기능을 구체적으로 명시하므로 상세 근거로만 유지. 유료 접근은 실행하지 않음. | 상세 |
+| `fentanyl-is-fast-cheap-and-deadly-2023` | - | 검토 후 판단 불가 | 원본 렌더링 실패 | 원본 도입의 큰 캔버스가 비어 있고 후속 차트가 검토 범위에서 렌더링되지 않음; 상세는 압수 데이터와 차트의 결합만 설명하여 막대 형식 근거 부족으로 기존 태그 제거. | - |
+| `pele-s-greatest-achievements-2023` | `timeline` | 근거 확인 | 원본 화면 검토 | 원본 표지와 펠레 동작 일러스트를 검토; 상세가 펠레·마라도나·메시의 생애 성취를 시간선으로 비교한다고 명시하므로 상세 기반으로 태깅. | 상세 |
+| `how-do-we-compare-2023` | `text-search-filter`, `tooltip` | 근거 확인 | 원본 화면 검토 | 원본 국가 메뉴에서 Korea 검색으로 두 결과만 남고 Korea (Rep.) 선택 후 비교 대상과 지표가 갱신됨을 확인. tooltip은 상세의 명시적 기능 설명이 근거이며 호버 시도에서 실제 툴팁까지는 확인 못함. 조작: 국가 선택 메뉴 열기, Korea 검색, Korea (Rep.) 선택, 지표 점 호버 시도 → 검색 결과가 두 Korea 항목으로 좁혀지고 선택 후 31→26개 지표·46% 요약으로 갱신; 호버 툴팁은 이 시도에서 미확인. | 상세·원본 |
+| `jesus-christ-superstar-2023` | - | 검토 후 판단 불가 | 원본 접근 실패 | 원본 ERR_BLOCKED_BY_CLIENT로 로드 실패; 상세는 록 오페라의 데이터 포스터라고만 하여 형태를 특정 못함. | - |
+| `journey-into-sleep-2023` | - | 검토 후 판단 불가 | 원본 렌더링 실패 | 원본 제목·본문은 응답하지만 시각물은 Loading 화면에 머묾; 상세는 수면 과학·인포그래픽을 설명할 뿐 특정 기법의 축·단위를 확정 못함. | - |
+| `la-guerra-dei-chip-2023` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 반도체 표지 애니메이션과 기사 틀을 검토; 상세의 판매 분포·무어의 법칙·시장 점유율은 여러 데이터 주제라 실제 차트 형태를 특정할 수 없어 비움. | - |
+| `lebron-james-scoring-title-2023` | - | 검토 후 판단 불가 | 원본 대체·제한 화면 | 원본이 구독 상품 선택 페이지로 이동해 작품 접근 불가; 상세의 개별 슛 기록 설명만으로 슛 위치도인지 다른 인코딩인지 확정 못함. | - |
+| `modern-art-movements-2023` | `timeline` | 근거 확인 | 원본 화면 검토 | 원본 Start의 SVG 경로를 클릭하자 1867–1975 연도 눈금과 미술 사조별 시점이 표시됨. 상세의 인터랙티브 타임라인 설명과 부합. 모든 사조 클릭·애니메이션은 미검토. 조작: Start 선택, SVG path #start-button 클릭 → 1867–1975 눈금과 미술 사조 목록이 나타남; 애니메이션 전환 전체는 미검토. | 상세·원본 |
+| `my-digital-double-and-me-2023` | - | 검토 후 판단 불가 | 원본 대체·제한 화면 | 원본은 작가 Instagram 프로필로 이동해 해당 데이터 초상이 보이지 않음; 상세의 추론 빈도를 생성 이미지 비중으로 합친 방식은 특정 카탈로그 차트와 대응 불명확. | - |
+| `north-korea-s-missiles-2023` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 미사일 기사 도입·배경지도와 본문을 검토; 상세는 비행 원리·발사 이력을 설명하지만 기록을 표현한 차트 형태는 특정 못함. | - |
+| `on-upward-mobility-2023` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 가족 이동 서사의 도입과 미국 윤곽선을 검토; 상세의 Du Bois 디자인 참조는 기법 자체가 아니며 관찰 범위에 이동량을 인코딩한 흐름선 근거가 없어 비움. | - |
+| `ripple-effect-2023` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 설치 설명과 수면 진동 사진을 확인; 상세는 오염 농도를 진동·빛·소리로 바꾸는 물리화. 차트 카탈로그에 없는 감각 인코딩을 임의 형태로 태깅하지 않음. 현장 설치는 미검토. | - |
+| `say-cheese-with-your-chart-2023` | - | 검토 후 판단 불가 | 원본 대체·제한 화면 | 원본 This site is private 화면으로 작품 접근 불가; 상세는 74개 차트를 정리한 책의 물성을 설명하므로 책 전체에 하나의 태그를 붙일 수 없음. | - |
+| `screens-of-august-2023` | `stacked-bar-chart` | 근거 확인 | 원본 대체·제한 화면 | 원본 Adobe Portfolio가 페이지 없음 화면을 반환; 상세가 일별 아크릴 카드에 앱 9범주의 사용 시간을 누적 막대로 표현한다고 명시하므로 상세 기반 태그를 유지. | 상세 |
+| `shades-of-darkness-2023` | `heatmap` | 근거 확인 | 원본 화면 검토 | 원본 정전 기록 도판에서 시간 격자의 명도 변화와 범례를 확인; 색·명도가 정전 지속 패턴을 인코딩하는 행렬형 표현. 정적 인포그래픽이며 별도 조작 없음. | 상세·원본 |
+| `the-sounds-of-cdmx-2023` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 Start audio story 선택 후 스크롤로 소개에서 노점상 소리와 일러스트 본문으로 전환됨을 확인. 전체 오디오 청취는 미검토; 상세의 오디오 서사만으로 특정 데이터 차트를 정할 수 없어 비움. 조작: Start audio story 선택 후 스크롤 → 소개에서 The Sounds of CDMX 본문·장면으로 전환; 소리 내용 전체 청취는 미검토. | - |
+| `the-collapse-of-insects-2023` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 곤충 일러스트와 본문 초반을 검토; 상세는 생명의 나무를 설명하지만 실제 노드·계층 표현이 검토 화면에 나타나지 않아 임의의 트리 태그는 비움. | - |
+| `traditional-chinese-color-libraries-2023` | `click-to-select` | 근거 확인 | 원본 접근 실패 | 원본 DNS_PROBE_FINISHED_NXDOMAIN으로 로드 실패; 상세가 물고기를 클릭해 색상 값을 선택한다고 구체적으로 명시하므로 클릭 선택만 상세 근거로 태깅. 복사 기능은 카탈로그 태그로 만들지 않음. | 상세 |
+| `turkey-s-toxic-dust-2023` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 먼지 관련 기사 표지·스크롤 도입을 검토; 상세는 유해물질과 잔해 처리의 보도 주제만 설명하여 형태를 특정 못함. | - |
+| `climate-conscious-india-2024` | - | 검토 후 판단 불가 | 원본 대체·제한 화면 | 원본 PAGE NOT FOUND 화면; 상세의 100쪽·50여 차트라는 규모 설명으로는 개별 차트 기법을 판단할 수 없음. | - |
+| `a-torrent-of-trash-2024` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 스크롤에 따라 다수 풍선이 화면에 나타나는 3D 도입을 확인; 상세는 풍선 개수·이동 거리를 다룬다고 하지만 각 풍선의 고정 수량 대응이 확인되지 않아 unit-chart로 단정하지 않음. | - |
+| `beyond-crisis-lives-saved-2024` | `bar-chart`, `tooltip` | 근거 확인 | 원본 화면 검토 | 원본 연도별 사망자 기호 막대와 Where is the data from? 호버 시 CDC·FDA·NIH 출처·See all sources 링크가 나타나는 부유 패널을 확인. 상세의 출처 툴팁 설명과 부합. 조작: Where is the data from? 호버 → CDC·FDA·NIH 출처 안내와 See all sources 링크가 부유 패널로 나타남. | 상세·원본 |
+| `beyond-the-score-wynton-marsalis-2024` | `timeline` | 근거 확인 | 원본 화면 검토 | 원본 책 도판 일부와 표지·설명을 검토; 상세가 음반 활동을 시간선으로 배치한다고 명시하므로 상세 기반 태그를 추가. 세계 투어 지도는 세부 부호화 미확인. | 상세 |
+| `born-to-be-wild-an-investigation-into-australian-magpie-2024` | `unit-chart` | 근거 확인 | 원본 접근 실패 | 원본 탐색 시간 초과; 상세가 레고 점 하나를 1퍼센트로 정의한 6개 3D 차트를 설명하여 고정 단위 대응 근거로 태깅. 실물과 원본 조작은 미확인. | 상세 |
+| `buildings-wrapped-in-solid-gasoline-2024` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 화재 영상과 시간별 설명 도입을 검토; 상세는 외장재 단면과 화재 작동 원리의 설명형 그래픽이므로 수치 차트로 강제 분류하지 않음. | - |
+| `databeads-2024` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 팔찌 프로젝트 소개와 제작자 설명을 검토; 상세도 수공예 팔찌라는 매체만 설명하며 구슬별 변수·단위의 명확한 대응을 확인 못해 비움. | - |
+| `games-of-two-eras-2024` | - | 검토 후 판단 불가 | 원본 대체·제한 화면 | 원본 range 입력에 End 키를 보내 비교 구간을 열었으나 구독 모달이 가리고 Close도 포인터 가로채기로 실패. 상세의 시대별 기록·색·질감만으로 차트 형태를 특정 못해 비움. 조작: 첫 비교 슬라이더에 End, 구독 모달 Close 시도 → 구독 모달이 내용을 가렸고 Close 동작도 모달의 포인터 가로채기로 실패; 비교 결과는 미확인. | - |
+| `hello-from-the-data-vandals-2024` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 전시 소개와 일정·후기 부분을 검토; 상세는 조각·퍼포먼스·음악·노점 수레의 전시를 설명하므로 한 가지 차트로 일반화하지 않음. 현장 전시는 미검토. | - |
+| `how-san-francisco-s-japantown-was-devastated-by-mass-in-2024` | - | 검토 후 판단 불가 | 원본 접근 실패 | 원본 탐색 시간 초과; 상세는 수용·인구조사·상점 기록을 결합한 서사만 설명하여 특정 기법 판단 불가. | - |
+| `2024-u-s-election-vote-by-vote-2024` | `dot-map` | 근거 확인 | 원본 화면 검토 | 원본 도입과 지형 윤곽을 검토; 상세가 표 하나를 입자 하나로 나타내고 지리 위치에 배치한다고 명시하여 점 지도 태그를 상세 기반으로 유지. 3D 입자 장면의 렌더링은 검토 범위에서 불완전. | 상세 |
+| `i-want-a-better-catastrophe-2024` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 이야기·오디오 안내 패널과 흐름도 미니맵을 검토; 상세도 분기형 플로차트를 명시하지만 카탈로그에 flowchart slug가 없어 비움. 분기별 경로 선택·오디오 재생은 미검토. 조작: 기후 질문 오른쪽 분기 노드 클릭 → 다음 분기 일부가 드러남; 오디오·모든 경로는 미검토. | - |
+| `is-the-love-song-dying-2024` | `area-graph`, `stepper` | 근거 확인 | 원본 화면 검토 | 원본 방향키로 1→24단계를 진행하며 곡별 원 마크와 1960–2020년대 러브송 비중의 누적 영역 그래프를 확인. 앞뒤 단계 탐색도 실행 확인해 기존 영역 태그를 유지하고 stepper 추가. 조작: ArrowRight로 1단계에서 24단계까지 이동 → 댓글 도입→곡별 원 마크→시대별 러브송 비중의 누적 영역 그래프로 전환. | 상세·원본 |
+| `lives-in-limbo-2024` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 홍콩 난민 도입 일러스트와 스크롤 구간을 검토; 상세의 대기 기간·승인율은 데이터 내용이며 특정 차트 기법 근거는 부족. | - |
+| `material-interactions-quilting-2024` | - | 검토 후 판단 불가 | 원본 대체·제한 화면 | 원본 Oops, page not found 화면; 상세의 조각보에 출신·거리·참여 연수를 재료로 표시한 설명만으로 특정 카탈로그 차트를 확정 못함. | - |
+| `moody-s-10-major-risks-shaping-insurance-today-2024` | - | 검토 후 판단 불가 | 원본 렌더링 실패 | 원본은 내비게이션·법적 고지·푸터만 표시되고 기사 시각화가 나타나지 않음; 상세도 보험 위험 열 가지의 서사이므로 차트 형태를 특정 못함. | - |
+| `moody-s-office-vacancies-2024` | `line-graph` | 근거 확인 | 원본 화면 검토 | 원본 공실 기사에서 도시별 공실률을 시간축에 연결한 선과 범례를 확인; 상세의 공실·임대료 흐름 설명과 부합. 다른 후속 차트는 이번 태그의 근거에서 제외. | 상세·원본 |
+| `navigate-obstacles-to-electrification-2024` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 총 차량 수와 반복된 차량 아이콘 도입을 검토; 상세는 전기차 비율·구매가·주행거리 비교를 설명하나 이 아이콘의 고정 단위 범례는 확인 못해 유닛 차트로 확정하지 않음. | - |
+| `pathways-to-prosperity-2024` | `bar-chart` | 근거 확인 | 원본 화면 검토 | 원본 청소년 유형별 도입과 본문의 bar charts가 국가별 여섯 프로필 비율을 표시한다는 설명을 확인. 국가 비교의 모든 조합은 미검토. 조작: Grace 프로필 버튼 선택 → 국가별 프로필 비율 막대 구간으로 이동해 Grace 관련 비중과 나머지 프로필을 확인; 다른 연령별 조합은 미검토. | 상세·원본 |
+| `seeing-agent-based-modelling-2024` | `line-graph`, `playback-scrub` | 근거 확인 | 원본 화면 검토 | 원본 Free Play에서 재생·정지를 실행해 시간 단계가 0→50으로 진행되고 Happiness Over Time 선 그래프가 그려짐을 확인. 시민 수 편집 창까지 열었으나 매개변수 변경 후 재실행은 미검토. 조작: Free play 진입, 재생·정지, 시민 수 편집 창 열기 → 시간 단계 0→50과 행복 추세선, Number of citizens 편집 창 확인; 매개변수 변경·재실행은 미검토. | 상세·원본 |
+| `seeking-shadow-2024` | - | 검토 후 판단 불가 | 원본 접근 실패 | 원본 DNS_PROBE_FINISHED_NXDOMAIN 오류; 상세의 그늘·디지털 트윈·도시 분석이라는 설명에는 특정 차트 인코딩이 없어 비움. | - |
+| `swiss-mountains-2024` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 책 제작자 소개·도판 자리·제목을 검토; 일부 이미지가 로딩되지 않았고 상세도 다양한 산악 인포그래픽 목록이므로 책 전체를 한 기법으로 정하지 않음. | - |
+| `the-birdsong-of-sorrow-above-ukraine-2024` | `unit-chart` | 근거 확인 | 원본 화면 검토 | 원본 Each bird represents a life lost 범례와 다수의 새 마크를 확인; 한 생명에 하나의 새라는 고정 단위로 판단. 월별 전환은 미검토. 조작: MONTH BY MONTH 선택 시도 → 원본 버튼이 뷰포트에서 보이지 않아 입력 실패; 월별 전환 결과 미확인. | 상세·원본 |
+| `the-emoji-biosphere-2024` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 기사 제목·도입·쿠키 안내를 검토; 실제 이모지 비교 도판이 관찰 범위에 나타나지 않았고 상세도 비교 수량만 설명하여 차트 형식을 확정 못함. | - |
+| `the-roots-of-racism-2024` | `parametric-manipulation` | 근거 확인 | 원본 화면 검토 | 원본 데이터 탐색 구간에서 Homeownership Rate 슬라이더를 46.0→90.0%로 바꾸자 예상 사건 수가 16→10으로 갱신됨. 상세의 사건 분석 프로젝트 중 실제 실행한 모델 입력 조작만 태깅. 지도 부호화는 미검토. 조작: 데이터 탐색 구간으로 스크롤, Homeownership Rate 슬라이더에 End 입력 → 주택 보유율 46.0→90.0%, 예상 사건 수 16→10으로 즉시 갱신됨. | 상세·원본 |
+| `the-united-states-of-abortion-mazes-2024` | `sort` | 근거 확인 | 원본 화면 검토 | 원본 See all mazes 뒤 By barriers 선택으로 전체 미로가 Most to fewest barriers 순서로 재배열됨을 확인. 상세의 주별 정책을 미로 난이도로 바꾼 설명과 부합. 51개 미로 전체 풀이는 미검토. 조작: See all mazes, By barriers 선택 후 Arkansas 열기, START MAZE와 ArrowRight → 전체 미로가 Most to fewest barriers 순서로 재배열됨; Arkansas 미로가 시작 상태에서 RESTART MAZE 상태로 전환. | 상세·원본 |
+| `the-sudan-famine-watchdog-2024` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 스크롤에 따라 난민 캠프 삽화와 시설 설명이 나타남을 확인; 상세는 기아 감시 절차와 현장 이야기를 결합한 보도라 특정 수치 차트 기법 근거 부족. | - |
+| `this-is-a-teenager-2024` | `line-graph`, `small-multiples` | 근거 확인 | 원본 화면 검토 | 원본 후반부에서 학력 범주별로 나란히 놓인 소형 시간 추세선과 행복·소득 추이 선을 확인; 상세의 개인별 장기 변화 주제와 부합. 전체 개인의 모든 경로는 미검토. | 상세·원본 |
+| `total-eclipse-2024` | `small-multiples` | 근거 확인 | 원본 화면 검토 | 원본 ArcGIS 항목 설명을 검토했으나 지도 미리보기는 미완료; 상세가 1500여 지점의 일식 모양을 동일한 작은 패널 격자로 배치한다고 명시하여 상세 기반으로 유지. | 상세 |
+| `vertical-momentum-2024` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 높이뛰기·장대높이뛰기 결과의 표와 애니메이션 제작 단계 예시를 검토; 표·특수 경기 기호를 특정 차트 태그로 일반화하지 않음. 자동 GIF 외 별도 조작 없음. | - |
+| `world-in-tangible-fragments-2024` | - | 검토 후 판단 불가 | 원본 화면 검토 | 원본 스케치북 제작 과정의 글·재료 사진 일부를 검토; 상세는 자르기·꿰매기 등 물리적 매체와 연작을 설명하므로 전체를 하나의 차트로 분류하지 않음. | - |
+| `zoonotic-web-2024` | - | 검토 후 판단 불가 | 원본 렌더링 실패 | 원본 문서가 커밋됐으나 빈 화면으로 시각화가 나타나지 않음; 상세는 전파 경로·대시보드의 연구 주제를 설명할 뿐 실제 네트워크 마크나 조작 구현은 확인 못해 비움. | - |
