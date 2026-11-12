@@ -1,99 +1,22 @@
-# 이슈 3 갤러리 태깅 측정 근거
+# 이슈 3 태그 집계 근거
 
-- source SHA: `6673369f096d597b77d911bb1cd9ee06a4230dc7`
-- 집계 범위: 위 SHA의 `references/vis/gallery-tags.md`에 있는 갤러리 작품 120개 전체.
-- 단위: 작품 수. 한 작품은 여러 기법에 중복 집계될 수 있다. 동률은 slug 사전순.
-- 원자료: [해당 커밋의 전체 태그 파일](https://github.com/Walnutbrown/visualization/blob/6673369f096d597b77d911bb1cd9ee06a4230dc7/references/vis/gallery-tags.md). 원본 응답은 HTML 앞부분을 확인했고, 형태의 근거가 부족한 작품은 태그를 비웠다.
-- 명령: 저장소에서 아래 코드를 `python3`으로 실행한다.
+- 원자료: `references/vis/gallery-tags.md`, source SHA `6673369f096d597b77d911bb1cd9ee06a4230dc7`
+- 범위: 갤러리 작품 120행. 단위: 작품 수. 한 작품에 여러 기법을 태그할 수 있다.
+- 결과: 태깅 26개, 미태깅 94개. 10위에서 동률은 slug 사전순으로 선택한다.
+- 상위 10개: bar-chart 5, timeline 4, small-multiples 3, dot-map 2, flow-map 2, line-graph 2, sort 2, tooltip 2, area-graph 1, bubble-chart 1.
+- PNG: 위 원자료를 SVG 막대 그래프로 구성하고 `python3 scripts/assemble.py /tmp/vis-issue3/chart.html /tmp/vis-issue3/chart-assembled.html --title '갤러리 기법 태그 현황'`로 조립 후 Chrome headless로 캡처했다.
 
-```python
-import collections, json, re, subprocess
-source='6673369f096d597b77d911bb1cd9ee06a4230dc7'
-s=subprocess.check_output(['git','show',source+':references/vis/gallery-tags.md'],text=True)
-rows=[line.split(' | ') for line in s.splitlines() if line.startswith('| `')]
-counts=collections.Counter(tag for row in rows for tag in re.findall(r'`([^`]+)`',row[1]))
-print(json.dumps({'tagged':sum(row[1]!='-' for row in rows),'empty':sum(row[1]=='-' for row in rows),'total':len(rows),'top10':sorted(counts.items(),key=lambda p:(-p[1],p[0]))[:10]},ensure_ascii=False,indent=2))
+재현 집계 명령 (해당 SHA 체크아웃에서 실행):
+
+```sh
+python3 - <<'PY'
+from collections import Counter
+from pathlib import Path
+import re
+rows = [x.split(' | ') for x in Path('references/vis/gallery-tags.md').read_text().splitlines() if x.startswith('| `')]
+counts = Counter(t for row in rows for t in re.findall(r'`([^`]+)`', row[1]))
+print('전체:', len(rows), '태깅:', sum(r[1] != '-' for r in rows), '미태깅:', sum(r[1] == '-' for r in rows))
+for slug, n in sorted(counts.items(), key=lambda x: (-x[1], x[0]))[:10]:
+    print(slug, n)
+PY
 ```
-
-결과:
-
-```json
-{
-  "tagged": 26,
-  "empty": 94,
-  "total": 120,
-  "top10": [
-    [
-      "bar-chart",
-      5
-    ],
-    [
-      "timeline",
-      4
-    ],
-    [
-      "small-multiples",
-      3
-    ],
-    [
-      "dot-map",
-      2
-    ],
-    [
-      "flow-map",
-      2
-    ],
-    [
-      "line-graph",
-      2
-    ],
-    [
-      "sort",
-      2
-    ],
-    [
-      "tooltip",
-      2
-    ],
-    [
-      "area-graph",
-      1
-    ],
-    [
-      "bubble-chart",
-      1
-    ]
-  ]
-}
-```
-
-## 태그가 있는 원자료 행
-
-| 작품 slug | 기법 slug | 원본 접근 |
-|---|---|---|
-| `playfair-commercial-political-atlas-1786` | `line-graph`, `bar-chart` | HTML 응답 |
-| `snow-cholera-map-1854` | `dot-map` | HTML 응답 |
-| `nightingale-rose-diagram-1858` | `nightingale-rose` | HTML 응답 |
-| `minard-napoleon-march-1869` | `flow-map` | HTML 응답 |
-| `muybridge-horse-in-motion-1878` | `small-multiples` | HTML 응답 |
-| `gapminder-wealth-health-nations-2006` | `bubble-chart`, `playback-scrub` | HTML 응답 |
-| `pudding-film-dialogue-2017` | `dot-matrix-chart` | HTML 응답 |
-| `nyt-extremely-detailed-election-map-2021` | `choropleth`, `semantic-zoom` | 접근 제한: HTTP Error 403 |
-| `3121-desperate-journeys-2019` | `unit-chart` | HTML 응답 |
-| `codex-atlanticus-2019` | `faceted-filter`, `sort` | HTML 응답 |
-| `fewer-fireworks-for-celebration-better-air-quality-2019` | `radial-bar-chart`, `small-multiples`, `sort` | HTML 응답 |
-| `flowmap-blue-2019` | `flow-map` | HTML 응답 |
-| `visualizing-the-history-of-fugazi-2019` | `bar-chart`, `timeline` | HTML 응답 |
-| `wedding-data-viz-2019` | `network-diagram` | 접근 제한: HTTP Error 403 |
-| `precision-mapping-to-end-child-deaths-2022` | `bubble-map` | HTML 응답 |
-| `hong-kong-protests-first-100-days-2022` | `timeline` | HTML 응답 |
-| `boreal-ablaze-2023` | `line-graph`, `bar-chart` | HTML 응답 |
-| `fentanyl-is-fast-cheap-and-deadly-2023` | `bar-chart` | HTML 응답 |
-| `pele-s-greatest-achievements-2023` | `timeline` | HTML 응답 |
-| `how-do-we-compare-2023` | `text-search-filter`, `tooltip` | HTML 응답 |
-| `modern-art-movements-2023` | `timeline` | HTML 응답 |
-| `screens-of-august-2023` | `stacked-bar-chart` | HTML 응답 |
-| `beyond-crisis-lives-saved-2024` | `bar-chart`, `tooltip` | HTML 응답 |
-| `2024-u-s-election-vote-by-vote-2024` | `dot-map` | 접근 제한: 타임아웃 |
-| `is-the-love-song-dying-2024` | `area-graph` | HTML 응답 |
-| `total-eclipse-2024` | `small-multiples` | HTML 응답 |
