@@ -1,0 +1,19 @@
+{
+  "name": "d3",
+  "version": "7.9.2",
+  "source": "https://registry.npmjs.org/d3/-/d3-7.9.2.tgz",
+  "sha256": "f0c1d2c2479907a6e3265370d0fd715f7aef0f561cdd2b415df385ba7df9d1aa",
+  "file": "package/dist/d3.min.js",
+  "file_sha256": "912111098ea99503a6f4967361d2bbdc9dbf58cf9c678c8e27e5b02d1a07f0c1",
+  "plugins": [
+    {
+      "name": "d3-sankey",
+      "version": "0.12.3",
+      "source": "https://registry.npmjs.org/d3-sankey/-/d3-sankey-0.12.3.tgz",
+      "sha256": "6bd8cdb143d4088ff38179def70954419868d4b95f136c168ffef2dad004ff22",
+      "file": "package/dist/d3-sankey.min.js",
+      "file_sha256": "8286db5d6aa049cc6e8a546708943b79dfb4daaefb0ccf42af674ec0ee4c86be",
+      "license": "LICENSE-d3-sankey"
+    }
+  ]
+}

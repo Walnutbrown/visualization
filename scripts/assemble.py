@@ -8,7 +8,6 @@ import io
 import re
 import sys
 from html import escape, unescape
-from html.parser import HTMLParser
 from pathlib import Path
 from string import Template
 from tempfile import NamedTemporaryFile
@@ -16,35 +15,23 @@ from tempfile import NamedTemporaryFile
 from math_render import render_math
 
 
-COMPONENTS = {
-    "compare": [],
-    "chart": ["core", "chart"],
-    "diagram": ["core", "diagram"],
-    "steps": ["core", "steps"],
-    "focus": ["core", "focus"],
-    "model": ["core", "chart", "model"],
-    "waterfall": ["core", "waterfall"],
-    "histogram": ["core", "histogram"],
-    "heatmap": ["core", "heatmap"],
-    "venn": ["core", "venn"],
-}
+# 조각에서 `Plot.`/`d3.`를 쓰면 번들을 인라인한다. Plot(UMD)은 전역 d3가 필요하므로 d3를 먼저 싣는다.
+USES_PLOT = re.compile(r"\bPlot\.")
+USES_D3 = re.compile(r"\bd3\.")
+USES_SANKEY = re.compile(r"\bd3\.sankey")
 
 
-class Components(HTMLParser):
-    def __init__(self):
-        super().__init__()
-        self.names = []
-
-    def handle_starttag(self, tag, attrs):
-        for name, value in attrs:
-            if name == "data-illustrate":
-                for component in (value or "").split():
-                    if component not in COMPONENTS:
-                        raise ValueError(f"Unknown illustrate component: {component}")
-                    if component not in self.names:
-                        self.names.append(component)
-
-    handle_startendtag = handle_starttag
+def vendor_scripts(body: str, assets: Path) -> list:
+    """Bundles the fragment calls, in load order; empty when it uses neither library."""
+    plot, d3 = USES_PLOT.search(body), USES_D3.search(body)
+    files = []
+    if plot or d3:
+        files.append("d3/d3.min.js")
+    if USES_SANKEY.search(body):
+        files.append("d3/d3-sankey.min.js")
+    if plot:
+        files.append("plot/plot.umd.min.js")
+    return [f'<script data-illustrate-vendor="{Path(f).stem}">\n{(assets / "vendor" / f).read_text(encoding="utf-8")}\n</script>' for f in files]
 
 
 WEIGHTS = ((400, "Regular"), (500, "Medium"), (700, "Bold"))
@@ -124,26 +111,9 @@ def assemble(body_path: Path, output_path: Path, title: str, *, append_paths=(),
     if home:
         body = f'<nav class="visual-home"><a href="{escape(home, quote=True)}">홈으로</a></nav>\n' + body
 
-    components = Components()
-    components.feed(body)
-
     styles = (assets / "base.css").read_text(encoding="utf-8")
     scripts = [f'<script data-illustrate-module="page">\n{(assets / "components" / "page.js").read_text(encoding="utf-8")}\n</script>']
-
-    if components.names:
-        styles += "\n" + (assets / "components" / "components.css").read_text(encoding="utf-8")
-        selected = []
-        for name in components.names:
-            for dependency in COMPONENTS[name]:
-                if dependency not in selected:
-                    selected.append(dependency)
-        # Focus runs after renderers so linked marks are ready on the first click.
-        if "focus" in selected:
-            selected.remove("focus")
-            selected.append("focus")
-        for name in selected:
-            source = (assets / "components" / f"{name}.js").read_text(encoding="utf-8")
-            scripts.append(f'<script data-illustrate-module="{name}">\n{source}\n</script>')
+    vendor = vendor_scripts(body, assets)
 
     body, math_css = render_math(body, assets)
     styles = font_styles(assets, page_text(body, scripts) + title, ()) + styles + math_css
@@ -152,6 +122,7 @@ def assemble(body_path: Path, output_path: Path, title: str, *, append_paths=(),
         title=escape(title),
         css=styles,
         body=body,
+        libs="\n".join(vendor),
         scripts="\n".join(scripts),
     )
     output_path.parent.mkdir(parents=True, exist_ok=True)

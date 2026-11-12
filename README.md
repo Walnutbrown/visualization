@@ -21,9 +21,6 @@ visualization/
 ├── SKILL.md                 # illustrate 스킬 정의 파일
 ├── references/              # 시각화 설계 가이드 및 카탈로그
 │   ├── visual-rules.md      # 핵심 시각화 규칙 및 20대 원칙 체크리스트
-│   ├── chart.md             # 수치/통계 차트 지침 (막대, 선, 산점도 등)
-│   ├── diagram.md           # 구조/관계 다이어그램 및 SVG 규칙
-│   ├── components.md        # 내장 인터랙티브 컴포넌트 마크업 가이드
 │   ├── style.md             # 디자인 토큰, 색상 체계, 타이포그래피 시스템
 │   ├── math.md              # KaTeX 수식 렌더링 가이드
 │   └── vis/                 # vis.hwpark.net 로컬 스냅샷
@@ -33,14 +30,14 @@ visualization/
 ├── assets/                  # 오프라인 인라인 에셋
 │   ├── base.css             # 기본 반응형 스타일 및 테마 토큰
 │   ├── base.html            # 스탠드얼론 HTML 템플릿
-│   ├── components/          # 컴포넌트 모듈 (chart, diagram, steps, model 등)
-│   └── vendor/              # 인라인 폰트 (Spoqa Han Sans Neo) 및 KaTeX
+│   ├── components/page.js   # 페이지 공통 동작 (스크롤 등장, 단원 바)
+│   └── vendor/              # 인라인 폰트 (Spoqa Han Sans Neo), KaTeX, D3, Observable Plot
 ├── scripts/                 # 조립 및 검증 스크립트
 │   ├── assemble.py          # HTML 조립 컴파일러
 │   ├── math_render.py       # 수식 렌더러
 │   ├── sync_vis_rules.py    # vis.hwpark.net 기법 동기화 도구
 │   └── test_assemble.py     # 단위 테스트
-└── examples/                # 시각화 예시 파일
+└── examples/                # Plot 막대, D3 샌키 예시
 ```
 
 ---

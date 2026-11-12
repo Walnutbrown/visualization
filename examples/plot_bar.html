@@ -1,0 +1,27 @@
+<h1>2023년 인구 상위 10개국</h1>
+<p class="lead">인도와 중국만 14억 명을 넘고, 셋째인 미국은 3.4억 명으로 그 4분의 1에 못 미친다.</p>
+
+<section class="lesson-unit">
+  <h2>국가별 인구</h2>
+  <div id="pop" role="img" aria-label="2023년 인구 상위 10개국을 비교한 가로 막대 차트. 인도 14.4억, 중국 14.1억, 미국 3.4억 순."></div>
+  <p class="meta">단위: 백만 명, 2023년 중반 추정. 출처: World Bank, World Development Indicators, SP.POP.TOTL (api.worldbank.org, 2026-10-08 갱신본). 선정: 2023년 값이 큰 10개국.</p>
+</section>
+
+<script>
+  const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const data = [
+    ["인도", 1438069596], ["중국", 1410710000], ["미국", 336755052], ["인도네시아", 281190067], ["파키스탄", 247504495],
+    ["나이지리아", 227882945], ["브라질", 211140729], ["방글라데시", 171466990], ["러시아", 143826130], ["멕시코", 129739759],
+  ].map(([country, population]) => ({ country, million: population / 1e6 }));
+  document.getElementById("pop").append(Plot.plot({
+    width: 800, marginLeft: 96, marginRight: 48,
+    style: { fontFamily: css("--font-meta"), fontSize: "14px", color: css("--ink-2"), background: "transparent" },
+    x: { label: null, grid: true, tickFormat: d => d.toLocaleString("ko") },
+    y: { label: null },
+    marks: [
+      Plot.barX(data, { y: "country", x: "million", sort: { y: "-x" }, fill: d => d.country === "인도" ? css("--point") : css("--ink-3") }),
+      Plot.text(data, { y: "country", x: "million", text: d => Math.round(d.million).toLocaleString("ko"), dx: 6, textAnchor: "start", fill: css("--ink-2") }),
+      Plot.ruleX([0], { stroke: css("--ink-3") }),
+    ],
+  }));
+</script>
