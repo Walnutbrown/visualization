@@ -1,0 +1,82 @@
+<meta name="description" content="수치 데이터의 분포를 구간별 막대로 표현하는 차트.">
+<h1 class="text-3xl font-bold tracking-tight"><span class="lang-ko">히스토그램</span><span class="lang-en">Histogram</span></h1> <span class="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold bg-emerald-50 text-emerald-700 border-emerald-200"> <span class="lang-ko">차트</span><span class="lang-en">Chart</span> </span> </div> <p class="text-sm text-muted-foreground lang-ko">Histogram · frequency distribution chart, frequency histogram</p> <p class="text-sm text-muted-foreground lang-en">Also known as: frequency distribution chart, frequency histogram</p> </div> <div class="flex flex-wrap gap-1.5 mb-8"> <span class="inline-flex items-center rounded-md bg-secondary px-2.5 py-0.5 text-xs font-medium text-secondary-foreground"><span class="lang-ko">분포</span><span class="lang-en">Show distribution</span></span> <span class="inline-flex items-center rounded-md border border-blue-200 bg-blue-50 px-2.5 py-0.5 text-xs font-medium text-blue-700"><span class="lang-ko">수치형</span><span class="lang-en">Numerical</span></span> <span class="inline-flex items-center rounded-md border border-purple-200 bg-purple-50 px-2.5 py-0.5 text-xs font-medium text-purple-700"><span class="lang-ko">막대</span><span class="lang-en">Bar/Column</span></span> </div> <div class="prose prose-neutral max-w-none
+      prose-headings:font-semibold prose-headings:tracking-tight
+      prose-h2:text-xl prose-h2:mt-10 prose-h2:mb-4
+      prose-h3:text-lg prose-h3:mt-8 prose-h3:mb-3
+      prose-p:text-muted-foreground prose-p:leading-relaxed
+      prose-li:text-muted-foreground
+      prose-strong:text-foreground
+      prose-code:text-foreground prose-code:bg-muted prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded-md prose-code:text-sm prose-code:font-normal prose-code:before:content-none prose-code:after:content-none
+      prose-pre:!bg-[#24292e] prose-pre:rounded-lg prose-pre:border prose-pre:border-border prose-pre:text-sm
+      [&_pre_code]:!bg-transparent [&_pre_code]:!p-0 [&_pre_code]:!text-inherit [&_pre_code]:!rounded-none
+      prose-a:text-foreground prose-a:underline prose-a:underline-offset-4 prose-a:decoration-muted-foreground/40 hover:prose-a:decoration-foreground
+    "> <h2 id="설명description"><span class="lang-ko">설명</span><span class="lang-en">Description</span></h2>
+<p class="lang-ko">히스토그램은 연속적인 수치 변수를 인접하고 겹치지 않는 구간(빈)으로 나누고, 각 구간에 대해 그 범위에 속하는 관측치의 개수나 밀도를 높이로 나타내는 막대를 그립니다. 막대 차트와 달리 막대 사이에 간격이 없어, 기저 변수가 범주형이 아니라 연속형임을 시각적으로 전달합니다.</p>
+<p class="lang-en">A histogram divides a continuous numerical variable into contiguous, non-overlapping intervals (bins) and draws a bar for each bin whose height represents the count or density of observations falling within that range. Unlike a bar chart, the bars are adjacent with no gaps, visually communicating that the underlying variable is continuous rather than categorical.</p>
+<p class="lang-ko">히스토그램은 일변량 분포의 형태를 이해하는 가장 흔한 도구입니다. 최빈성(단봉, 쌍봉, 다봉), 왜도(좌측, 우측, 대칭), 산포, 이상치나 공백의 존재를 드러냅니다. 이러한 분포적 특징들은 평균이나 표준편차 같은 요약 통계에서는 보이지 않기 때문에, 히스토그램은 탐색적 데이터 분석에 필수적입니다.</p>
+<p class="lang-en">The histogram is the most common tool for understanding the shape of a univariate distribution. It reveals modality (unimodal, bimodal, multimodal), skewness (left, right, symmetric), spread, and the presence of outliers or gaps. These distributional features are invisible in summary statistics like mean and standard deviation, making histograms essential for exploratory data analysis.</p>
+<p class="lang-ko">구간 너비는 결정적인 설계 선택입니다. 구간이 너무 적으면 데이터를 지나치게 평활화하여 구조를 감추고, 너무 많으면 노이즈가 많고 읽기 어려운 차트를 만듭니다. 스터지스 규칙(Sturges&#39; rule), 프리드먼-디아코니스 규칙(Freedman-Diaconis rule), 스콧 규칙(Scott&#39;s rule) 등이 흔히 쓰이는 휴리스틱이지만, 최종 결정은 시각적 검토와 도메인 지식이 이끌어야 합니다.</p>
+<p class="lang-en">Bin width is the critical design choice. Too few bins over-smooth the data and hide structure; too many bins create noisy, hard-to-read charts. Common heuristics include Sturges&#39; rule, the Freedman-Diaconis rule, and Scott&#39;s rule, but visual inspection and domain knowledge should guide the final decision.</p>
+<script>(()=>{var a=(s,i,o)=>{let r=async()=>{await(await s())()},t=typeof i.value=="object"?i.value:void 0,c={rootMargin:t==null?void 0:t.rootMargin},n=new IntersectionObserver(e=>{for(let l of e)if(l.isIntersecting){n.disconnect(),r();break}},c);for(let e of o.children)n.observe(e)};(self.Astro||(self.Astro={})).visible=a;window.dispatchEvent(new Event("astro:visible"));})();</script><astro-island uid="1g2g6t" prefix="r3" component-url="/_astro/Demo.D2kObxRy.js" component-export="default" renderer-url="/_astro/client.DIQWfPlE.js" props="{&quot;id&quot;:[0,&quot;histogram&quot;]}" ssr client="visible" opts="{&quot;name&quot;:&quot;Demo&quot;,&quot;value&quot;:true}" await-children><figure class="demo not-prose my-8 rounded-xl border border-border bg-white overflow-hidden"><div class="px-4 pt-4 pb-3 sm:px-6 sm:pt-5"><div style="min-height:340px"></div></div></figure><!--astro:end--></astro-island>
+<h2 id="프롬프트-예시prompt-examples"><span class="lang-ko">프롬프트 예시</span><span class="lang-en">Prompt Examples</span></h2>
+<p class="lang-ko">Claude, ChatGPT 등 AI 도구에 다음과 같은 프롬프트를 시도해보세요:</p>
+<p class="lang-en">Try these prompts with Claude, ChatGPT, or other AI tools:</p>
+<blockquote class="lang-ko">
+<p>&quot;고객 연령 분포를 5세 간격의 히스토그램으로 만들어주세요.&quot;</p>
+</blockquote>
+<blockquote class="lang-en">
+<p>&quot;Create a histogram of test scores with 10-point bins. Add a normal distribution overlay.&quot;</p>
+</blockquote>
+<h2 id="언제-사용하나when-to-use"><span class="lang-ko">언제 사용하나</span><span class="lang-en">When to Use</span></h2>
+<ul>
+<li class="lang-ko">연속 변수 분포의 형태를 이해할 때(급여, 온도, 시험 점수)</li>
+<li class="lang-en">Understanding the shape of a continuous variable&#39;s distribution (salary, temperature, test scores)</li>
+<li class="lang-ko">통계 모델링 전에 왜도, 이상치, 다봉성을 확인할 때</li>
+<li class="lang-en">Checking for skewness, outliers, or multi-modality before statistical modeling</li>
+<li class="lang-ko">겹치거나 패싯 처리된 히스토그램으로 그룹 간 변수 분포를 비교할 때</li>
+<li class="lang-en">Comparing the distribution of a variable across groups using overlapping or faceted histograms</li>
+<li class="lang-ko">품질 관리: 측정값이 예상 범위 내에 있는지 확인할 때</li>
+<li class="lang-en">Quality control: verifying that measurements fall within expected ranges</li>
+</ul>
+<h2 id="이럴-땐-피하세요when-not-to-use"><span class="lang-ko">이럴 땐 피하세요</span><span class="lang-en">When NOT to Use</span></h2>
+<ul>
+<li class="lang-ko">범주 간 값을 비교할 때는 <strong>막대 차트</strong>를 사용하세요(히스토그램은 연속 데이터용입니다)</li>
+<li class="lang-en">When comparing values across categories, use a <strong>bar chart</strong> (histograms are for continuous data)</li>
+<li class="lang-ko">표본 크기가 매우 작은 경우(관측치 20개 미만)에는 개별 데이터 포인트나 점 도표가 더 유익합니다</li>
+<li class="lang-en">When the sample size is very small (fewer than 20 observations), individual data points or a dot plot is more informative</li>
+<li class="lang-ko">많은 그룹 간 분포를 비교할 때는 <strong>박스 플롯</strong>이나 <strong>바이올린 플롯</strong>이 더 간결합니다</li>
+<li class="lang-en">When comparing distributions across many groups, a <strong>box plot</strong> or <strong>violin plot</strong> is more compact</li>
+<li class="lang-ko">시간적 순서가 중요한 경우에는 <strong>선 그래프</strong>를 사용하세요</li>
+<li class="lang-en">When temporal ordering matters, use a <strong>line graph</strong></li>
+</ul>
+<h2 id="구조anatomy"><span class="lang-ko">구조</span><span class="lang-en">Anatomy</span></h2>
+<ul>
+<li class="lang-ko"><strong>빈(막대)</strong>: 인접한 직사각형 막대입니다. 너비는 구간 범위를 나타내고, 높이는 빈도나 밀도를 인코딩합니다.</li>
+<li class="lang-en"><strong>Bins (bars)</strong>: Contiguous rectangular bars. Width spans the bin interval; height encodes frequency or density.</li>
+<li class="lang-ko"><strong>X축</strong>: 구간으로 나뉜 연속 변수입니다.</li>
+<li class="lang-en"><strong>X-axis</strong>: The continuous variable, divided into bin intervals.</li>
+<li class="lang-ko"><strong>Y축</strong>: 개수(빈도), 상대 빈도, 또는 밀도입니다.</li>
+<li class="lang-en"><strong>Y-axis</strong>: Count (frequency), relative frequency, or density.</li>
+<li class="lang-ko"><strong>빈 경계</strong>: 인접한 빈 사이의 경계입니다. 구간을 정의합니다.</li>
+<li class="lang-en"><strong>Bin edges</strong>: The boundaries between adjacent bins. They define the intervals.</li>
+<li class="lang-ko"><strong>간격 없음</strong>: 막대가 서로 맞닿아 연속 변수임을 나타냅니다. 이는 히스토그램을 막대 차트와 구별하는 요소입니다.</li>
+<li class="lang-en"><strong>No gaps</strong>: Bars touch each other, signaling a continuous variable. This distinguishes histograms from bar charts.</li>
+<li class="lang-ko"><strong>러그 플롯</strong>: x축을 따라 개별 데이터 포인트를 보여주는 선택적 눈금 표시로, 구간화가 감추는 세부 정보를 추가합니다.</li>
+<li class="lang-en"><strong>Rug plot</strong>: Optional tick marks along the x-axis showing individual data points, adding detail that binning hides.</li>
+<li class="lang-ko"><strong>밀도 곡선</strong>: 분포 형태를 요약하는 선택적 평활 오버레이(커널 밀도 추정)입니다.</li>
+<li class="lang-en"><strong>Density curve</strong>: An optional smoothed overlay (kernel density estimate) summarizing the distributional shape.</li>
+</ul>
+<h2 id="코드-레퍼런스code-reference"><span class="lang-ko">코드 레퍼런스</span><span class="lang-en">Code Reference</span></h2>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8;overflow-x:auto" tabindex="0" data-language="js"><code><span class="line"><span style="color:#6A737D">// Observable Plot - histogram with automatic binning</span></span>
+<span class="line"><span style="color:#E1E4E8">Plot.</span><span style="color:#B392F0">plot</span><span style="color:#E1E4E8">({</span></span>
+<span class="line"><span style="color:#E1E4E8">  marks: [</span></span>
+<span class="line"><span style="color:#E1E4E8">    Plot.</span><span style="color:#B392F0">rectY</span><span style="color:#E1E4E8">(data, Plot.</span><span style="color:#B392F0">binX</span><span style="color:#E1E4E8">({ y: </span><span style="color:#9ECBFF">&quot;count&quot;</span><span style="color:#E1E4E8"> }, {</span></span>
+<span class="line"><span style="color:#E1E4E8">      x: </span><span style="color:#9ECBFF">&quot;age&quot;</span><span style="color:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#E1E4E8">      fill: </span><span style="color:#9ECBFF">&quot;steelblue&quot;</span><span style="color:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#E1E4E8">      tip: </span><span style="color:#79B8FF">true</span></span>
+<span class="line"><span style="color:#E1E4E8">    })),</span></span>
+<span class="line"><span style="color:#E1E4E8">    Plot.</span><span style="color:#B392F0">ruleY</span><span style="color:#E1E4E8">([</span><span style="color:#79B8FF">0</span><span style="color:#E1E4E8">])</span></span>
+<span class="line"><span style="color:#E1E4E8">  ],</span></span>
+<span class="line"><span style="color:#E1E4E8">  x: { label: </span><span style="color:#9ECBFF">&quot;Age&quot;</span><span style="color:#E1E4E8"> },</span></span>
+<span class="line"><span style="color:#E1E4E8">  y: { label: </span><span style="color:#9ECBFF">&quot;Count&quot;</span><span style="color:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#E1E4E8">})</span></span></code></pre> </div> <div class="mt-12 pt-8 border-t border-border"> <div class="mb-8"> <h2 class="text-lg font-semibold tracking-tight mb-4"><span class="lang-ko">관련 기법</span><span class="lang-en">Related techniques</span></h2> <div class="grid grid-cols-2 sm:grid-cols-3 gap-2"> <a href="/catalog/box-plot/" class="flex items-center gap-2 p-3 rounded-lg border border-border bg-card shadow-sm hover:shadow-md hover:border-ring/50 transition-all"> <span class="shrink-0 inline-flex items-center rounded-md border px-1.5 py-0.5 text-[10px] font-semibold bg-emerald-50 text-emerald-700 border-emerald-200"><span class="lang-ko">차트</span><span class="lang-en">Chart</span></span> <span class="text-sm font-medium truncate"><span class="lang-ko">박스 플롯</span><span class="lang-en">Box Plot</span></span> </a><a href="/catalog/line-graph/" class="flex items-center gap-2 p-3 rounded-lg border border-border bg-card shadow-sm hover:shadow-md hover:border-ring/50 transition-all"> <span class="shrink-0 inline-flex items-center rounded-md border px-1.5 py-0.5 text-[10px] font-semibold bg-emerald-50 text-emerald-700 border-emerald-200"><span class="lang-ko">차트</span><span class="lang-en">Chart</span></span> <span class="text-sm font-medium truncate"><span class="lang-ko">선 그래프</span><span class="lang-en">Line Graph</span></span> </a><a href="/catalog/scatterplot/" class="flex items-center gap-2 p-3 rounded-lg border border-border bg-card shadow-sm hover:shadow-md hover:border-ring/50 transition-all"> <span class="shrink-0 inline-flex items-center rounded-md border px-1.5 py-0.5 text-[10px] font-semibold bg-emerald-50 text-emerald-700 border-emerald-200"><span class="lang-ko">차트</span><span class="lang-en">Chart</span></span> <span class="text-sm font-medium truncate"><span class="lang-ko">산점도</span><span class="lang-en">Scatterplot</span></span> </a><a href="/catalog/violin-plot/" class="flex items-center gap-2 p-3 rounded-lg border border-border bg-card shadow-sm hover:shadow-md hover:border-ring/50 transition-all"> <span class="shrink-0 inline-flex items-center rounded-md border px-1.5 py-0.5 text-[10px] font-semibold bg-emerald-50 text-emerald-700 border-emerald-200"><span class="lang-ko">차트</span><span class="lang-en">Chart</span></span> <span class="text-sm font-medium truncate"><span class="lang-ko">바이올린 플롯</span><span class="lang-en">Violin Plot</span></span> </a> </div> </div> </div> </article>  </main> <footer>
