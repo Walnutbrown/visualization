@@ -1,70 +1,32 @@
 ---
 name: illustrate
-description: Pure data visualization authoring skill based on Prof. Hyunwoo Park's taxonomy (vis.hwpark.net). Analyzes data dimensions and visual objectives, selects optimal visual techniques from the 95-technique catalog and 20 principles, and generates responsive, accessible, standalone HTML/SVG/Canvas visualizations with zero runtime dependencies.
+description: Create standalone data visualizations using the vis.hwpark.net technique and principle snapshots.
 ---
 
-# `illustrate` — 순수 데이터 시각화 스킬
+# illustrate
 
-`illustrate`는 박현우 교수의 시각화 분류 체계([vis.hwpark.net](https://vis.hwpark.net))의 95개 기법과 20대 원칙을 바탕으로, 데이터 구조와 전달 목적에 맞는 최적의 시각화를 설계하고 독립 실행 가능한 웹 그래픽(HTML/SVG/Canvas)으로 조립·생성하는 전문 시각화 스킬입니다.
+기법과 원칙의 판단 근거는 `references/vis/`의 사이트 원문 스냅샷만 사용한다. 실행 중 사이트를 직접 읽지 않는다. 스냅샷은 `scripts/sync_vis_rules.py`로만 갱신한다. 사이트에 기준이 없으면 “사이트에 기준 없음”이라고 쓰고, 별도의 판단은 우리 판단이라고 표시한다.
 
----
+## 1. 프로파일
 
-## 1. 핵심 철학 및 작업 흐름
+읽기: `references/vis/catalog.md`만.
 
-```mermaid
-flowchart LR
-    A["1. 데이터 분석\n(차원·유형·질문)"] --> B["2. 기법 선정\n(vis/catalog.md)"]
-    B --> C["3. 인코딩 및 원칙\n(visual-rules.md)"]
-    C --> D["4. 코드 작성\n(HTML/SVG/컴포넌트)"]
-    D --> E["5. 조립 및 검증\n(scripts/assemble.py)"]
-```
+데이터의 각 컬럼을 색인의 데이터 타입 태그로 분류한다. 색인의 과제 태그 어휘를 사용해 데이터가 답할 수 있는 질문 2~4개를 제시하고 사용자가 고르게 한다. 선택한 질문의 과제와 데이터 태그로 후보를 10개 이하로 좁힌다.
 
-### 단계별 상세 가이드
+## 2. 후보 3개
 
-1. **데이터 및 목표 분석**:
-   - 데이터 차원: 단변량(1D), 이변량(2D), 다변량(ND), 시계열, 계층, 네트워크, 공간 등.
-   - 데이터 속성: 명목형(Nominal), 서열형(Ordinal), 등간/비율형(Continuous/Interval).
-   - 전달 목적: 비교(Comparison), 추세(Trend), 분포(Distribution), 상관(Relationship), 구성비(Composition), 지리/공간(Geographic).
+읽기: 1단계에서 고른 후보의 `references/vis/techniques/<slug>.md`만. 대안 또는 관련 기법으로 이동할 때도 해당 조건 파일만 읽는다.
 
-2. **기법 선정 (`references/vis/catalog.md`)**:
-   - [visual-rules.md](references/visual-rules.md)의 [데이터 구조 → 시각화 기법 매핑] 표를 참조합니다.
-   - 세부 후보 기법의 명세(`references/vis/techniques/<slug>.md`)에서 **적용 시점**, **피해야 할 조건**, **대안 기법**을 확인합니다.
+각 후보의 `언제 사용하나`와 `이럴 땐 피하세요`를 범주 수, 행 수 등 실제 데이터 수치와 대조한다. 탈락하면 `대안`과 `관련 기법`을 한 단계만 따라간다. 후보 3개를 제안하고 각 후보의 근거 문장을 원문 그대로 인용하고 파일에 적힌 출처 URL을 붙인다. 기준이 없는 경우 “사이트에 기준 없음”이라고 쓴다. 후보가 3개에 못 미치면 이유를 밝힌다.
 
-3. **인코딩 규칙 및 지각 원칙 적용**:
-   - 그래픽 인코딩 순위: 위치 > 길이 > 방향/기울기 > 각도 > 면적 > 부피 > 채도 > 색조.
-   - 20대 원칙 점검: 접근성(대비 4.5:1, 색 외 2차 단서), 직접 라벨링, 일관성, 데이터-잉크 비율 극대화, 게슈탈트 원리 준수.
+## 3. 작은 시안
 
-4. **컴포넌트 및 코드 구현**:
-   - 내장 컴포넌트: `chart` (막대/선/산점도), `waterfall` (폭포 차트), `histogram` (히스토그램), `heatmap` (히트맵/상관행렬), `venn` (벤 다이어그램), `diagram` (트리/네트워크/상태전이), `steps` (단계별 흐름), `model` (동적 매개변수 슬라이더), `focus` (연동 강조).
-   - 커스텀 다이어그램: `references/diagram.md`의 표준 SVG 규칙(반응형 `viewBox`, 시맨틱 그룹핑 `<g>`, 접근성 `<title>/<desc>`)에 따라 순수 SVG로 작성합니다.
+읽기: 후보 3개의 `references/vis/techniques/<slug>.detail.md`, `references/vis/gallery-tags.md`, 필요하면 `references/vis/gallery.md`, `references/style.md`, `scripts/assemble.py`, `assets/vendor/`, `examples/`.
 
-5. **단일 HTML 조립 및 검증**:
-   - `python3 scripts/assemble.py <fragment.html> <output.html> --title "시각화 제목"` 명령어로 컴파일합니다.
-   - Spoqa Han Sans Neo 폰트 자동 서브셋팅, KaTeX 수식 렌더링, 공통 CSS 변수 및 컴포넌트 스크립트가 하나의 완전 독립형 파일로 인라인 통합됩니다.
+각 상세 파일의 `코드 레퍼런스`에서 출발해 실제 데이터로 주석과 인터랙션 없는 정적 시안 3개를 만든다. 갤러리 태그에서 같은 기법의 작품 링크를 함께 보여 주고 사용자가 하나를 고르게 한다. 조각은 `python3 scripts/assemble.py <fragment.html> <output.html> --title "제목"`으로 독립 HTML에 조립한다.
 
----
+## 4. 완성
 
-## 2. 지원 컴포넌트 (`data-illustrate="..."`)
+읽기: 선택 기법의 상세 파일, `references/vis/principles/`의 원칙 20개, 필요한 인터랙션의 `references/vis/techniques/<slug>.md`, `references/style.md` 및 구현에 필요한 조립기·에셋·예시.
 
-| 컴포넌트 | 태그 / 속성 예시 | 주요 용도 |
-|---|---|---|
-| `chart` | `<div data-illustrate="chart bar">...</div>` | 범주별 막대 차트, 시계열 선 그래프, 2변량 산점도 |
-| `waterfall` | `<div data-illustrate="waterfall">...</div>` | 시작값에서 단계별 증감을 거쳐 최종 누계로 이어지는 흐름 |
-| `histogram` | `<div data-illustrate="histogram">...</div>` | 단일 연속형 변수의 구간별 빈도 및 분포 |
-| `heatmap` | `<div data-illustrate="heatmap">...</div>` | 2차원 매트릭스, 상관행렬, 혼동행렬, 인접행렬 |
-| `venn` | `<div data-illustrate="venn">...</div>` | 2~3개 집합 간 교집합 및 포함 관계 |
-| `diagram` | `<div data-illustrate="diagram">...</div>` | 트리, 계통도, 방향성 그래프(DAG), 상태 기계 |
-| `steps` | `<div data-illustrate="steps">...</div>` | 단계별 절차, 알고리즘 실행, 스크러빙 재생 |
-| `model` | `<div data-illustrate="model">...</div>` | 수식/파라미터 슬라이더 조작에 따른 실시간 그래프 연동 |
-| `focus` | `<div data-illustrate="focus">...</div>` | 다중 시각화 간 마우스 호버/클릭 연동 하이라이트 |
-
----
-
-## 3. 핵심 참조 문서
-
-- [references/visual-rules.md](references/visual-rules.md): 95개 기법 선택 가이드 및 20대 시각화 원칙 체크리스트
-- [references/vis/catalog.md](references/vis/catalog.md): 95개 시각화 기법 색인
-- [references/chart.md](references/chart.md): 수치형 차트 설계 및 축/스케일 규칙
-- [references/diagram.md](references/diagram.md): 구조형 다이어그램 및 SVG 규칙
-- [references/components.md](references/components.md): 내장 컴포넌트 설정 및 마크업 규격
-- [references/style.md](references/style.md): 디자인 토큰, 색상 팔레트, 타이포그래피 시스템
+선택한 시안 하나에 각 원칙의 `핵심 아이디어`를 적용하고 `안티 패턴`으로 검수한다. 인터랙션은 선택 기법의 `함께 쓰면 좋은 기법`에 있는 것만 각 조건 파일을 대조해 고른다. 스타일의 “스킬 자체 규칙”은 사이트 기준이 아닌 구현 규칙이다. 결과와 함께 원칙 20개 전부를 나열한 검수표를 제공하고, 각 원칙에 `적용함(무엇을)` 또는 `해당 없음(사유)`을 적는다.

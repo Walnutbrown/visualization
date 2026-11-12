@@ -20,7 +20,6 @@
 visualization/
 ├── SKILL.md                 # illustrate 스킬 정의 파일
 ├── references/              # 시각화 설계 가이드 및 카탈로그
-│   ├── visual-rules.md      # 핵심 시각화 규칙 및 20대 원칙 체크리스트
 │   ├── style.md             # 디자인 토큰, 색상 체계, 타이포그래피 시스템
 │   ├── math.md              # KaTeX 수식 렌더링 가이드
 │   └── vis/                 # vis.hwpark.net 로컬 스냅샷
