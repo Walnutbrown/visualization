@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Snapshot vis.hwpark.net techniques and principles into local reference files.
+"""Snapshot vis.hwpark.net techniques, principles and gallery into local reference files.
 
 Maintenance only: lessons are built from the snapshot, never from the live site.
 """
@@ -125,6 +125,36 @@ def index(entries):
     return "\n".join(rows)
 
 
+def parse_gallery(slug, page):
+    """Gallery detail page: title, chip (고전 or award), then creator · year · field · format, one-liner, original link."""
+    def ko(fragment):
+        m = re.search(r'<span class="lang-ko">(.*?)</span>', fragment, re.S)
+        return text(m.group(1) if m else fragment)
+
+    chip = re.search(r"</h1>\s*<span[^>]*>(.*?)</span>\s*</div>", page, re.S)
+    meta = re.search(r'<div class="flex flex-wrap[^"]*text-muted-foreground">(.*?)</div>', page, re.S)
+    quote = re.search(r'<div class="rounded-lg border-l-4[^>]*>(.*?)</div>', page, re.S)
+    link = re.search(r'href="([^"]+)"[^>]*>\s*<span class="lang-ko">원본 프로젝트 보기', page)
+    creator, year, field = ([ko(x) for x in re.split(r'<span class="text-border">.*?</span>', meta.group(1), flags=re.S)] + ["", "", ""])[:3]
+    kind = ko(chip.group(1))
+    return {"slug": slug, "title": text(re.search(r"<h1[^>]*>(.*?)</h1>", page, re.S).group(1)), "creator": creator, "year": year,
+            "kind": "고전" if kind == "고전" else "IIB", "award": "" if kind == "고전" else kind, "field": field,
+            "summary": ko(quote.group(1)) if quote else "", "url": html.unescape(link.group(1)) if link else ""}
+
+
+def gallery_index(entries):
+    cell = lambda x: x.replace("|", "\\|") or "-"
+    rows = ["# 갤러리 색인 (vis.hwpark.net 스냅샷)", "",
+            f"{SITE}/gallery/ 작품 {len(entries)}개 (고전 {sum(e['kind'] == '고전' for e in entries)} + IIB {sum(e['kind'] == 'IIB' for e in entries)}). "
+            "시안과 완성 단계에서 같은 형태로 잘 만든 작품을 찾는 용도다. 고전은 사이트에 수상·한 줄 설명이 없어 `-`로 둔다. "
+            "작품과 기법의 연결은 사이트에 없으므로 `gallery-tags.md`에 따로 둔다. 생성 파일이므로 직접 고치지 말고 `scripts/sync_vis_rules.py`로 갱신한다.", "",
+            "| slug | 제목 | 제작자 | 연도 | 구분 | 수상 | 분야 | 한 줄 설명 | 사이트 | 원본 |", "|---|---|---|---|---|---|---|---|---|---|"]
+    for e in sorted(entries, key=lambda e: (e["kind"] != "고전", e["year"], e["title"])):
+        rows.append(f"| `{e['slug']}` | " + " | ".join(cell(e[k]) for k in ["title", "creator", "year", "kind", "award", "field", "summary"])
+                    + f" | {SITE}/gallery/{e['slug']}/ | {cell(e['url'])} |")
+    return "\n".join(rows) + "\n"
+
+
 def collect(section, source):
     if source:
         pages = {p.stem: p.read_text(encoding="utf-8") for p in sorted((source / section).glob("*.html"))}
@@ -134,14 +164,15 @@ def collect(section, source):
             pages = dict(zip(slugs, pool.map(lambda s: fetch(f"{SITE}/{section}/{s}/"), slugs)))
     if not pages:
         raise SystemExit(f"{section}: 페이지를 찾지 못했습니다.")
-    return [parse(slug, page) for slug, page in pages.items()]
+    return [(parse_gallery if section == "gallery" else parse)(slug, page) for slug, page in pages.items()]
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--from-dir", type=Path, help="Saved pages as <dir>/catalog/<slug>.html and <dir>/principles/<slug>.html")
+    parser.add_argument("--from-dir", type=Path, help="Saved pages as <dir>/catalog/<slug>.html, <dir>/principles/<slug>.html and <dir>/gallery/<slug>.html")
     args = parser.parse_args()
     techniques, principles = collect("catalog", args.from_dir), collect("principles", args.from_dir)
+    gallery = collect("gallery", args.from_dir)
     by_title = {e["title"]: e["slug"] for e in techniques}
     for folder, entries, section in [("techniques", techniques, "catalog"), ("principles", principles, "principles")]:
         target = OUT / folder
@@ -153,7 +184,8 @@ def main():
             if section == "catalog":
                 (target / f"{entry['slug']}.detail.md").write_text(render_detail(entry), encoding="utf-8")
     (OUT / "catalog.md").write_text(index(techniques), encoding="utf-8")
-    print(f"techniques {len(techniques)}, principles {len(principles)} -> {OUT}")
+    (OUT / "gallery.md").write_text(gallery_index(gallery), encoding="utf-8")
+    print(f"techniques {len(techniques)}, principles {len(principles)}, gallery {len(gallery)} -> {OUT}")
 
 
 if __name__ == "__main__":
