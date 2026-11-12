@@ -20,3 +20,21 @@
 - 움직임은 독자의 커서·드래그·키 입력을 따라 일어나게 한다. 값의 변화는 커서 탐침으로, 같은 대상의 이동·변형은 `steps`의 scrub으로 단계 사이를 이어 정체성과 위치를 유지한다. 자동 재생, 정해진 지연, 순차 등장 효과는 쓰지 않는다. 예외로 `main` 직계 요소는 스크롤로 들어올 때 12px 아래에서 .4s로 나타나고, 상단 바 알약은 현재 단원 아래로 .5s 이동한다(스크롤·클릭). reduced-motion에서는 모든 전환·등장을 끄고 유리 배경을 불투명(.92)으로 한다.
 - `compare`는 넓은 화면에서 두 사례를 나란히, 좁은 화면에서 세로로 배치한다. 긴 라벨은 줄바꿈하고 복잡한 그림은 나눈다. 모바일에서 모든 것을 축소하지 않는다. 넓은 표·관계도만 내부 스크롤을 허용한다.
 - 스타일과 학습 목적이 충돌하면 정확성·접근성·이해를 우선한다. 사용자 요청 없이 테마나 설정 UI를 추가하지 않는다. 다크 모드는 만들지 않는다.
+
+## Plot·D3 출력
+
+조각에서 `Plot.` 또는 `d3.`를 쓰면 조립기가 번들(d3 7.9.2, Observable Plot 0.6.19, `d3.sankey`를 쓰면 d3-sankey 0.12.3)을 인라인한다. Plot은 d3가 필요해 함께 실린다. 번들 스크립트는 본문 앞에 놓이므로 조각의 `<script>`에서 바로 쓴다. 추상화 계층은 두지 않는다.
+
+SVG 속성에는 `var()`가 먹히지 않으므로 토큰은 계산된 값으로 읽어 쓴다. 색은 `base.css` 토큰(`--point`는 핵심 하나, 나머지는 `--ink-3`·`--ink`·`--line`)만 쓰고, 글자는 `--font-meta`에 14px로 맞춘다.
+
+```js
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+// Plot: 서체·글자색은 style로, 마크 색은 css("--point")·css("--ink-3")로 준다.
+Plot.plot({ style: { fontFamily: css("--font-meta"), fontSize: "14px", color: css("--ink-2"), background: "transparent" }, marks: [/* … */] });
+// D3: 루트 svg에 같은 서체를 주고 채움·선은 css(...)로 준다.
+d3.create("svg").style("font-family", css("--font-meta")).style("font-size", "14px");
+```
+
+- 글자가 선·면 위에 얹히면 `stroke: css("--bg")`와 `paint-order: stroke`로 테두리를 둔다.
+- 차트 컨테이너에는 `role="img"`와 `aria-label`을 쓰고, 단위·출처는 `<p class="meta">`에 쓴다.
+- 예시는 `examples/plot_bar.html`(Plot 막대), `examples/d3_sankey.html`(D3 샌키)이다.

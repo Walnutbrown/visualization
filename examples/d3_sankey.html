@@ -1,0 +1,43 @@
+<h1>타이태닉호 탑승자의 흐름</h1>
+<p class="lead">여성은 470명 중 344명(73%)이 살아남았지만 남성은 1,731명 중 367명(21%)만 살아남았다.</p>
+
+<section class="lesson-unit">
+  <h2>신분에서 생존까지</h2>
+  <div id="sankey" role="img" aria-label="타이태닉호 탑승자 2,201명이 객실 등급, 성별, 생존 여부로 나뉘는 흐름도"></div>
+  <p class="meta">단위: 명, 전체 2,201명(생존 711, 사망 1,490). 출처: Dawson, R. J. M. (1995), "The 'Unusual Episode' Data Revisited", Journal of Statistics Education 3(3). R <code>datasets::Titanic</code>(등급 4 × 성별 2 × 연령 2 × 생존 2)에서 연령을 합산했다.</p>
+</section>
+
+<script>
+  const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  // [등급, 성별, 생존 여부, 인원]
+  const rows = [
+    ["승무원", "남성", "사망", 670], ["승무원", "남성", "생존", 192], ["승무원", "여성", "사망", 3], ["승무원", "여성", "생존", 20],
+    ["1등석", "남성", "사망", 118], ["1등석", "남성", "생존", 62], ["1등석", "여성", "사망", 4], ["1등석", "여성", "생존", 141],
+    ["2등석", "남성", "사망", 154], ["2등석", "남성", "생존", 25], ["2등석", "여성", "사망", 13], ["2등석", "여성", "생존", 93],
+    ["3등석", "남성", "사망", 422], ["3등석", "남성", "생존", 88], ["3등석", "여성", "사망", 106], ["3등석", "여성", "생존", 90],
+  ];
+  const flow = (a, b, prefix) => [...d3.rollup(rows, v => d3.sum(v, r => r[3]), r => r[a], r => r[b])]
+    .flatMap(([s, m]) => [...m].map(([t, value]) => ({ source: (a === 1 ? "성별:" : "") + s, target: (b === 1 ? "성별:" : "") + t, value })));
+  const links = [...flow(0, 1), ...flow(1, 2)];
+  const W = 800, H = 420, M = 72;
+  const graph = d3.sankey().nodeId(d => d.name).nodeWidth(16).nodePadding(16).extent([[M, 8], [W - M, H - 8]])
+    ({ nodes: [...new Set(links.flatMap(l => [l.source, l.target]))].map(name => ({ name })), links });
+  const label = n => n.name.replace("성별:", "");
+  const svg = d3.create("svg").attr("viewBox", [0, 0, W, H]).attr("width", "100%")
+    .style("font-family", css("--font-meta")).style("font-size", "14px");
+  svg.append("g").attr("fill", "none").selectAll("path").data(graph.links).join("path")
+    .attr("d", d3.sankeyLinkHorizontal()).attr("stroke-width", d => Math.max(1, d.width))
+    .attr("stroke", d => d.target.name === "생존" ? css("--point") : css("--ink-3")).attr("stroke-opacity", .35)
+    .append("title").text(d => `${label(d.source)} → ${label(d.target)}: ${d.value.toLocaleString("ko")}명`);
+  svg.append("g").selectAll("rect").data(graph.nodes).join("rect")
+    .attr("x", d => d.x0).attr("y", d => d.y0).attr("width", d => d.x1 - d.x0).attr("height", d => d.y1 - d.y0)
+    .attr("fill", d => d.name === "생존" ? css("--point") : css("--ink"))
+    .append("title").text(d => `${label(d)}: ${d.value.toLocaleString("ko")}명`);
+  // 가운데 열은 링크 위에 얹히므로 흰 테두리로 글자를 지킨다.
+  svg.append("g").attr("fill", css("--ink-2")).selectAll("text").data(graph.nodes).join("text")
+    .attr("x", d => d.depth === 0 ? d.x0 - 6 : d.x1 + 6).attr("y", d => (d.y0 + d.y1) / 2).attr("dy", "0.35em")
+    .attr("text-anchor", d => d.depth === 0 ? "end" : "start")
+    .attr("stroke", css("--bg")).attr("stroke-width", 4).attr("paint-order", "stroke")
+    .text(d => `${label(d)} ${d.value.toLocaleString("ko")}`);
+  document.getElementById("sankey").append(svg.node());
+</script>

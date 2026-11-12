@@ -1,0 +1,8 @@
+{
+  "name": "@observablehq/plot",
+  "version": "0.6.19",
+  "source": "https://registry.npmjs.org/@observablehq/plot/-/plot-0.6.19.tgz",
+  "sha256": "667ea5e7c009fdf7d45ab0af5b6c34c366e0f5ed06d9e94b8549650fdec6ddc3",
+  "file": "package/dist/plot.umd.min.js",
+  "file_sha256": "0c1f1a0f0ea13cc8fc143bf014dd14ca90abb92d06f9e22a28bb76e42000d131"
+}
