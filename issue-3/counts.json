@@ -1,0 +1,48 @@
+{
+  "source": "e6a3e166a010680dc9eba0c9806015de6c4024b6",
+  "total": 120,
+  "tagged": 40,
+  "empty": 80,
+  "top10": [
+    [
+      "click-to-select",
+      4
+    ],
+    [
+      "line-graph",
+      4
+    ],
+    [
+      "small-multiples",
+      4
+    ],
+    [
+      "text-search-filter",
+      4
+    ],
+    [
+      "timeline",
+      4
+    ],
+    [
+      "bar-chart",
+      3
+    ],
+    [
+      "sort",
+      3
+    ],
+    [
+      "dot-map",
+      2
+    ],
+    [
+      "flow-map",
+      2
+    ],
+    [
+      "network-diagram",
+      2
+    ]
+  ]
+}

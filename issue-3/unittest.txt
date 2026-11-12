@@ -1,0 +1,17 @@
+경고: fonttools와 brotli가 없어 글꼴을 전체 내장합니다(파일이 커집니다). 서브셋을 쓰려면 python3 -m pip install fonttools brotli
+경고: fonttools와 brotli가 없어 글꼴을 전체 내장합니다(파일이 커집니다). 서브셋을 쓰려면 python3 -m pip install fonttools brotli
+.경고: fonttools와 brotli가 없어 글꼴을 전체 내장합니다(파일이 커집니다). 서브셋을 쓰려면 python3 -m pip install fonttools brotli
+..참고: h1 '비교'이(가) 전달된 제목 '</title><script>alert("x")</script>'과 다릅니다.
+경고: fonttools와 brotli가 없어 글꼴을 전체 내장합니다(파일이 커집니다). 서브셋을 쓰려면 python3 -m pip install fonttools brotli
+.경고: fonttools와 brotli가 없어 글꼴을 전체 내장합니다(파일이 커집니다). 서브셋을 쓰려면 python3 -m pip install fonttools brotli
+..경고: fonttools와 brotli가 없어 글꼴을 전체 내장합니다(파일이 커집니다). 서브셋을 쓰려면 python3 -m pip install fonttools brotli
+경고: fonttools와 brotli가 없어 글꼴을 전체 내장합니다(파일이 커집니다). 서브셋을 쓰려면 python3 -m pip install fonttools brotli
+경고: fonttools와 brotli가 없어 글꼴을 전체 내장합니다(파일이 커집니다). 서브셋을 쓰려면 python3 -m pip install fonttools brotli
+경고: fonttools와 brotli가 없어 글꼴을 전체 내장합니다(파일이 커집니다). 서브셋을 쓰려면 python3 -m pip install fonttools brotli
+.경고: fonttools와 brotli가 없어 글꼴을 전체 내장합니다(파일이 커집니다). 서브셋을 쓰려면 python3 -m pip install fonttools brotli
+.......................
+----------------------------------------------------------------------
+Ran 30 tests in 0.313s
+
+OK
+techniques 0, principles 0, gallery 0 -> /var/folders/_h/70z4qq3n5p3_x1hqtbcqs_hw0000gn/T/tmpn37wiagz

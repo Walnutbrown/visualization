@@ -1,0 +1,2663 @@
+{
+  "review_date": "2026-11-12",
+  "detail_snapshot": "HTML collected for the original gallery index; SHA-256 per work below",
+  "navigation_timeout_ms": 10000,
+  "scope": "120 detail bodies; attempted every original in Ego browser; first viewport and one representative graphic/scroll region; selected interactions; not a full-work or all-interaction audit",
+  "works": [
+    {
+      "slug": "playfair-commercial-political-atlas-1786",
+      "reviewed_at": "2026-11-12T05:46:51.083Z",
+      "detail_url": "https://vis.hwpark.net/gallery/playfair-commercial-political-atlas-1786/",
+      "detail_sha256": "87048d00dffda57ff4741621bdf01b6439b1e09df76edb607d5b3585629d2de6",
+      "requested_original_url": "https://en.wikipedia.org/wiki/William_Playfair",
+      "observed_url": "https://en.wikipedia.org/wiki/William_Playfair",
+      "observed_title": "William Playfair - Wikipedia",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "line-graph",
+        "bar-chart"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 통계 그래픽 절이 Atlas의 시계열 선과 막대 차트 수록을 설명하고 무역수지 도판 일부를 화면에서 확인. 상세의 수입·수출선 인코딩 설명과 부합. 책 전권과 모든 도판은 미검토.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "77c1a000be48afab7ef955e5bade391d5cd25fcf0baa001a75772ca1af179db1",
+        "focus.png": "a3f82f87ac2023c7f473176a9cd88ab89d487abdc8bbd83fb61f70ce7023c4c6"
+      }
+    },
+    {
+      "slug": "snow-cholera-map-1854",
+      "reviewed_at": "2026-11-12T05:46:51.083Z",
+      "detail_url": "https://vis.hwpark.net/gallery/snow-cholera-map-1854/",
+      "detail_sha256": "9c5e997599462618c32dbb648134eaad30ce014ff5063dcf05839afb9c14ae14",
+      "requested_original_url": "https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak",
+      "observed_url": "https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak",
+      "observed_title": "1854 Broad Street cholera outbreak - Wikipedia",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "dot-map"
+      ],
+      "tag_basis": "상세",
+      "scope_and_basis": "주소마다 사망자를 쌓아 위치로 표시한다는 상세의 구체적 설명을 근거로 태깅. 원본 사건 본문과 위치도 화면을 검토했으며 역사 지도 원판의 확대 검토는 하지 않음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "9fff9d1547907c6696d44fd5e7f4ee7006fe836cd9becc5f4f2ad209154b5d4e",
+        "focus.png": "e0718776e9f1d828141aeabd07616a4b0041407c70b752a420e8cf4072acfc73"
+      }
+    },
+    {
+      "slug": "nightingale-rose-diagram-1858",
+      "reviewed_at": "2026-11-12T05:46:51.083Z",
+      "detail_url": "https://vis.hwpark.net/gallery/nightingale-rose-diagram-1858/",
+      "detail_sha256": "b7da39fb41145e4fe8739e162ba3c35310c70b77735275aedf0b81f19dd9ec78",
+      "requested_original_url": "https://en.wikipedia.org/wiki/Florence_Nightingale#Statistics_and_sanitary_reform",
+      "observed_url": "https://en.wikipedia.org/wiki/Florence_Nightingale#Statistics_and_sanitary_reform",
+      "observed_title": "Florence Nightingale - Wikipedia",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "nightingale-rose"
+      ],
+      "tag_basis": "상세",
+      "scope_and_basis": "상세가 월별 사망 원인을 부채꼴 면적으로 표현한다고 명시. 원본 통계 절의 본문 화면을 검토했으나 도판 원판은 이번 범위에서 확인하지 못해 태그 근거를 상세로 한정.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "3220b7aa707f327359b0165335d591117f62fd156ef7c0c108a09e3537dcdbd2",
+        "focus.png": "f22995389e7464723f3c4c0b5f2ab5f1418709527566a03210f93fea53dbdcc7"
+      }
+    },
+    {
+      "slug": "minard-napoleon-march-1869",
+      "reviewed_at": "2026-11-12T05:46:51.083Z",
+      "detail_url": "https://vis.hwpark.net/gallery/minard-napoleon-march-1869/",
+      "detail_sha256": "dc075038318aa6b3a807eee26822db2220a662037794fc81e1eec8f54393f375",
+      "requested_original_url": "https://en.wikipedia.org/wiki/Charles_Joseph_Minard#/media/File:Minard.png",
+      "observed_url": "https://en.wikipedia.org/wiki/Charles_Joseph_Minard#/media/File:Minard.png",
+      "observed_title": "Charles Joseph Minard - Wikipedia",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "flow-map"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 확대 이미지에서 행군 경로와 병력에 비례하는 띠 너비를 확인; 하단 온도선은 이번 태깅 범위에서 제외.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "ac9d99d826f917f41957f862741655b7220a171cdd1f37a30832d87cb1d93d2b",
+        "focus.png": "abae1c5ac8ac58a5f7e793724d7af5128443ef052e5214a599e52eeae8cc3d2e"
+      }
+    },
+    {
+      "slug": "muybridge-horse-in-motion-1878",
+      "reviewed_at": "2026-11-12T05:47:08.593Z",
+      "detail_url": "https://vis.hwpark.net/gallery/muybridge-horse-in-motion-1878/",
+      "detail_sha256": "e8a10dceb1581a29bef77396fb84bd6d47c19968ab8cea92a24b0e52b94f1646",
+      "requested_original_url": "https://en.wikipedia.org/wiki/The_Horse_in_Motion",
+      "observed_url": "https://en.wikipedia.org/wiki/The_Horse_in_Motion",
+      "observed_title": "The Horse in Motion - Wikipedia",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "small-multiples"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본에 동일 크기의 연속 촬영 프레임이 격자로 놓임; 상세도 시간별 프레임 비교를 설명. 정적 사진이며 별도 조작 없음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "28bac822bcbb91abde04b8f26cf4046ae60a964a7092717709f02ba02f94ed55",
+        "focus.png": "73d16850042bb1812d866f179adbc3b49b4613964971a8b395521c9ff2baec68"
+      }
+    },
+    {
+      "slug": "booth-poverty-map-london-1889",
+      "reviewed_at": "2026-11-12T05:47:08.831Z",
+      "detail_url": "https://vis.hwpark.net/gallery/booth-poverty-map-london-1889/",
+      "detail_sha256": "b358c8d688e0c769fc5c3b71b70f7e23beb917e272ee76c87cbb22eac3c6e8ac",
+      "requested_original_url": "https://booth.lse.ac.uk/map/",
+      "observed_url": "https://booth.lse.ac.uk/map/",
+      "observed_title": "",
+      "navigation_errors": [],
+      "original_status": "원본 렌더링 실패",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "상세는 거리별 소득 등급의 색상 부호화를 설명하지만, 원본 지도는 빈 타일로 나타남; 면 단위 채색도인지 확정하지 않아 비움.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "a626f87bdf6f2095d841a8ca7af591da90dfa29c54f45c5f7599f14e90c953fb",
+        "focus.png": "d490fc7709bf6bb904347e8c2e906ac5a7897132f6d59e0f1316528406c4aba0"
+      }
+    },
+    {
+      "slug": "dubois-data-portraits-1900",
+      "reviewed_at": "2026-11-12T05:47:08.718Z",
+      "detail_url": "https://vis.hwpark.net/gallery/dubois-data-portraits-1900/",
+      "detail_sha256": "a4f3bfcf63bb6378baa09a853847d513b8c72481856e0012f1228f9346605366",
+      "requested_original_url": "https://www.loc.gov/pictures/collection/anedub/",
+      "observed_url": "https://www.loc.gov/pictures/collection/anedub/",
+      "observed_title": "잠시만 기다리십시오…",
+      "navigation_errors": [],
+      "original_status": "원본 대체·제한 화면",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "상세는 여러 손그림과 나선·비례 면적을 설명하나 개별 작품별 대응이 없음; 원본 보안 확인 화면에서 중단되어 비움.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "b036f272c3f5f7672b76317c6e8e7c818cc73c486c540656870043e8449edab9",
+        "focus.png": "c1bbb892d0dac91295d4ac368671532291595d3f564cd8bbe68d1969f3cb14b3"
+      }
+    },
+    {
+      "slug": "beck-london-underground-map-1933",
+      "reviewed_at": "2026-11-12T05:47:09.015Z",
+      "detail_url": "https://vis.hwpark.net/gallery/beck-london-underground-map-1933/",
+      "detail_sha256": "62c2c842e7427b31f3d4ce1ba34aae7284539b736569ea5b757d8a5fc8437a95",
+      "requested_original_url": "https://en.wikipedia.org/wiki/Tube_map",
+      "observed_url": "https://en.wikipedia.org/wiki/Tube_map",
+      "observed_title": "Tube map - Wikipedia",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "network-diagram"
+      ],
+      "tag_basis": "상세",
+      "scope_and_basis": "상세의 역·노선 연결과 환승 중심 설계가 노드·링크 정의에 부합. 원본 역사 절의 지도 이미지는 1908년 판본까지 확인했으며 1933년 원판은 미검토하므로 태그 근거는 상세에 한정.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "ed2202a37d0095e02f2ca208cdfe4559242eb00dafe224a854a92bf1f8ab2063",
+        "focus.png": "3fea1fc009cb919ece27b2388dafdd1450dcf55e8d2f9948f80bad531646966d"
+      }
+    },
+    {
+      "slug": "bertin-semiology-of-graphics-1967",
+      "reviewed_at": "2026-11-12T05:47:16.712Z",
+      "detail_url": "https://vis.hwpark.net/gallery/bertin-semiology-of-graphics-1967/",
+      "detail_sha256": "09c9ea00762d0ccb7c77565d569b6bc39a70f659f8f94c07d1c2182e21625705",
+      "requested_original_url": "https://en.wikipedia.org/wiki/Semiology_of_Graphics",
+      "observed_url": "https://en.wikipedia.org/wiki/Jacques_Bertin",
+      "observed_title": "Jacques Bertin - Wikipedia",
+      "navigation_errors": [],
+      "original_status": "원본 대체·제한 화면",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본이 책 전체 대신 저자 Jacques Bertin 소개로 이동; 상세의 시각 변수 이론만으로 특정 차트 적용을 판단할 수 없음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "58589e0fa3c5373361e26df2034d763083904d6ea55f8da5a09ca31fa8d10a91",
+        "focus.png": "3478982d06f080a9fa8c32ad87b18ffad79533bae0418641f14310ce2ed103cc"
+      }
+    },
+    {
+      "slug": "tufte-visual-display-sparklines-1983",
+      "reviewed_at": "2026-11-12T05:47:16.906Z",
+      "detail_url": "https://vis.hwpark.net/gallery/tufte-visual-display-sparklines-1983/",
+      "detail_sha256": "37a1ccd3c09e1eef9b6c783389e18c070046e8fe4c1ea3a110c0ea97203bc1ea",
+      "requested_original_url": "https://www.edwardtufte.com/book/the-visual-display-of-quantitative-information/",
+      "observed_url": "https://www.edwardtufte.com/book/the-visual-display-of-quantitative-information/",
+      "observed_title": "The Visual Display of Quantitative Information | Edward Tufte",
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; navigation committed at \"https://www.edwardtufte.com/book/the-visual-display-of-quantitative-information/\" with document.readyState=\"loading\". Continue on this Page; call page.waitForLoadState(\"domcontentloaded\") if that lifecycle state is still required."
+      ],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 책 판매 페이지와 인쇄 펼침면 예시를 검토; 상세는 여러 설계 원칙을 소개하나 단일 차트나 스파크라인 적용을 특정하지 않아 비움.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "1c13ace0cd72b7af69c6afea5e131c7d31ada206dcda7adb1e8dc1048852e40c",
+        "focus.png": "54eeb3c656d849d8b52e407cfffe964f1e2f8cde87170c97ad4f995f078d76da"
+      }
+    },
+    {
+      "slug": "wilkinson-grammar-of-graphics-1999",
+      "reviewed_at": "2026-11-12T05:47:16.792Z",
+      "detail_url": "https://vis.hwpark.net/gallery/wilkinson-grammar-of-graphics-1999/",
+      "detail_sha256": "d691f026c8b5b5009db79367ad9e93242a0b215d3ed83c8bc09d63387b7ef8b5",
+      "requested_original_url": "https://link.springer.com/book/10.1007/0-387-28695-0",
+      "observed_url": "https://link.springer.com/book/10.1007/0-387-28695-0",
+      "observed_title": "The Grammar of Graphics | Springer Nature Link",
+      "navigation_errors": [],
+      "original_status": "원본 대체·제한 화면",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 책 서지·판매 페이지에서 쿠키 안내가 표시됨; 상세는 시각화 문법의 저작 설명으로 특정 작품의 기법 사용 근거가 아님.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "13ea294dcb4024426b3f6ca46c384ad9a856affc68b9999e55f918e9ec929f82",
+        "focus.png": "a013d43c329b45131c88a8413af3847e7e5aae1a8a58880cc0348f019772f146"
+      }
+    },
+    {
+      "slug": "gapminder-wealth-health-nations-2006",
+      "reviewed_at": "2026-11-12T05:47:17.020Z",
+      "detail_url": "https://vis.hwpark.net/gallery/gapminder-wealth-health-nations-2006/",
+      "detail_sha256": "cf60cf203ed2d52f536c78afe40a01ff9aad414952fb7001cbfcb972bf1e2142",
+      "requested_original_url": "https://www.gapminder.org/tools/",
+      "observed_url": null,
+      "observed_title": null,
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; the navigation to \"https://www.gapminder.org/tools/\" had not committed and was stopped, so the Page still shows its previous document. Retry page.goto(url, { timeout }) with a longer timeout, or continue on a new Page from task.newPage().",
+        "초기 탐색 실패 후 이전 탭의 문서가 남은 관측은 원본 증거에서 제외함"
+      ],
+      "original_status": "원본 접근 실패",
+      "judgement": "근거 확인",
+      "techniques": [
+        "bubble-chart",
+        "playback-scrub"
+      ],
+      "tag_basis": "상세",
+      "scope_and_basis": "상세가 소득·기대수명·인구를 축과 원 크기로 매핑하고 재생 버튼을 설명; 원본 브라우저 탐색 실패로 실제 실행은 확인 못함.",
+      "interaction": null,
+      "screenshots": {}
+    },
+    {
+      "slug": "bostock-d3-2011",
+      "reviewed_at": "2026-11-12T05:47:30.364Z",
+      "detail_url": "https://vis.hwpark.net/gallery/bostock-d3-2011/",
+      "detail_sha256": "0fe13de094b7c2bbd998ae9d79b532fd44b670f85351019374b3a0fbb47f59f8",
+      "requested_original_url": "https://d3js.org/",
+      "observed_url": "https://d3js.org/",
+      "observed_title": "D3 by Observable | The JavaScript library for bespoke data visualization",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 D3 홈페이지의 여러 예시 썸네일과 소개를 검토; 라이브러리 전체에 임의의 한 작품 기법을 부여하지 않음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "5d00ebbcb854136691df37bd73c6751ec2b4a25f665a9ceff7af67a70bc07b93",
+        "focus.png": "97f6aec2571245322e877da32485f95ab6aed22d536648d25cf0069c5137f5c6"
+      }
+    },
+    {
+      "slug": "nyt-512-paths-to-white-house-2012",
+      "reviewed_at": "2026-11-12T05:47:30.817Z",
+      "detail_url": "https://vis.hwpark.net/gallery/nyt-512-paths-to-white-house-2012/",
+      "detail_sha256": "0ff956281ed6a2e653dc25f41892d2dbe564abf57e3e1aad0e1b45d51c0ad8c8",
+      "requested_original_url": "https://archive.nytimes.com/www.nytimes.com/interactive/2012/11/02/us/politics/paths-to-the-white-house.html",
+      "observed_url": "https://archive.nytimes.com/www.nytimes.com/interactive/2012/11/02/us/politics/paths-to-the-white-house.html",
+      "observed_title": "512 Paths to the White House - Interactive Feature - NYTimes.com",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "dendrogram",
+        "click-to-select"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 경합주 분기 트리에서 Florida의 Dem을 선택하자 미정 주 9→8개, 승리 경로 431→255와 76→1로 갱신됨. 상세의 주별 승리 조합 트리 설명과 부합. 다른 511가지 조합은 미검토. 조작: Florida의 Dem 선택 → 미정 주 9→8개, Obama 경로 431→255·Romney 76→1로 변화하고 트리가 갱신됨.",
+      "interaction": {
+        "actions": "Florida의 Dem 선택",
+        "result": "미정 주 9→8개, Obama 경로 431→255·Romney 76→1로 변화하고 트리가 갱신됨",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "fbe44143faa8556b474705aaff8d611bf093f9a3ddf9d7b3b95ba81ccc1b19c8",
+        "focus.png": "399eb92c7842ae654bc250f9db8cdf46c0d4a5d082a4d9a2b601830fa2419f17",
+        "interaction.png": "890637a6c486b1f3472e9d61c033f40d0363e8958f25e6d798d4207c1f4ec1f5"
+      }
+    },
+    {
+      "slug": "dear-data-2015",
+      "reviewed_at": "2026-11-12T05:47:30.491Z",
+      "detail_url": "https://vis.hwpark.net/gallery/dear-data-2015/",
+      "detail_sha256": "aa1e5360fc521777575a0920b125d32a825c00fa5b14bd636883d296b1a5ec03",
+      "requested_original_url": "https://www.dear-data.com/",
+      "observed_url": "https://www.dear-data.com/",
+      "observed_title": "Dear Data",
+      "navigation_errors": [],
+      "original_status": "원본 대체·제한 화면",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본이 신간 홍보 스플래시로 표시되어 52주 엽서 원작을 찾지 못함; 상세의 손그림 엽서 교환 설명만으로 특정 카탈로그 형태를 확정 못함.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "e700731053acacc25b0f0afc9360c725672f1a8ed248396d2f0372776d2f622d",
+        "focus.png": "7ac9b529646b2229d7aaa5b7913d2ed60b404343d4922e6e6faaa7e5277b6d49"
+      }
+    },
+    {
+      "slug": "data-sketches-2017",
+      "reviewed_at": "2026-11-12T05:47:30.918Z",
+      "detail_url": "https://vis.hwpark.net/gallery/data-sketches-2017/",
+      "detail_sha256": "36654ff4a9f333329fbc24a40b6017566e61d22ae29eb9a0efcc44cf4b1831a5",
+      "requested_original_url": "https://www.datasketch.es/",
+      "observed_url": "https://www.datasketch.es/",
+      "observed_title": "Data Sketches",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 책 소개와 여러 프로젝트 카드·원형 예시를 검토; 월별 서로 다른 24개 작업의 컬렉션이므로 대표 기법을 임의로 일반화하지 않음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "7e0da30b30a6d09d7d4f38e0e65dc3b048abd3216493d5822bce0487a2856576",
+        "focus.png": "7c25cb0aa94b2817e4ccc5c803a026e3d083792da38c6ce18d9a610cf20295a8"
+      }
+    },
+    {
+      "slug": "pudding-film-dialogue-2017",
+      "reviewed_at": "2026-11-12T05:47:42.191Z",
+      "detail_url": "https://vis.hwpark.net/gallery/pudding-film-dialogue-2017/",
+      "detail_sha256": "219fd23b4657ce1ec3a1f5876319dd49c90a45ecd661cd4c904d4f162c4815c7",
+      "requested_original_url": "https://pudding.cool/2017/03/film-dialogue/",
+      "observed_url": "https://pudding.cool/2017/03/film-dialogue/",
+      "observed_title": "The Largest Ever Analysis of Film Dialogue by Gender: 2,000 scripts, 25,000 actors, 4 million lines",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "stacked-bar-chart"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본에서 영화별 남녀 대사 비율의 가로 누적 막대 배열을 확인; 기존 dot-matrix-chart는 실제 본 범위와 맞지 않아 교체. 별도 검색·필터 동작은 미검토.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "3ff2095693071e7377c29c7fdd773d7f1dbad202fd03ebef292079a7818d88a4",
+        "focus.png": "b22143c2c73f842630a4cda307180c22b27ddc2deadc55faad04dbad9927cbfb"
+      }
+    },
+    {
+      "slug": "johns-hopkins-covid-dashboard-2020",
+      "reviewed_at": "2026-11-12T05:47:42.368Z",
+      "detail_url": "https://vis.hwpark.net/gallery/johns-hopkins-covid-dashboard-2020/",
+      "detail_sha256": "a9e0093bb9af799693a315f301d46b2db772884937179cd9cc2825c783d44dc0",
+      "requested_original_url": "https://coronavirus.jhu.edu/map.html",
+      "observed_url": "https://coronavirus.jhu.edu/map.html",
+      "observed_title": "COVID-19 Map - Johns Hopkins Coronavirus Resource Center",
+      "navigation_errors": [],
+      "original_status": "원본 대체·제한 화면",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본은 데이터 수집 종료 안내와 비어 있는 대시보드 자리만 표시; 상세의 지도·누적 카운터·시계열이라는 일반 설명으로 세부 차트 형태를 확정하지 않음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "1442f1dbda12553badcf69e7277f1f44f103ac627596be4c485c944f6ee7e15d",
+        "focus.png": "e2162770ff6e31334969bb4d521eb6a24f68ca751ad03ef17d0d4a83f8a3213a"
+      }
+    },
+    {
+      "slug": "nyt-extremely-detailed-election-map-2021",
+      "reviewed_at": "2026-11-12T05:47:42.249Z",
+      "detail_url": "https://vis.hwpark.net/gallery/nyt-extremely-detailed-election-map-2021/",
+      "detail_sha256": "6b2514ce229448bfc24b909e8602d66235188ceb0cd620165263165ec91f74ee",
+      "requested_original_url": "https://www.nytimes.com/interactive/2021/upshot/2020-election-map.html",
+      "observed_url": "https://www.nytimes.com/interactive/2021/upshot/2020-election-map.html",
+      "observed_title": "An Extremely Detailed Map of the 2020 Election Results: Trump vs. Biden - The New York Times",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "choropleth",
+        "semantic-zoom"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 지도에서 득표 차에 따른 선거구 채색과 Zoom in 4회 후 도시·선거구 세부 경계·명칭이 드러남을 확인. 상세의 선거구별 채색·시맨틱 줌 설명과 부합. 조작: Zoom in 버튼 4회 → 전국 화면에서 도시·선거구 상세 경계와 이름이 드러나는 확대 화면 확인.",
+      "interaction": {
+        "actions": "Zoom in 버튼 4회",
+        "result": "전국 화면에서 도시·선거구 상세 경계와 이름이 드러나는 확대 화면 확인",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "19959a1890cc6f342687885621233e775257382b18e99d541b3e3d40a1e92d27",
+        "focus.png": "60b3565dac9f19e0e2c711f36d8ad2b0846a9c9c3d5783a41d0d7e182685a793",
+        "interaction.png": "78970e55b2f8ec5cc37687c0f006da97e85e80e1c6178c2614acc91d3f78ccb3"
+      }
+    },
+    {
+      "slug": "observable-framework-2024",
+      "reviewed_at": "2026-11-12T05:47:42.506Z",
+      "detail_url": "https://vis.hwpark.net/gallery/observable-framework-2024/",
+      "detail_sha256": "4c435b0b28724c33c9f5127a43ee78596b6959d556f62e9b45f938f0cf357d5d",
+      "requested_original_url": "https://observablehq.com/framework/",
+      "observed_url": null,
+      "observed_title": null,
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; the navigation to \"https://observablehq.com/framework/\" had not committed and was stopped, so the Page still shows its previous document. Retry page.goto(url, { timeout }) with a longer timeout, or continue on a new Page from task.newPage().",
+        "초기 탐색 실패 후 이전 탭의 문서가 남은 관측은 원본 증거에서 제외함"
+      ],
+      "original_status": "원본 접근 실패",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 탐색이 커밋되지 않아 문서 화면을 얻지 못함; 상세는 작성 도구의 구조 설명으로 특정 시각화 적용을 뒷받침하지 않음.",
+      "interaction": null,
+      "screenshots": {}
+    },
+    {
+      "slug": "oct-26-the-day-women-start-working-for-free-2018",
+      "reviewed_at": "2026-11-12T05:48:03.433Z",
+      "detail_url": "https://vis.hwpark.net/gallery/oct-26-the-day-women-start-working-for-free-2018/",
+      "detail_sha256": "3354c7d6ac858ed17c147e2bf15bfd95ca3b8723aee5c53211efd6d50cbab028",
+      "requested_original_url": "https://www.washingtonpost.com/graphics/2017/business/women-pay-gap/?utm_term=.995b35f4476d",
+      "observed_url": null,
+      "observed_title": null,
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded",
+        "초기 탐색 실패 후 이전 탭의 문서가 남은 관측은 원본 증거에서 제외함"
+      ],
+      "original_status": "원본 접근 실패",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "상세는 임금 비율을 달력 날짜로 바꾼 설명; 원본 탐색이 시간 초과해 실제 달력 또는 차트 구조를 확인 못하므로 비움.",
+      "interaction": null,
+      "screenshots": {}
+    },
+    {
+      "slug": "10-years-on-2019",
+      "reviewed_at": "2026-11-12T05:48:03.433Z",
+      "detail_url": "https://vis.hwpark.net/gallery/10-years-on-2019/",
+      "detail_sha256": "85619bd48b8b6041dcb48e0de516e80f7c839e5ca9cccb37f1309cc58944d3c3",
+      "requested_original_url": "http://graphics.reuters.com/FINANCIAL-CRISIS2008/0100805F0BK/index.html",
+      "observed_url": "https://www.reuters.com/graphics/FINANCIAL-CRISIS2008/0100805F0BK/",
+      "observed_title": "Global financial crisis: 10 years on",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본은 10 Years On 표지·인물 사진과 5개 보도 진입점으로 구성; 상세도 회고 패키지를 설명할 뿐 차트 형태를 특정하지 않음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "30d1a9b5441de791768165ccf8ee7ff8c49ede2b15cbda98788af3e987ba92ee",
+        "focus.png": "32fa480796ed39a78ef46efe48562678181031a45215b9ef0cd262e06bea2871"
+      }
+    },
+    {
+      "slug": "3121-desperate-journeys-2019",
+      "reviewed_at": "2026-11-12T05:48:03.433Z",
+      "detail_url": "https://vis.hwpark.net/gallery/3121-desperate-journeys-2019/",
+      "detail_sha256": "a910a35154d900666901ebca23dc063e6fddc78007fbdc3d5a6ae4f824a9c3d3",
+      "requested_original_url": "https://www.theguardian.com/us-news/ng-interactive/2018/oct/14/donald-trump-zero-tolerance-policy-special-investigation-immigrant-journeys",
+      "observed_url": null,
+      "observed_title": null,
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded",
+        "초기 탐색 실패 후 이전 탭의 문서가 남은 관측은 원본 증거에서 제외함"
+      ],
+      "original_status": "원본 접근 실패",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 탐색 시간 초과로 작품 화면을 얻지 못함; 상세는 반복되는 시각화로 사람의 규모를 보여준다고만 하여 unit-chart의 고정 단위 아이콘을 확증 못하므로 기존 태그 제거.",
+      "interaction": null,
+      "screenshots": {}
+    },
+    {
+      "slug": "a-view-on-despair-2019",
+      "reviewed_at": "2026-11-12T05:48:03.433Z",
+      "detail_url": "https://vis.hwpark.net/gallery/a-view-on-despair-2019/",
+      "detail_sha256": "2686a83eb828d40705bba01c1575b672d584759499ad8a8e04ce27decdbcd48f",
+      "requested_original_url": "https://www.studioterp.nl/a-view-on-despair-a-datavisualization-project-by-studio-terp/",
+      "observed_url": "https://www.studioterp.nl/a-view-on-despair-a-datavisualization-project-by-studio-terp/",
+      "observed_title": null,
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; the navigation to \"https://www.studioterp.nl/a-view-on-despair-a-datavisualization-project-by-studio-terp/\" had not committed and was stopped, so the Page still shows its previous document. Retry page.goto(url, { timeout }) with a longer timeout, or continue on a new Page from task.newPage().",
+        "Error: 원본 탐색 실패: 이전 문서는 검토 증거에서 제외"
+      ],
+      "original_status": "원본 접근 실패",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 탐색 실패; 상세의 나무·파도·구름 은유와 보조 차트 설명에는 카탈로그 기법에 일대일 대응할 정밀한 형태 근거가 없어 비움.",
+      "interaction": null,
+      "screenshots": {}
+    },
+    {
+      "slug": "cartographers-of-north-korea-2019",
+      "reviewed_at": "2026-11-12T05:48:25.324Z",
+      "detail_url": "https://vis.hwpark.net/gallery/cartographers-of-north-korea-2019/",
+      "detail_sha256": "0fb9fcfc6d2a94d094c32bc593fbd7c5f8ecf27480c9715d69f781002150fdf3",
+      "requested_original_url": "https://cartographers-nk.wonyoung.so",
+      "observed_url": "https://cartographers-nk.wonyoung.so/",
+      "observed_title": "Cartographers of North Korea :: 북한의 지도 제작자",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 제목과 북한 배경 지도·기여자 그래픽 영역을 검토; 상세는 OSM 데이터와 인터뷰 연구 방법을 설명. 관찰 범위의 지도 부호화와 데이터 대응이 불명확하여 비움.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "5459084857cc726c455b24249d788d5f93cb7291d7dbfc5206c0b39508ff50cf",
+        "focus.png": "18a6567d9fe7ae9d165db7169693fd3be3b5d95c373b6316b31deb584b90846b"
+      }
+    },
+    {
+      "slug": "codex-atlanticus-2019",
+      "reviewed_at": "2026-11-12T05:48:25.102Z",
+      "detail_url": "https://vis.hwpark.net/gallery/codex-atlanticus-2019/",
+      "detail_sha256": "72b6a49f4a194fb5cf871d657857529b7f8d5f5d6d332f451057da0e0db188f5",
+      "requested_original_url": "http://www.codex-atlanticus.it/",
+      "observed_url": "https://codex-atlanticus.ambrosiana.it/#/",
+      "observed_title": "Codex Atlanticus",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "faceted-filter",
+        "sort"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 EXPLORE THE CODEX 진입 후 Geometry and Algebra 선택으로 1119→515페이지로 좁혀지고 chronological로 페이지가 재배열됨을 확인. 상세의 주제 필터·시간순 정렬 설명과 부합. 조작: EXPLORE THE CODEX 진입, Geometry and Algebra 필터, chronological 정렬 선택 → 선택 페이지 1119→515로 바뀌고 연대순 재배열 화면 확인.",
+      "interaction": {
+        "actions": "EXPLORE THE CODEX 진입, Geometry and Algebra 필터, chronological 정렬 선택",
+        "result": "선택 페이지 1119→515로 바뀌고 연대순 재배열 화면 확인",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "4cf67e55466793f6eee826e88a1f115ef4f514e556683d91c73fa85f7e856646",
+        "focus.png": "2a90fb4f2715ce955bc9a1b2b230339241959f35b3970a4aefc8d2ce3f409023",
+        "interaction.png": "623f4dfcaf52e07aad477ecf4b3af7c5f82b7298a8aeaa0d336c5e6b1cbdef14"
+      }
+    },
+    {
+      "slug": "earth-at-night-mountains-of-light-2019",
+      "reviewed_at": "2026-11-12T05:48:25.236Z",
+      "detail_url": "https://vis.hwpark.net/gallery/earth-at-night-mountains-of-light-2019/",
+      "detail_sha256": "4a729c1314b5973b1372edad775531d1c9c2a522ff8bbc34655cb3c4686bec4b",
+      "requested_original_url": "https://jwasilgeo.github.io/esri-experiments/earth-at-night/",
+      "observed_url": "https://jwasilgeo.github.io/esri-experiments/earth-at-night/",
+      "observed_title": "Earth at Night",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "zoom-and-pan"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본에서 야간 광량으로 높이가 정해진 3D 지형을 확인하고 확대 두 번·드래그로 관측 시점 변화를 확인. 상세의 조명 기반 지형 설명과 부합. 지형 형상 자체에는 임의의 차트 태그를 부여하지 않음. 조작: 확대 두 번 후 지도 드래그 → 3D 지형의 관측 시점과 확대 수준이 바뀜.",
+      "interaction": {
+        "actions": "확대 두 번 후 지도 드래그",
+        "result": "3D 지형의 관측 시점과 확대 수준이 바뀜",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "b16de9823db058720be92ce78fe0efe4785d8d47adfede51bc103b56229710d9",
+        "focus.png": "9cc9d84bbf62aad69c2df283d203328cc804a0a4ac3a41b2065c24dd51a21328",
+        "interaction.png": "3ef131a3036f11456ef254bec943ba56802681f50909501e061fccaa30848370"
+      }
+    },
+    {
+      "slug": "explore-the-ocean-2019",
+      "reviewed_at": "2026-11-12T05:48:13.779Z",
+      "detail_url": "https://vis.hwpark.net/gallery/explore-the-ocean-2019/",
+      "detail_sha256": "5a9fadfc0b5be311f12d7d8278345ab25a1db60c27de9e963dc1ac59465b0e7f",
+      "requested_original_url": "http://www.scicom-lab.com/portfolio-items/explore-the-ocean/",
+      "observed_url": "https://scicom-lab.com/project/explore-the-ocean",
+      "observed_title": "Explore the Ocean – Science Communication Lab",
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; navigation committed at \"https://scicom-lab.com/project/explore-the-ocean\" with document.readyState=\"loading\". Continue on this Page; call page.waitForLoadState(\"domcontentloaded\") if that lifecycle state is still required."
+      ],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 제작사 소개와 설치 디스플레이 사진·3D 해양 예시를 검토; 실제 탐사선 멀티터치 장치에는 접근 못함. 상세의 챕터·에피소드 구성만으로 차트 유형을 정하지 않음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "b01680578ca3c9c0f80da2156b9c52dd1c812d065f5ef7f5b5f5f7215816bc34",
+        "focus.png": "d87b53e782b58484ddc3fa6c46202116293f8e6aa9ab36181ced0bcb9f1bb1dd"
+      }
+    },
+    {
+      "slug": "fewer-fireworks-for-celebration-better-air-quality-2019",
+      "reviewed_at": "2026-11-12T05:48:39.698Z",
+      "detail_url": "https://vis.hwpark.net/gallery/fewer-fireworks-for-celebration-better-air-quality-2019/",
+      "detail_sha256": "d8d8468aeba7f89c443ee147f7e5af13268198b88088535857deddaf26fabb9a",
+      "requested_original_url": "http://image.thepaper.cn/html/zt/2019/02/fireworks/index.html",
+      "observed_url": "http://image.thepaper.cn/html/zt/2019/02/fireworks/index.html",
+      "observed_title": null,
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; the navigation to \"http://image.thepaper.cn/html/zt/2019/02/fireworks/index.html\" had not committed and was stopped, so the Page still shows its previous document. Retry page.goto(url, { timeout }) with a longer timeout, or continue on a new Page from task.newPage().",
+        "Error: 원본 탐색 실패: 이전 문서는 검토 증거에서 제외"
+      ],
+      "original_status": "원본 접근 실패",
+      "judgement": "근거 확인",
+      "techniques": [
+        "radial-bar-chart",
+        "small-multiples",
+        "sort"
+      ],
+      "tag_basis": "상세",
+      "scope_and_basis": "원본 탐색 실패; 상세가 시간별 PM2.5 농도를 방사형 막대 길이로 표시하고 도시별 반복 배치·대기질 순위 재정렬을 명시. 세 기법 모두 상세 기반 판단이며 실행 검증은 아님.",
+      "interaction": null,
+      "screenshots": {}
+    },
+    {
+      "slug": "flowmap-blue-2019",
+      "reviewed_at": "2026-11-12T05:48:38.169Z",
+      "detail_url": "https://vis.hwpark.net/gallery/flowmap-blue-2019/",
+      "detail_sha256": "7a71fd336b03c185e8e936b1535f664e2c0dbcbb2cb9ae9a41493535faec01c1",
+      "requested_original_url": "https://flowmap.blue/",
+      "observed_url": "https://www.flowmap.blue/",
+      "observed_title": "FlowmapBlue – Flow map visualization tool",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "flow-map",
+        "text-search-filter"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 스위스 이주 데모에서 출발·도착지를 잇는 이동량 흐름을 확인하고 Zür 검색 후 Zürich 선택으로 521510건 중 113999건만 남음. 상세의 출발·도착 이동량 설명과 부합. 조작: 스위스 이주 데모 진입, Zür 검색, Zürich 선택 → 이동 521510건 중 113999건으로 필터되고 지도 흐름이 바뀜.",
+      "interaction": {
+        "actions": "스위스 이주 데모 진입, Zür 검색, Zürich 선택",
+        "result": "이동 521510건 중 113999건으로 필터되고 지도 흐름이 바뀜",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "bb0759d626d0e71fb22db90874b24b15bc2535585fe1fdd525f55eb59fa0ba4d",
+        "focus.png": "5d4bc06f01f2d22a8cc2a895e6386b79fb679044413fb6e494e5b3ad58278554",
+        "interaction.png": "2f6ccf56ca005d183daf8cc788a33de3e379d162f7ce3af03dd3513d89256236"
+      }
+    },
+    {
+      "slug": "how-god-has-spoken-before-and-after-the-silence-2019",
+      "reviewed_at": "2026-11-12T05:48:39.526Z",
+      "detail_url": "https://vis.hwpark.net/gallery/how-god-has-spoken-before-and-after-the-silence-2019/",
+      "detail_sha256": "f48d5831a1311f0f608a8bb4369da6d064a18a9dec15ebffea4a56adf6bf75f2",
+      "requested_original_url": "https://www.theinfographicbible.com/a-peek-inside",
+      "observed_url": "https://www.theinfographicbible.com/a-peek-inside",
+      "observed_title": "Introduction — THE INFOGRAPHIC BIBLE",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 책 소개와 축소된 도판 예시를 검토; 상세의 말씀을 음파 형태로 표현한 은유가 시간축 측정값을 연결한 line-graph라는 근거는 없어 비움.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "baa313f576edb668c6d5d426ccaf183431ffd646ad24cc68907f28a64d5cf6cb",
+        "focus.png": "7e9893f3cdcb4a6a8ad62f65432761a54f6b293fbe4628c98ff07ca1e15a0936"
+      }
+    },
+    {
+      "slug": "how-kerala-s-dams-failed-2019",
+      "reviewed_at": "2026-11-12T05:48:28.992Z",
+      "detail_url": "https://vis.hwpark.net/gallery/how-kerala-s-dams-failed-2019/",
+      "detail_sha256": "ecc759cd14420778914c7837132eafa2dc50ce3a2ed0c534f85ecdb575bd793a",
+      "requested_original_url": "https://fingfx.thomsonreuters.com/gfx/rngs/INDIA-FLOOD/010080MF18N/index.html",
+      "observed_url": "https://www.reuters.com/graphics/INDIA-FLOOD/010080MF18N/",
+      "observed_title": "How Kerala’s dams failed to prevent catastrophe",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 표지와 저수지·댐 지도를 검토; 상세는 홍수 원인 분석을 설명하나 지도 마크의 정확한 카탈로그 대응은 판단 불가. 뒤쪽 모든 차트까지 검토한 것으로 보지 않음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "48694ae6949cf10a4958a44cedc1c8aa68a3a0120c590dd8749419bc9f1fbc9a",
+        "focus.png": "ea52224ad35b2a0e94c727f949d8dad9ea3aaaef2dc874912d4d22732cd81898"
+      }
+    },
+    {
+      "slug": "in-a-warming-world-the-fight-for-water-2019",
+      "reviewed_at": "2026-11-12T05:48:50.027Z",
+      "detail_url": "https://vis.hwpark.net/gallery/in-a-warming-world-the-fight-for-water-2019/",
+      "detail_sha256": "54461f801674c741eb5cd000ae21398cb9374452d781479192052640f441c879",
+      "requested_original_url": "https://qz.com/1353831/in-a-warming-world-the-fight-for-water-can-push-nations-apart-or-bring-them-together/",
+      "observed_url": "https://qz.com/1353831/in-a-warming-world-the-fight-for-water-can-push-nations-apart-or-bring-them-together",
+      "observed_title": "In a warming world, the fight for water can push nations apart—or bring them together",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 기사 제목과 강 관련 일러스트 부분을 검토; 상세가 공유 수자원과 국가 수를 말하지만 차트 구조를 특정하지 않아 비움.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "904f9b7cdb755efdcd772dfc6b3e588f7bbe56a2f19ecbb2c0c5598a3459d71a",
+        "focus.png": "8b316979802856c46ea2bf0600895352b2bd3fd4f6073fec07aa39727f806f59"
+      }
+    },
+    {
+      "slug": "information-visualization-design-under-the-overview-of--2019",
+      "reviewed_at": "2026-11-12T05:48:54.480Z",
+      "detail_url": "https://vis.hwpark.net/gallery/information-visualization-design-under-the-overview-of--2019/",
+      "detail_sha256": "027511e3458eff10a0a4ccceb88905951403cab1e95595bddbb3e020a533f078",
+      "requested_original_url": "https://www.behance.net/gallery/84751491/superbugs",
+      "observed_url": "https://www.behance.net/gallery/84751491/superbugs",
+      "observed_title": "superbugs :: Behance",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 Behance의 항생제 내성 포스터 일부와 설명을 검토; 여러 복합 도표의 축·단위가 이 검토 범위에서 읽히지 않아 모양만으로 차트 태그를 부여하지 않음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "a84a216526c1df13c2c316f74a384907dc9dd14125111d745535f71311971880",
+        "focus.png": "7aadb94ee5ead36551de3866045e19bcbcea2f0eb2c657b836805c01daaf7466"
+      }
+    },
+    {
+      "slug": "live-bmx-data-visualization-2019",
+      "reviewed_at": "2026-11-12T05:48:54.626Z",
+      "detail_url": "https://vis.hwpark.net/gallery/live-bmx-data-visualization-2019/",
+      "detail_sha256": "4aaa6735bad6a9590253a2e5ec21014ac5c259788f44907e329d6d113a03ed52",
+      "requested_original_url": "https://www.cleverfranke.com/work/bmx-data-visualization",
+      "observed_url": "https://www.cleverfranke.com/project/bmx-data-visualization",
+      "observed_title": "A new way of experiencing live sports events | CLEVER°FRANKE",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 제작사 사례 페이지의 BMX 영상 표지·집계 숫자를 검토; 상세는 선수의 움직임과 속도를 타이어 자국으로 표현한다고 하나 해당 카탈로그 기법을 확정 못함. 실제 현장 장치는 미검토.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "9d663f753dffa24b9e80eabaf6a6593def657da27803aaa89da98daa922903d3",
+        "focus.png": "9719343b1f25a543c3c4d7c7f0608bba653db34b91c9730ae8f5b7d02cd608e7"
+      }
+    },
+    {
+      "slug": "migration-waves-2019",
+      "reviewed_at": "2026-11-12T05:48:49.657Z",
+      "detail_url": "https://vis.hwpark.net/gallery/migration-waves-2019/",
+      "detail_sha256": "c2884b4b0b89e579208f7bd21446717fc6e408173ccb728e8f1197835aaad981",
+      "requested_original_url": "https://www.nationalgeographic.com/magazine/2019/08/graphic-shows-past-50-years-of-global-human-migration/?sf215829698=1&sf217104276=1",
+      "observed_url": "https://www.nationalgeographic.com/magazine/graphics/graphic-shows-past-50-years-of-global-human-migration?sf215829698=1&sf217104276=1",
+      "observed_title": "This is what 50 years of human migration looks like | National Geographic",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 Migration Waves 인쇄 그래픽 제목 부분을 검토; 상세의 물결 은유만으로 흐름 지도나 영역 그래프라는 데이터 대응을 확정할 수 없어 비움.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "46fff783894723ecc9f6f3edd186cc1a3c25b6344ed0fdf5ba43d7a4eb8c5442",
+        "focus.png": "8d09821fdeb6909ac5d48a0e54f5d9f1f0445c02fa470bec03038c8bed245315"
+      }
+    },
+    {
+      "slug": "space-junk-2019",
+      "reviewed_at": "2026-11-12T05:49:00.276Z",
+      "detail_url": "https://vis.hwpark.net/gallery/space-junk-2019/",
+      "detail_sha256": "b32cbb7f7a1afcf3fbf652afaa9bc63cd1e76b048dc1c0e8564449d1d91734e5",
+      "requested_original_url": "https://www.behance.net/gallery/81688575/Space-Junk-BBC-Science-Focus",
+      "observed_url": "https://www.behance.net/gallery/81688575/Space-Junk-BBC-Science-Focus",
+      "observed_title": "Space Junk - BBC Science Focus :: Behance",
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; navigation committed at \"https://www.behance.net/gallery/81688575/Space-Junk-BBC-Science-Focus\" with document.readyState=\"loading\". Continue on this Page; call page.waitForLoadState(\"domcontentloaded\") if that lifecycle state is still required."
+      ],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 Space Junk 인쇄물의 범례·물체 종류별 기호를 검토; 상세는 거리·수·질량·시계를 다룬다고 하나 축과 기호 매핑을 모두 확인하지 못해 특정 기법은 비움.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "93bb932717b5b527e51e809c1ce79b125a7f8aa704218b70f672f454fbce6e24",
+        "focus.png": "37a2fe20e1624b8f645d1b3c3f2ddf16230808b4b8867cec8be8c5e8e08f09f9"
+      }
+    },
+    {
+      "slug": "the-forbidden-city-2019",
+      "reviewed_at": "2026-11-12T05:49:12.837Z",
+      "detail_url": "https://vis.hwpark.net/gallery/the-forbidden-city-2019/",
+      "detail_sha256": "724925f82c38badaaa4d6ffd3edc768a69522595a79efe5228e03e4bd2fe6351",
+      "requested_original_url": "https://multimedia.scmp.com/infographics/culture/article/3016607/history-of-the-forbidden-city/index.html",
+      "observed_url": "https://multimedia.scmp.com/infographics/culture/article/3016607/history-of-the-forbidden-city/index.html",
+      "observed_title": "Forbidden City infographics: resilience, harem secrets and 100 years of China’s Palace Museum",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 기사 첫 궁궐 일러스트와 안내 팝업을 검토; 상세의 지도·VR·영상은 매체 설명이며 이 범위에서 기법 인코딩을 특정할 수 없어 비움.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "5757cedd5d6846b1954a2e75276aac674a1b20f0e203f9c2d6586d6c2ba698b8",
+        "focus.png": "c15e8b11a480c74878295473f83451f7cb0b8378d7fc7dcd3ebc289deed35a79"
+      }
+    },
+    {
+      "slug": "the-invisible-crime-2019",
+      "reviewed_at": "2026-11-12T05:49:13.111Z",
+      "detail_url": "https://vis.hwpark.net/gallery/the-invisible-crime-2019/",
+      "detail_sha256": "3418dfd71c82a984f9fe2c82ad377c5c1af4e97e60fec44f8367b7733ff15fe4",
+      "requested_original_url": "https://www.smh.com.au/interactive/2019/are-we-failing-victims-of-sexual-violence",
+      "observed_url": "https://www.smh.com.au/2019/are-we-failing-victims-of-sexual-violence",
+      "observed_title": "Error",
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; navigation committed at \"https://www.smh.com.au/2019/are-we-failing-victims-of-sexual-violence\" with document.readyState=\"loading\". Continue on this Page; call page.waitForLoadState(\"domcontentloaded\") if that lifecycle state is still required."
+      ],
+      "original_status": "원본 대체·제한 화면",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본이 404 오류 페이지로 표시됨; 상세는 취재와 멀티미디어·규모를 다룬다고만 하여 차트 형태 판단 불가.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "041f7ec17ca4e130e89f74fda9981df70adf35f1c9d3760a66bbcd741120a42c",
+        "focus.png": "576b93105849162815c59b6dae969efed3965c83108988b2c1b261cde900b44a"
+      }
+    },
+    {
+      "slug": "irregular-outfields-of-baseball-2019",
+      "reviewed_at": "2026-11-12T05:49:00.057Z",
+      "detail_url": "https://vis.hwpark.net/gallery/irregular-outfields-of-baseball-2019/",
+      "detail_sha256": "bec8d29c669902db5ba340abfd79b83a356c27c697abc99e726292ff3004274a",
+      "requested_original_url": "http://thedataface.com/2019/04/sports/baseballs-irregular-outfields",
+      "observed_url": "https://archive.thedataface.com/2019/04/sports/baseballs-irregular-outfields",
+      "observed_title": "The Irregular Outfields of Baseball | The DataFace",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 야구장 표지·평면 비교 일부와 쿠키 안내를 검토; 상세는 30개 구장의 7유형 분류를 설명하지만 통일된 소형 패널 반복인지까지 확인 못해 비움.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "c779fc5863dccd7a559b27e1f5e876ab9c18853e9f7eb45ccf1c527242c53445",
+        "focus.png": "c19f05fec367cced8a51b69034271f6b3b1b25a8f820dd030bdda4bd4f4ef0a7"
+      }
+    },
+    {
+      "slug": "the-millions-who-left-2019",
+      "reviewed_at": "2026-11-12T05:49:36.030Z",
+      "detail_url": "https://vis.hwpark.net/gallery/the-millions-who-left-2019/",
+      "detail_sha256": "8948d2e58b2ac46d66dec9cdbe5c005eb27f2d10ea317d94281ab634829ef6e1",
+      "requested_original_url": "https://www.zeit.de/politik/deutschland/2019-05/east-west-exodus-migration-east-germany-demography",
+      "observed_url": "https://www.zeit.de/politik/deutschland/2019-05/east-west-exodus-migration-east-germany-demography",
+      "observed_title": "East-West Exodus: The Millions Who Left | DIE ZEIT",
+      "navigation_errors": [],
+      "original_status": "원본 대체·제한 화면",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본은 기사 본문 앞 쿠키·구독 선택 창이 내용을 가림; 상세의 동독 인구 이동 서사만으로 형태를 확정 못함. 유료 접근 선택은 실행하지 않음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "eec40a235d9efacea70b2f346ddae0bce6b354d06f59e02c6530f5c67f5a878f",
+        "focus.png": "3640784e73f6b86c1647d9c304ff2c805095dd6583042745f01fe924cd251a16"
+      }
+    },
+    {
+      "slug": "visualizing-the-history-of-fugazi-2019",
+      "reviewed_at": "2026-11-12T05:49:36.030Z",
+      "detail_url": "https://vis.hwpark.net/gallery/visualizing-the-history-of-fugazi-2019/",
+      "detail_sha256": "95703105335655cdf87239dbae8fe43b6f69523b675a77bec14e2c4d93d54791",
+      "requested_original_url": "http://www.carniklirs.com/project/fugazi",
+      "observed_url": "http://www.carniklirs.com/project/fugazi",
+      "observed_title": null,
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; the navigation to \"http://www.carniklirs.com/project/fugazi\" had not committed and was stopped, so the Page still shows its previous document. Retry page.goto(url, { timeout }) with a longer timeout, or continue on a new Page from task.newPage().",
+        "Error: 원본 탐색 실패: 이전 문서는 검토 증거에서 제외"
+      ],
+      "original_status": "원본 접근 실패",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 탐색이 커밋되지 않음; 상세는 함께 공연한 밴드·장소·기부처의 인쇄 연작을 설명할 뿐 막대와 타임라인은 명시하지 않아 기존 두 태그 제거.",
+      "interaction": null,
+      "screenshots": {}
+    },
+    {
+      "slug": "wedding-data-viz-2019",
+      "reviewed_at": "2026-11-12T05:49:36.030Z",
+      "detail_url": "https://vis.hwpark.net/gallery/wedding-data-viz-2019/",
+      "detail_sha256": "ce9deee41b5e039ab909d89c052156d24cce0fb46395ab27773a58a4591d0450",
+      "requested_original_url": "https://medium.com/nightingale/https-medium-com-data-visualization-society-wedding-data-viz-36e7b9f4787f?source=friends_link&sk=3742e5b443933667c608da0a9ab88ddb",
+      "observed_url": "https://medium.com/nightingale/https-medium-com-data-visualization-society-wedding-data-viz-36e7b9f4787f?source=friends_link&sk=3742e5b443933667c608da0a9ab88ddb",
+      "observed_title": null,
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded",
+        "Error: 원본 탐색 실패: 이전 문서는 검토 증거에서 제외"
+      ],
+      "original_status": "원본 접근 실패",
+      "judgement": "근거 확인",
+      "techniques": [
+        "network-diagram"
+      ],
+      "tag_basis": "상세",
+      "scope_and_basis": "원본 탐색 시간 초과; 상세 본문이 하객을 노드, 하객 사이 관계를 연결한 대형 관계망 배너로 명시. 네트워크만 상세 기반으로 유지하고 이름표 크기는 버블 차트로 일반화하지 않음.",
+      "interaction": null,
+      "screenshots": {}
+    },
+    {
+      "slug": "abandoned-at-sea-2022",
+      "reviewed_at": "2026-11-12T05:49:36.030Z",
+      "detail_url": "https://vis.hwpark.net/gallery/abandoned-at-sea-2022/",
+      "detail_sha256": "8aa29e8bbd1ba54ecb79ee08c8f1c903ced2206257b850ff29455ee85f18ba83",
+      "requested_original_url": "https://kontinentalist.com/stories/the-rohingya-in-myanmar-a-refugee-crisis-at-sea/",
+      "observed_url": "https://kontinentalist.com/stories/the-rohingya-in-myanmar-a-refugee-crisis-at-sea/",
+      "observed_title": "Abandoned at sea - Kontinentalist",
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; navigation committed at \"https://kontinentalist.com/stories/the-rohingya-in-myanmar-a-refugee-crisis-at-sea/\" with document.readyState=\"interactive\". Continue on this Page; call page.waitForLoadState(\"domcontentloaded\") if that lifecycle state is still required."
+      ],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 표지·스크롤 일부와 오디오 안내를 검토; 상세는 위험 지도의 존재를 말하지만 지도 부호화까지 특정하지 않아 비움. 오디오·지도 내부 조작은 미검토. 조작: 이야기 iframe 내부 스크롤 → 표지에서 Why do the Rohingya leave 본문 구간으로 바뀜; 오디오·지도 내부 탐색은 미검토.",
+      "interaction": {
+        "actions": "이야기 iframe 내부 스크롤",
+        "result": "표지에서 Why do the Rohingya leave 본문 구간으로 바뀜; 오디오·지도 내부 탐색은 미검토",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "95fbf05bc0bfa7918ce3fdca27823818f33ad8d8f67a0e6648baf3636ec6a72b",
+        "focus.png": "854e334a883c383fdab6409e5aac45da904cf44f5d4e25191a76b0d0f4c9f099",
+        "interaction.png": "2b65d18a95cdfd10b16d658018858b1900b9859565dde1125a115858dc232d3e"
+      }
+    },
+    {
+      "slug": "anatomy-of-the-lismore-disaster-2022",
+      "reviewed_at": "2026-11-12T05:49:55.831Z",
+      "detail_url": "https://vis.hwpark.net/gallery/anatomy-of-the-lismore-disaster-2022/",
+      "detail_sha256": "ba50f5013f9563e6c96c7bb8329120eb847fb215f2829a53ced96acd744702c1",
+      "requested_original_url": "https://www.smh.com.au/interactive/2022/lismore-flooding/",
+      "observed_url": "https://www.smh.com.au/interactive/2022/lismore-flooding/",
+      "observed_title": "NSW floods 2022: How Lismore was enveloped by floodwaters in one-in-100 year weather event",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 첫 3D 지형도와 재난 시간순 본문을 검토; 상세의 3D 모델링과 재난 단계 설명만으로 카탈로그의 데이터 차트를 특정하지 않음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "e7b1855276645e4f1462f7e9d1e5e791dc3c5d0c25344d1aed98ccd57f538b37",
+        "focus.png": "6df49297ff1ead8a09ea2a6148b7baeb839c243e096b60e9ab1bc7558d416c04"
+      }
+    },
+    {
+      "slug": "animated-sport-results-2022",
+      "reviewed_at": "2026-11-12T05:49:46.793Z",
+      "detail_url": "https://vis.hwpark.net/gallery/animated-sport-results-2022/",
+      "detail_sha256": "78640a3b472ad2315662c768d30bb68e8cc179baa5d981fa31d9e57b3624e76d",
+      "requested_original_url": "https://krisztinaszucs.com/blog/20220829_gif/index.html",
+      "observed_url": "https://krisztinaszucs.com/blog/20220829_gif/index.html",
+      "observed_title": "Krisztina Szucs - Data Visualization Designer Portfolio",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 경기별 GIF 예시와 수영 순위 애니메이션을 검토; 상세의 타임라인 삼각형은 일반 사건 타임라인과 다른 전용 인코딩. 자동 GIF 외 별도 조작은 없음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "ebc745ead350751243ebe13ef6c7327782a6037f62f789870269afaaa40fab4f",
+        "focus.png": "a86f45c2af71c04abfcdf5b34e0c0f1855bb43b1a73713dfde69122b58df7fc1"
+      }
+    },
+    {
+      "slug": "culture-in-the-crosshairs-2022",
+      "reviewed_at": "2026-11-12T05:49:46.817Z",
+      "detail_url": "https://vis.hwpark.net/gallery/culture-in-the-crosshairs-2022/",
+      "detail_sha256": "df3e5404452095631ecccff86de23472a9e622e9b64c08e63f2171e33fc76454",
+      "requested_original_url": "https://www.abc.net.au/news/2022-08-25/the-hi-tech-3d-fight-to-save-ukrainian-culture-from-destruction/101262720",
+      "observed_url": "https://www.abc.net.au/news/2022-08-25/the-hi-tech-3d-fight-to-save-ukrainian-culture-from-destruction/101262720",
+      "observed_title": "These 3D models take you inside the shattered ruins of some of Ukraine's cultural treasures - ABC News",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 건축물 3D와 스크롤 설명의 레이저 모델 일부를 검토; 상세도 포인트 클라우드와 스트리밍을 설명하지만 관측 점군을 데이터 산점도로 동일시하지 않음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "ded8b2408fa3f4c9ceb37f82b567c1b6ee47989a6b7ff037196d8d7932463f6c",
+        "focus.png": "8741a6b3ad848c88e7603acbd020aeb0f8fff12f241407bab7a817b5220284eb"
+      }
+    },
+    {
+      "slug": "degrees-of-uncertainty-2022",
+      "reviewed_at": "2026-11-12T05:49:56.076Z",
+      "detail_url": "https://vis.hwpark.net/gallery/degrees-of-uncertainty-2022/",
+      "detail_sha256": "9ddfa6d503b17f4c6247ad21273349a7012bbc24570ea6903782271f1a3e893f",
+      "requested_original_url": "https://youtu.be/R7FAAfK78_M",
+      "observed_url": "https://www.youtube.com/watch?v=R7FAAfK78_M",
+      "observed_title": "기후 과학자들은 실제로 얼마나 확신하는가? - YouTube",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 유튜브의 다큐멘터리 도입 재생 화면과 설명을 확인; 24분 전편은 미검토. 상세의 기온 추세와 영상 매체 설명만으로 실제 차트 형태를 확정 못함.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "2f95654a93d2dd58dc730da065ece7bbd8867ebb5f9abb18241ab62ec912ad13",
+        "focus.png": "9c4a0ed08a6ebf5b0e2d249200ac9aa169c0fdc668bc1c75c6a0a5f5c29f14f3"
+      }
+    },
+    {
+      "slug": "gender-and-language-2022",
+      "reviewed_at": "2026-11-12T05:50:16.163Z",
+      "detail_url": "https://vis.hwpark.net/gallery/gender-and-language-2022/",
+      "detail_sha256": "2dccb48ff1458cd86041c9d3531b62b04098beb189f9fb75a7c71de7d3ab3ef2",
+      "requested_original_url": "https://graphics.reuters.com/GENDER-LANGUAGE/LGBT/mopanqoelva/index.html",
+      "observed_url": "https://www.reuters.com/graphics/GENDER-LANGUAGE/LGBT/mopanqoelva/",
+      "observed_title": "Beyond pronouns: How languages are reshaping to include nonbinary and gender-nonconforming people",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 언어 설명과 she/he 텍스트 전환을 스크롤로 확인; 상세는 언어별 성별 표현을 일러스트로 설명하므로 수치 차트 기법에 해당하는 근거 부족.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "2f4b522829819e5e324415d9a21251037bfadd0d4b23914cfced1640b60fb4e9",
+        "focus.png": "2f4b522829819e5e324415d9a21251037bfadd0d4b23914cfced1640b60fb4e9"
+      }
+    },
+    {
+      "slug": "heartbeats-2022",
+      "reviewed_at": "2026-11-12T05:50:04.984Z",
+      "detail_url": "https://vis.hwpark.net/gallery/heartbeats-2022/",
+      "detail_sha256": "4bab30c1b129394de53a6ad3ee27190738593a64041a4345c654b9cc3a1f2474",
+      "requested_original_url": "https://heartbeats.patternbased.com/",
+      "observed_url": "https://heartbeats.patternbased.com/",
+      "observed_title": "Heartbeats. | PatternBased",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "click-to-select"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본에서 Play muted for now 후 Human 타일을 클릭하자 심박 72 BPM·기대수명·총 박동 수 상세가 열림. 상세의 동물 선택 후 심박 정보 제공 설명과 부합. 조작: Play muted for now 선택 후 Human 타일 클릭 → Human 심박 72 BPM·기대수명 79 years·총 박동 수 패널 표시.",
+      "interaction": {
+        "actions": "Play muted for now 선택 후 Human 타일 클릭",
+        "result": "Human 심박 72 BPM·기대수명 79 years·총 박동 수 패널 표시",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "b90ee9474444485b83e4f3a887c355b7aeb732ab80149c1fa56216c889be1790",
+        "focus.png": "5508aae5a68cdd6d86bd246fdf2814bfed30e5d987da4f971cedcc7d7e5c51cd",
+        "interaction.png": "a4e6789c7ebca87a0066b05acb0b18c475dfcda24d7ba3dea6c467156ebc75cf"
+      }
+    },
+    {
+      "slug": "how-you-play-spades-2022",
+      "reviewed_at": "2026-11-12T05:50:05.084Z",
+      "detail_url": "https://vis.hwpark.net/gallery/how-you-play-spades-2022/",
+      "detail_sha256": "ccb63faf02bec80ce4597279b7f39404ef3b89be65c1d43d88072dce7e18d15a",
+      "requested_original_url": "https://pudding.cool/2021/08/spades/",
+      "observed_url": "https://pudding.cool/2021/08/spades/",
+      "observed_title": "How you play Spades is how you play life",
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; navigation committed at \"https://pudding.cool/2021/08/spades/\" with document.readyState=\"interactive\". Continue on this Page; call page.waitForLoadState(\"domcontentloaded\") if that lifecycle state is still required."
+      ],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 카드형 서사 첫 부분과 설문 질문 컨트롤 존재를 확인; 상세는 설문 기반 스토리와 실물 카드에 집중. 실제 차트 인코딩을 확인한 뒤 추가할 수 있어 이번에는 비움. 조작: 가로 방향 휠 스크롤 → 카드 이야기 2/41에서 5–7/41 구간으로 진행됨; 후반 설문 조작은 미검토.",
+      "interaction": {
+        "actions": "가로 방향 휠 스크롤",
+        "result": "카드 이야기 2/41에서 5–7/41 구간으로 진행됨; 후반 설문 조작은 미검토",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "d293f9b59f0812c2fa611060042c478a62ca6342053e898971f774fafa269731",
+        "focus.png": "0d36e1da671fcd9f490f3a5e32000969e4f1893799a62323764b486b751bf499",
+        "interaction.png": "563b86f98959c264e5d2715ac7b75b70744434f6c247ff49b182e9277b181349"
+      }
+    },
+    {
+      "slug": "i-am-a-book-2022",
+      "reviewed_at": "2026-11-12T05:50:16.334Z",
+      "detail_url": "https://vis.hwpark.net/gallery/i-am-a-book-2022/",
+      "detail_sha256": "127b5f98f5d15fcad608cef8e54ebeeaeaeeb339d32f79851e642f3ccc716c0c",
+      "requested_original_url": "http://www.iamabook.online",
+      "observed_url": "https://www.iamabook.online/",
+      "observed_title": "Squarespace - Website Expired",
+      "navigation_errors": [],
+      "original_status": "원본 대체·제한 화면",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 Website Expired 화면으로 작품 접근 불가; 상세의 크기·소리 등 1대1 물리화는 이 카탈로그의 특정 차트 형태로 확정할 수 없어 비움.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "1e07b9a55c27bcf2c80d8b13f7a6e27eab4c8b2ad572eededa21c6084abea41f",
+        "focus.png": "1e07b9a55c27bcf2c80d8b13f7a6e27eab4c8b2ad572eededa21c6084abea41f"
+      }
+    },
+    {
+      "slug": "k-means-clustering-explainer-2022",
+      "reviewed_at": "2026-11-12T05:50:37.002Z",
+      "detail_url": "https://vis.hwpark.net/gallery/k-means-clustering-explainer-2022/",
+      "detail_sha256": "bfa6b29dd6fc778ac5ec21d72e9d37ea556ac9a4620675017f1d569d47d45f1f",
+      "requested_original_url": "https://k-means-explorable.vercel.app/",
+      "observed_url": "https://k-means-explorable.vercel.app/",
+      "observed_title": "K-Means Clustering: An Explorable Explainer",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "scatterplot",
+        "parametric-manipulation"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본에서 두 변수의 점 분포를 확인하고 Datasets의 Number of Samples를 4로 바꾸자 네 점으로 갱신됨. 원본의 산점도 설명과 상세의 입력 조정 후 즉시 반응하는 작동 근거를 함께 확인. 조작: Datasets의 Number of Samples를 4로 변경 후 Tab → 산점도에서 표본이 네 점으로 바뀜.",
+      "interaction": {
+        "actions": "Datasets의 Number of Samples를 4로 변경 후 Tab",
+        "result": "산점도에서 표본이 네 점으로 바뀜",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "68ef6ed26a520efce2feca30b14d5becbaa4ac5058ec9a468902091606175b07",
+        "focus.png": "68ef6ed26a520efce2feca30b14d5becbaa4ac5058ec9a468902091606175b07",
+        "interaction.png": "39e43f6876941b6447857221a56b1885f6c4b3893897499a26b32fffeac7020d"
+      }
+    },
+    {
+      "slug": "life-under-curfew-2022",
+      "reviewed_at": "2026-11-12T05:50:25.045Z",
+      "detail_url": "https://vis.hwpark.net/gallery/life-under-curfew-2022/",
+      "detail_sha256": "1c22113a52062e7357dc44028f0ea50a0efd7650db99411b146dadbefa7117ea",
+      "requested_original_url": "https://www.sjc.community/life-under-curfew",
+      "observed_url": "https://www.sjc.community/life-under-curfew",
+      "observed_title": "Life Under Curfew — A Community Under Threat",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 행사 벽화 사진과 제목을 검토; 상세의 종이 선·밧줄 연결은 참가자의 현장 데이터 물리화로서 화면 차트의 축·순서 대응을 확인 못해 비움.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "3e941aa994f001717ee145fbcd92da67a05e99f69fd7bccec3d423e64fdf69be",
+        "focus.png": "4e774e780e16621e8e5fef0d4c345d8e0c0ecd8850b6fe5b40d54121299972c3"
+      }
+    },
+    {
+      "slug": "mta-ridership-changes-2022",
+      "reviewed_at": "2026-11-12T05:50:25.149Z",
+      "detail_url": "https://vis.hwpark.net/gallery/mta-ridership-changes-2022/",
+      "detail_sha256": "440418d4ae06bbf2abe8cf52d30519d28448cb3437f455a1e939b34c1d1d5429",
+      "requested_original_url": "https://projects.two-n.com/mta/",
+      "observed_url": "https://projects.two-n.com/mta/",
+      "observed_title": "MTA Ridership",
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; navigation committed at \"https://projects.two-n.com/mta/\" with document.readyState=\"loading\". Continue on this Page; call page.waitForLoadState(\"domcontentloaded\") if that lifecycle state is still required."
+      ],
+      "original_status": "원본 렌더링 실패",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 URL은 열리나 빈 배경으로 시각화가 렌더링되지 않음; 상세도 지하철을 통한 불평등 서사라는 범위라 지도·차트 형태를 확정 못함.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "c7915b3e14373d74fdba5b6319ee222e2eed9a6ec197fc1f8d3fdfcce1a17d0c",
+        "focus.png": "c7915b3e14373d74fdba5b6319ee222e2eed9a6ec197fc1f8d3fdfcce1a17d0c"
+      }
+    },
+    {
+      "slug": "made-to-measure-2022",
+      "reviewed_at": "2026-11-12T05:50:37.064Z",
+      "detail_url": "https://vis.hwpark.net/gallery/made-to-measure-2022/",
+      "detail_sha256": "dc058fea8fea9772a7455375b1448a7b41338994bc7b991a61a19d514107bbe7",
+      "requested_original_url": "https://madetomeasure.online/en/",
+      "observed_url": "https://madetomeasure.online/en/",
+      "observed_title": "Made To Measure",
+      "navigation_errors": [],
+      "original_status": "원본 대체·제한 화면",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 experience에 진입하자 브라우저 사용 기록 수집에 대한 동의를 요구함. 동의하지 않아 전체 실험은 검토하지 않았으며 상세의 영화·검색 UI 설명만으로 기법을 특정 못해 비움. 조작: experience 진입 후 DECLINE 선택 → 동의를 거부하자 1:03:06 영상 플레이어가 표시됨; 인터랙티브 전체 실험과 영상 전편은 미검토.",
+      "interaction": {
+        "actions": "experience 진입 후 DECLINE 선택",
+        "result": "동의를 거부하자 1:03:06 영상 플레이어가 표시됨; 인터랙티브 전체 실험과 영상 전편은 미검토",
+        "status": "제한"
+      },
+      "screenshots": {
+        "top.png": "fbb564573c0c3f92d0a671e351e41cd69aff299769b7dfe63005b4cf632cdf9a",
+        "focus.png": "74f1422ed33c198e46da206e59d744330bc9558a5b0cf44be791c65d70452ec7",
+        "interaction.png": "1abcff201f6af914eab5bea8634347f0cea3a3d46a717d321ab19e742f17782b"
+      }
+    },
+    {
+      "slug": "precision-mapping-to-end-child-deaths-2022",
+      "reviewed_at": "2026-11-12T05:50:52.173Z",
+      "detail_url": "https://vis.hwpark.net/gallery/precision-mapping-to-end-child-deaths-2022/",
+      "detail_sha256": "1afae96172017eabe5c54d85bd7753a7c5023750932cceea21796906353de2a1",
+      "requested_original_url": "https://vizhub.healthdata.org/child-mortality",
+      "observed_url": "https://www.healthdata.org/data-visualization-unavailable",
+      "observed_title": "Data visualization unavailable | Institute for Health Metrics and Evaluation",
+      "navigation_errors": [],
+      "original_status": "원본 대체·제한 화면",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본이 Data visualization unavailable로 이동하고 폐기된 도구라고 명시; 상세는 지역별 사망률과 스크롤 이야기만 설명하여 bubble-map의 원 크기 대응 근거가 없어 기존 태그 제거.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "e0cfd2cb60adf75da71bfcfc85da1ee04f31f0f51702cb5267895d9b141112e7",
+        "focus.png": "7eaf43ab04310a805e6911cd2df34675aea723ed6b78aa21f783ccd658bdb130"
+      }
+    },
+    {
+      "slug": "rising-sea-levels-2022",
+      "reviewed_at": "2026-11-12T05:50:42.368Z",
+      "detail_url": "https://vis.hwpark.net/gallery/rising-sea-levels-2022/",
+      "detail_sha256": "a8b4cc4e88b17bd987f70273d565017d3cd3643504a1c4eb9aaa9d0bb8af696a",
+      "requested_original_url": "https://katkatstudio.com/data-visualization/rising-sea-levels/",
+      "observed_url": "https://katkatstudio.com/data-visualization/rising-sea-levels/",
+      "observed_title": "Rising Sea Levels – Kat Kat",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 해수면 주얼리 제품 사진·범례 설명을 검토; 상세는 착용 가능한 해수면 표현을 설명. 물성만으로 기존 차트 카탈로그에 끼워 맞추지 않음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "7b237d567a00a161a05281c2fe6d21b83c8167d68c5091c9bd094ae9ceddd7ad",
+        "focus.png": "3e115d0de757b7f0b5878c7bb3df0053be0bac858e1259df6fd631390c34fc14"
+      }
+    },
+    {
+      "slug": "spain-lives-in-flats-2022",
+      "reviewed_at": "2026-11-12T05:50:42.420Z",
+      "detail_url": "https://vis.hwpark.net/gallery/spain-lives-in-flats-2022/",
+      "detail_sha256": "c2426bec519eaa1ca37a0e678ea3855f4c8f018f75d02bb7f89e74d3d9c97f66",
+      "requested_original_url": "https://especiales.eldiario.es/spain-lives-in-flats/",
+      "observed_url": "https://especiales.eldiario.es/spain-lives-in-flats/",
+      "observed_title": "Spain lives in flats: why we have built our cities vertically",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 건물 높이 3D 지도와 스크롤 설명 전환을 확인; 상세도 건물 외곽선·높이 표현을 명시. 임의의 버블 지도·단계 구분도로 분류하지 않음. 조작: 스크롤로 도시 사례와 마지막 지도 탐색 진입점 확인 → 건물 3D·설명 전환과 Explore the height map of your city 링크 확인; 별도 지도 페이지는 미검토.",
+      "interaction": {
+        "actions": "스크롤로 도시 사례와 마지막 지도 탐색 진입점 확인",
+        "result": "건물 3D·설명 전환과 Explore the height map of your city 링크 확인; 별도 지도 페이지는 미검토",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "f4ebbac7cc254242b193518d224271cafc029675271bfc66313179c911de7f04",
+        "focus.png": "f885d27e4dd861243a7070d71eac0921aa582ebc569abbcdc2c3c0851c9c19ab",
+        "interaction.png": "4e6fdbcbd13d8a6d0478d2edb67b4f9854a3e518892efde883b0b44bed631f52"
+      }
+    },
+    {
+      "slug": "sternenhimmel-der-menschheit-2022",
+      "reviewed_at": "2026-11-12T05:50:52.318Z",
+      "detail_url": "https://vis.hwpark.net/gallery/sternenhimmel-der-menschheit-2022/",
+      "detail_sha256": "e846b53f1cb21351a0cc4f144a9cabe6aa7421603661594c68348a5d48af0640",
+      "requested_original_url": "https://sternenhimmel-der-menschheit.de/explore/",
+      "observed_url": "https://sternenhimmel-der-menschheit.de/explore/",
+      "observed_title": "Sternenhimmeltool | Sternenhimmel der Menschheit",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "click-to-select"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본에서 쿠키 거부 후 Tuareg 선택·Explore를 실행하자 해당 문화의 이야기와 별자리 탐색 안내가 열림. 일부 텍스처는 로딩 중이라 별자리 형상 전체·음성은 미검토. 조작: 쿠키 거부, 안내 다음, Tuareg 선택, Explore 클릭 → 문화별 선택 패널과 [emay] Tuareg 이야기·별자리 탐색 안내가 열림; 텍스처 일부 로딩 상태.",
+      "interaction": {
+        "actions": "쿠키 거부, 안내 다음, Tuareg 선택, Explore 클릭",
+        "result": "문화별 선택 패널과 [emay] Tuareg 이야기·별자리 탐색 안내가 열림; 텍스처 일부 로딩 상태",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "bcd1253ba489ab6d39fa4499a4d8b5678ebf11cf7e1de3fd328d5da644705621",
+        "focus.png": "bcd1253ba489ab6d39fa4499a4d8b5678ebf11cf7e1de3fd328d5da644705621",
+        "interaction.png": "9bd7696378d4b317cc123edfb87f1aa8b854456705bced8e3f40f315bed85653"
+      }
+    },
+    {
+      "slug": "the-shape-of-dreams-2022",
+      "reviewed_at": "2026-11-12T05:51:28.553Z",
+      "detail_url": "https://vis.hwpark.net/gallery/the-shape-of-dreams-2022/",
+      "detail_sha256": "9ffc295aaf4c473161867c8c8113a967e2094174453b3e4e019ed4a981b25261",
+      "requested_original_url": "https://the-shape-of-dreams.com/",
+      "observed_url": "https://the-shape-of-dreams.com/",
+      "observed_title": null,
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; the navigation to \"https://the-shape-of-dreams.com/\" had not committed and was stopped, so the Page still shows its previous document. Retry page.goto(url, { timeout }) with a longer timeout, or continue on a new Page from task.newPage().",
+        "Error: 원본 탐색 실패: 이전 문서는 검토 증거에서 제외"
+      ],
+      "original_status": "원본 접근 실패",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 브라우저 탐색이 커밋되지 않음; 상세의 꿈 관련 검색 질문과 Google Trends라는 소재 설명에는 기법 인코딩이 없어 비움.",
+      "interaction": null,
+      "screenshots": {}
+    },
+    {
+      "slug": "hong-kong-protests-first-100-days-2022",
+      "reviewed_at": "2026-11-12T05:51:28.553Z",
+      "detail_url": "https://vis.hwpark.net/gallery/hong-kong-protests-first-100-days-2022/",
+      "detail_sha256": "605def2a6c95e593636eff45b293b5a50c75d7976ca735b2839f5509e398882f",
+      "requested_original_url": "https://multimedia.scmp.com/infographics/news/hong-kong/article/3027462/hong-kong-100-days-of-protests/index.html?src=arcade",
+      "observed_url": "https://multimedia.scmp.com/infographics/news/hong-kong/article/3027462/hong-kong-100-days-of-protests/index.html?src=arcade",
+      "observed_title": "100 days of protests rock Hong Kong",
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; navigation committed at \"https://multimedia.scmp.com/infographics/news/hong-kong/article/3027462/hong-kong-100-days-of-protests/index.html?src=arcade\" with document.readyState=\"loading\". Continue on this Page; call page.waitForLoadState(\"domcontentloaded\") if that lifecycle state is still required."
+      ],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "timeline"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 제목과 June부터 이어지는 날짜·사건 설명을 확인; 상세가 시위 첫 100일을 일러스트 타임라인으로 명시. 정적 설명 그래픽이며 별도 데이터 조작은 없음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "adb928ca0b0d392244e8119f97024ed9823e5082e9658f019b169efc2c8cebe0",
+        "focus.png": "22880394da71b5ef403f758c20e30122a48bb4e3fb9dd590206c87dfa6a7905f"
+      }
+    },
+    {
+      "slug": "thunder-roads-2022",
+      "reviewed_at": "2026-11-12T05:51:28.553Z",
+      "detail_url": "https://vis.hwpark.net/gallery/thunder-roads-2022/",
+      "detail_sha256": "451523225a02835ff35d087f4cf0696c26c3656ae76ce756711ee6196447a87a",
+      "requested_original_url": "http://f1.obumbratta.com",
+      "observed_url": "http://f1.obumbratta.com",
+      "observed_title": null,
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded",
+        "Error: 원본 탐색 실패: 이전 문서는 검토 증거에서 제외"
+      ],
+      "original_status": "원본 접근 실패",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 탐색 시간 초과; 상세는 F1 인터랙티브 연작이라는 구성만 설명하고 차트 형태를 명시하지 않아 비움.",
+      "interaction": null,
+      "screenshots": {}
+    },
+    {
+      "slug": "spotify-and-the-decline-of-english-2022",
+      "reviewed_at": "2026-11-12T05:51:28.553Z",
+      "detail_url": "https://vis.hwpark.net/gallery/spotify-and-the-decline-of-english-2022/",
+      "detail_sha256": "341e5a98e6f73c5beab4e7ef17eb004ad814632a433d9884b71e89d4ca71b910",
+      "requested_original_url": "https://www.economist.com/interactive/graphic-detail/2022/01/29/what-spotify-data-show-about-the-decline-of-english",
+      "observed_url": "https://www.economist.com/interactive/graphic-detail/2022/01/29/what-spotify-data-show-about-the-decline-of-english",
+      "observed_title": null,
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded",
+        "Error: 원본 탐색 실패: 이전 문서는 검토 증거에서 제외"
+      ],
+      "original_status": "원본 접근 실패",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 탐색 시간 초과; 상세의 국가·언어별 탐색과 음악 청취 설명만으로 차트 형식 또는 조작 구현을 확정 못함.",
+      "interaction": null,
+      "screenshots": {}
+    },
+    {
+      "slug": "and-the-earth-shakes-2023",
+      "reviewed_at": "2026-11-12T05:51:39.392Z",
+      "detail_url": "https://vis.hwpark.net/gallery/and-the-earth-shakes-2023/",
+      "detail_sha256": "95bb53fa52049dc359df7198fa250f453d05049862ec50b8256e467daea1a886",
+      "requested_original_url": "https://atlo.team/wp-content/uploads/2023/02/foldrengesatlasz.html",
+      "observed_url": "https://atlo.team/wp-content/uploads/2023/02/foldrengesatlasz.html",
+      "observed_title": "És megremeg a föld",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 지구 표지와 지진 지도, 연대·규모·판 선택 요소를 확인; 상세는 지진 역사·유형이라는 내용 설명. 선택 요소의 데이터 변경 결과는 미검토. 조작: 1900-1909 필터 선택 시도 → 원본 select 요소의 영역이 0이라 입력을 받지 못함; 필터 동작 결과는 확인 못함.",
+      "interaction": {
+        "actions": "1900-1909 필터 선택 시도",
+        "result": "원본 select 요소의 영역이 0이라 입력을 받지 못함; 필터 동작 결과는 확인 못함",
+        "status": "제한"
+      },
+      "screenshots": {
+        "top.png": "0f5c24b57f4ebbf8b1ac7019c21d425d11fa24e7c6da569e7f737a87ae03ed3e",
+        "focus.png": "f16e874a786e7240fd24856bfceff00be9479f6c5ac7526df42c58d269e26d61"
+      }
+    },
+    {
+      "slug": "atlas-of-sustainable-development-goals-2023",
+      "reviewed_at": "2026-11-12T05:51:52.289Z",
+      "detail_url": "https://vis.hwpark.net/gallery/atlas-of-sustainable-development-goals-2023/",
+      "detail_sha256": "82b0e143edb50048851def5a01cbfffffe18c82b7ed2a9df3063f0ca7a07e3e8",
+      "requested_original_url": "https://datatopics.worldbank.org/sdgatlas/",
+      "observed_url": "https://datatopics.worldbank.org/sdgatlas/",
+      "observed_title": "Atlas of Sustainable Development Goals 2023",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "text-search-filter"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 국가 검색에 Korea를 입력해 두 결과로 좁힌 뒤 방향키와 Enter로 KOREA, DEM. PEOPLE’S REP. 선택 상태를 확인. 상세의 17개 목표별 인터랙티브 아틀라스 중 공통 국가 선택 기능만 태깅; 개별 17개 스토리 전체는 미검토. 조작: 국가 검색 Korea 입력 후 방향키·Enter로 항목 선택 → 검색 결과 두 항목 중 KOREA, DEM. PEOPLE’S REP. 선택 상태가 표시됨; 17개 스토리 전체는 미검토.",
+      "interaction": {
+        "actions": "국가 검색 Korea 입력 후 방향키·Enter로 항목 선택",
+        "result": "검색 결과 두 항목 중 KOREA, DEM. PEOPLE’S REP. 선택 상태가 표시됨; 17개 스토리 전체는 미검토",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "8e09e3f8275490c64bea9ba6be4c4aac9cf304bc53c2e3b11267fff212cdd98a",
+        "focus.png": "3db41cc57f1d7f0ebfcc2912bb26ee50ca3a047ff4e42304a7dc749f3018ca6d",
+        "interaction.png": "3461d99d8faa6e5c5edb21acf6641e320bbecbbe0fd2166a6b42140a6acd6c64"
+      }
+    },
+    {
+      "slug": "boreal-ablaze-2023",
+      "reviewed_at": "2026-11-12T05:51:39.411Z",
+      "detail_url": "https://vis.hwpark.net/gallery/boreal-ablaze-2023/",
+      "detail_sha256": "2caddfaf651d4d4f752b5ca6b6f61f745d530a67c723fd527162818fb86ac6af",
+      "requested_original_url": "https://www.reuters.com/graphics/CLIMATE-CHANGE/WILDFIRE-EMISSIONS/zjvqkrwmnvx/",
+      "observed_url": "https://www.reuters.com/graphics/CLIMATE-CHANGE/WILDFIRE-EMISSIONS/zjvqkrwmnvx/",
+      "observed_title": "Why Arctic fires are releasing more carbon than ever",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 도입과 지도 영역을 검토했으나 일부 시각 요소 로딩 미완료; 상세는 시간 추세만 설명하여 선·막대 형태까지 확정 못해 기존 두 태그 제거.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "9c9ec8089fe82c346f5cc1400aefd3a624053c184601292a3e8f1bc8c49afdbc",
+        "focus.png": "58e15d078b1bd041254ac7bf86ecf773065e7d3f9648511c8a58c7788143655d"
+      }
+    },
+    {
+      "slug": "britain-s-shadowy-border-2023",
+      "reviewed_at": "2026-11-12T05:51:39.395Z",
+      "detail_url": "https://vis.hwpark.net/gallery/britain-s-shadowy-border-2023/",
+      "detail_sha256": "9490f9d6c62e08f892749eeceefc9c7f6d8f038aa164b2b4e84dc333cc485c4e",
+      "requested_original_url": "https://www.cnn.com/interactive/2023/07/uk/migrant-crossings-ai-small-boats/",
+      "observed_url": "https://edition.cnn.com/interactive/2023/07/uk/migrant-crossings-ai-small-boats/",
+      "observed_title": "Migrant crossings: A new army of drones, watchtowers and AI scours the UK coastline for small boats. But it didn’t stop migrants from dying",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 보트 영상·스크롤 도입을 검토; 상세의 하나의 지도로 빈도·감시·개별 여정을 잇는 설명으로는 정확한 지도 부호화를 판단 못함.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "c870c2cd0c5da38f74477dec57f61082c724b63f1721820d52a1a4a2b2776480",
+        "focus.png": "6157a2c2fbeec529edda6f38ebec796076f8ea9429e2a08e38703be693ae66aa"
+      }
+    },
+    {
+      "slug": "die-stadtflucht-2023",
+      "reviewed_at": "2026-11-12T05:51:57.324Z",
+      "detail_url": "https://vis.hwpark.net/gallery/die-stadtflucht-2023/",
+      "detail_sha256": "bc13a61c583aafefadd3f19579784d5b0af4c9cf0672126a8584618420cee0c8",
+      "requested_original_url": "https://www.zeit.de/gesellschaft/2023-01/deutsche-grossstaedte-bevoelkerungsentwicklung-zuzuege-wegzuege",
+      "observed_url": "https://www.zeit.de/gesellschaft/2023-01/deutsche-grossstaedte-bevoelkerungsentwicklung-zuzuege-wegzuege",
+      "observed_title": "Deutsche Großstädte: Die Stadtflucht | DIE ZEIT",
+      "navigation_errors": [],
+      "original_status": "원본 대체·제한 화면",
+      "judgement": "근거 확인",
+      "techniques": [
+        "text-search-filter"
+      ],
+      "tag_basis": "상세",
+      "scope_and_basis": "원본은 쿠키·구독 선택 창이 덮고 있음; 상세가 고향 도시를 검색해 도시별 30년 변화를 찾는 기능을 구체적으로 명시하므로 상세 근거로만 유지. 유료 접근은 실행하지 않음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "8ff923ae5f44ff5a6c98651d106fadbb22ccb9e57cdf936f79f6bbebb37847f6",
+        "focus.png": "ad8bcb2e7db7e71294ae77a42fe5c27550d13b9d7e5a14cde3fc12ddabb42458"
+      }
+    },
+    {
+      "slug": "fentanyl-is-fast-cheap-and-deadly-2023",
+      "reviewed_at": "2026-11-12T05:52:09.676Z",
+      "detail_url": "https://vis.hwpark.net/gallery/fentanyl-is-fast-cheap-and-deadly-2023/",
+      "detail_sha256": "ce400f16fd3dcfeaf48ec22614abd602b1e7271a58a33d8181ad3fefc4119bef",
+      "requested_original_url": "https://www.reuters.com/graphics/MEXICO-DRUGS/FENTANYL/dwvkadblovm/",
+      "observed_url": "https://www.reuters.com/graphics/MEXICO-DRUGS/FENTANYL/dwvkadblovm/",
+      "observed_title": "Fentanyl is fast, cheap and deadly",
+      "navigation_errors": [],
+      "original_status": "원본 렌더링 실패",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 도입의 큰 캔버스가 비어 있고 후속 차트가 검토 범위에서 렌더링되지 않음; 상세는 압수 데이터와 차트의 결합만 설명하여 막대 형식 근거 부족으로 기존 태그 제거.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "fc13c4925fec8aff89c593d5620f0495365ae7352227e5705764a2982be79201",
+        "focus.png": "e6a605920d2400436548009003d626c39ec54d7bcccead29ba81570b6fd4f8bd"
+      }
+    },
+    {
+      "slug": "pele-s-greatest-achievements-2023",
+      "reviewed_at": "2026-11-12T05:51:57.504Z",
+      "detail_url": "https://vis.hwpark.net/gallery/pele-s-greatest-achievements-2023/",
+      "detail_sha256": "057b592a8de473448b73de518201ae6ae1ea72255d15fa1fd27fbbcee1c1fde7",
+      "requested_original_url": "https://multimedia.scmp.com/infographics/sport/article/3208740/pele/index.html",
+      "observed_url": "https://multimedia.scmp.com/infographics/sport/article/3208740/pele/index.html",
+      "observed_title": "Why Pele was so great: Brazilian football legend’s goals, greatest achievements and most famous moments visually explained",
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; navigation committed at \"https://multimedia.scmp.com/infographics/sport/article/3208740/pele/index.html\" with document.readyState=\"loading\". Continue on this Page; call page.waitForLoadState(\"domcontentloaded\") if that lifecycle state is still required."
+      ],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "timeline"
+      ],
+      "tag_basis": "상세",
+      "scope_and_basis": "원본 표지와 펠레 동작 일러스트를 검토; 상세가 펠레·마라도나·메시의 생애 성취를 시간선으로 비교한다고 명시하므로 상세 기반으로 태깅.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "05dcdc3df5b9341aa665c63d32e43f30ba6e539c2cdf983f1597a2b4a232f83a",
+        "focus.png": "58e72fa6bec4ae217d7f6bad9f2b8c0a27b706e5b9434f4e2c3563f97e4528ea"
+      }
+    },
+    {
+      "slug": "how-do-we-compare-2023",
+      "reviewed_at": "2026-11-12T05:51:57.421Z",
+      "detail_url": "https://vis.hwpark.net/gallery/how-do-we-compare-2023/",
+      "detail_sha256": "9b319641e5a82d651c6195d98420c1fe10ae10c8cf046d3e0e81b23434124540",
+      "requested_original_url": "https://lindseypoulter.com/wdvp/",
+      "observed_url": "https://lindseypoulter.com/wdvp/",
+      "observed_title": "Dashboard of the Present Future",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "text-search-filter",
+        "tooltip"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 국가 메뉴에서 Korea 검색으로 두 결과만 남고 Korea (Rep.) 선택 후 비교 대상과 지표가 갱신됨을 확인. tooltip은 상세의 명시적 기능 설명이 근거이며 호버 시도에서 실제 툴팁까지는 확인 못함. 조작: 국가 선택 메뉴 열기, Korea 검색, Korea (Rep.) 선택, 지표 점 호버 시도 → 검색 결과가 두 Korea 항목으로 좁혀지고 선택 후 31→26개 지표·46% 요약으로 갱신; 호버 툴팁은 이 시도에서 미확인.",
+      "interaction": {
+        "actions": "국가 선택 메뉴 열기, Korea 검색, Korea (Rep.) 선택, 지표 점 호버 시도",
+        "result": "검색 결과가 두 Korea 항목으로 좁혀지고 선택 후 31→26개 지표·46% 요약으로 갱신; 호버 툴팁은 이 시도에서 미확인",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "6f831ea992fca575fa9660efdd256bbf89b78e7cc4951db3c424549523e5ade4",
+        "focus.png": "74f07d7c4ba22d49ce661f1445ed8f14b4d0fe92336c5be82a27830be2d8671a",
+        "interaction.png": "583b0543bbbe8deccd82d8ddaf821bef9a573ea1e3907bf59b73a185f7c896f4"
+      }
+    },
+    {
+      "slug": "jesus-christ-superstar-2023",
+      "reviewed_at": "2026-11-12T05:52:14.188Z",
+      "detail_url": "https://vis.hwpark.net/gallery/jesus-christ-superstar-2023/",
+      "detail_sha256": "41ef8eae6e94687421f34cf70ceef67662441a76b01a57131c021b2c3bb2e4ae",
+      "requested_original_url": "http://designing.numbers.tilda.ws/jesus_christ_superstar_en",
+      "observed_url": "chrome-error://chromewebdata/",
+      "observed_title": "",
+      "navigation_errors": [
+        "Error: page.goto failed: net::ERR_BLOCKED_BY_CLIENT"
+      ],
+      "original_status": "원본 접근 실패",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 ERR_BLOCKED_BY_CLIENT로 로드 실패; 상세는 록 오페라의 데이터 포스터라고만 하여 형태를 특정 못함.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "ca9e6b4bffbcea9ad52dfc78b1daa08fcaf4161d575d42d31a7898bae163930e",
+        "focus.png": "ca9e6b4bffbcea9ad52dfc78b1daa08fcaf4161d575d42d31a7898bae163930e"
+      }
+    },
+    {
+      "slug": "journey-into-sleep-2023",
+      "reviewed_at": "2026-11-12T05:52:26.095Z",
+      "detail_url": "https://vis.hwpark.net/gallery/journey-into-sleep-2023/",
+      "detail_sha256": "1b5d3fbd5298e67a4cc1da59a1a2a72d9829dea9ec1c39faa705e17c16c7e38b",
+      "requested_original_url": "https://www.reuters.com/graphics/HEALTH-SLEEP/mopakyjmnpa/",
+      "observed_url": "https://www.reuters.com/graphics/HEALTH-SLEEP/mopakyjmnpa/",
+      "observed_title": "Why fighting the urge to sleep may be bad for our health",
+      "navigation_errors": [],
+      "original_status": "원본 렌더링 실패",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 제목·본문은 응답하지만 시각물은 Loading 화면에 머묾; 상세는 수면 과학·인포그래픽을 설명할 뿐 특정 기법의 축·단위를 확정 못함.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "9e3460611582179f0c2dba45772d52c781c8bd340c8f010eb5a88647c275d5de",
+        "focus.png": "a812d51df2c396b0f4341b6a9782cc0282e7d21731e96d71d921a4ebfe8d1ef9"
+      }
+    },
+    {
+      "slug": "la-guerra-dei-chip-2023",
+      "reviewed_at": "2026-11-12T05:52:14.414Z",
+      "detail_url": "https://vis.hwpark.net/gallery/la-guerra-dei-chip-2023/",
+      "detail_sha256": "cabf37749670e7a8287a6b86a9c353c34d235262285d54c8545a2e0b7d4c7c89",
+      "requested_original_url": "https://lab24.ilsole24ore.com/semiconduttori-chip-centro-industria-mondiale/",
+      "observed_url": "https://lab24.ilsole24ore.com/semiconduttori-chip-centro-industria-mondiale/",
+      "observed_title": "Semiconduttori e chip, l'industria mondiale che impatta la geopolitica | Il Sole 24 Ore",
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; navigation committed at \"https://lab24.ilsole24ore.com/semiconduttori-chip-centro-industria-mondiale/\" with document.readyState=\"loading\". Continue on this Page; call page.waitForLoadState(\"domcontentloaded\") if that lifecycle state is still required."
+      ],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 반도체 표지 애니메이션과 기사 틀을 검토; 상세의 판매 분포·무어의 법칙·시장 점유율은 여러 데이터 주제라 실제 차트 형태를 특정할 수 없어 비움.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "f0d0f0be9bf1a646e87308d879b7bda40d011ffc09925584af7570469216488a",
+        "focus.png": "7bad11651f18ba16640142dbfb77175846f3b03ce1e1cd0eb9e3f7e234912f74"
+      }
+    },
+    {
+      "slug": "lebron-james-scoring-title-2023",
+      "reviewed_at": "2026-11-12T05:52:14.319Z",
+      "detail_url": "https://vis.hwpark.net/gallery/lebron-james-scoring-title-2023/",
+      "detail_sha256": "7a8f88bc0a95417700a5c1053041450abbd673a0484f176a0be5373c47b547ac",
+      "requested_original_url": "https://www.usatoday.com/in-depth/graphics/2023/02/08/lebron-james-career/11018976002/",
+      "observed_url": "https://subscribe.usatoday.com/restricted?slug=restricted",
+      "observed_title": "USA TODAY Subscription Offers, Specials, and Discounts",
+      "navigation_errors": [],
+      "original_status": "원본 대체·제한 화면",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본이 구독 상품 선택 페이지로 이동해 작품 접근 불가; 상세의 개별 슛 기록 설명만으로 슛 위치도인지 다른 인코딩인지 확정 못함.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "3cf68152344536a8cf6ccdeae175f2216b5ed33207b8dcae12e049ceb42d4ba4",
+        "focus.png": "ef83888a881d5a2571c8653daeccd29fcaae7464c989099d5947a111b19bd246"
+      }
+    },
+    {
+      "slug": "modern-art-movements-2023",
+      "reviewed_at": "2026-11-12T05:52:30.113Z",
+      "detail_url": "https://vis.hwpark.net/gallery/modern-art-movements-2023/",
+      "detail_sha256": "eaeed0755d39aa48eaca79a7fb548a453ba03f5cc57d363441bceb556ca56991",
+      "requested_original_url": "https://art-movements.stefanpullen.com/",
+      "observed_url": "https://art-movements.stefanpullen.com/",
+      "observed_title": "",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "timeline"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 Start의 SVG 경로를 클릭하자 1867–1975 연도 눈금과 미술 사조별 시점이 표시됨. 상세의 인터랙티브 타임라인 설명과 부합. 모든 사조 클릭·애니메이션은 미검토. 조작: Start 선택, SVG path #start-button 클릭 → 1867–1975 눈금과 미술 사조 목록이 나타남; 애니메이션 전환 전체는 미검토.",
+      "interaction": {
+        "actions": "Start 선택, SVG path #start-button 클릭",
+        "result": "1867–1975 눈금과 미술 사조 목록이 나타남; 애니메이션 전환 전체는 미검토",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "e3047bc9c5a7e795940dee36dfd679917dcebb03ce5655b62fc4de7b32b7c5bb",
+        "focus.png": "e3047bc9c5a7e795940dee36dfd679917dcebb03ce5655b62fc4de7b32b7c5bb",
+        "interaction.png": "9532e64da7a8ab3a351d14c93da8f968bf981c378ffa7907d6010ca62cc52107"
+      }
+    },
+    {
+      "slug": "my-digital-double-and-me-2023",
+      "reviewed_at": "2026-11-12T05:52:40.790Z",
+      "detail_url": "https://vis.hwpark.net/gallery/my-digital-double-and-me-2023/",
+      "detail_sha256": "7c1fcdf0b0206a0e6e8c8d5d9a45df1369e8b40c22edb9964721cd106eb62c4d",
+      "requested_original_url": "https://www.instagram.com/laramacrini/",
+      "observed_url": "https://www.instagram.com/laramacrini/",
+      "observed_title": "Lara Macrini(@laramacrini) • Instagram 사진 및 동영상",
+      "navigation_errors": [],
+      "original_status": "원본 대체·제한 화면",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본은 작가 Instagram 프로필로 이동해 해당 데이터 초상이 보이지 않음; 상세의 추론 빈도를 생성 이미지 비중으로 합친 방식은 특정 카탈로그 차트와 대응 불명확.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "c707dc643284f21c6f46c00b912af3e38e0f6d5268eec7d8904b52ad856640a7",
+        "focus.png": "50179a3dc95826e24a30d1d2ddfd3348af6e19cd1adfe6047fb756a5e62b2dbb"
+      }
+    },
+    {
+      "slug": "north-korea-s-missiles-2023",
+      "reviewed_at": "2026-11-12T05:52:30.404Z",
+      "detail_url": "https://vis.hwpark.net/gallery/north-korea-s-missiles-2023/",
+      "detail_sha256": "4a5376a2882a78009815d3a53aa5458bc5a3d213e430fa902425da50d0253b6a",
+      "requested_original_url": "https://www.reuters.com/graphics/NORTHKOREA-MISSILES/TESTING/byvrllmjmve/",
+      "observed_url": "https://www.reuters.com/graphics/NORTHKOREA-MISSILES/TESTING/byvrllmjmve/",
+      "observed_title": "Why North Korea’s missile tests are going higher and further",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 미사일 기사 도입·배경지도와 본문을 검토; 상세는 비행 원리·발사 이력을 설명하지만 기록을 표현한 차트 형태는 특정 못함.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "6a3eb34dd9fb66aaf1e899b9c07a2ca2fdf3d3fc37c7bab18e16cfba308b0d69",
+        "focus.png": "6a3eb34dd9fb66aaf1e899b9c07a2ca2fdf3d3fc37c7bab18e16cfba308b0d69"
+      }
+    },
+    {
+      "slug": "on-upward-mobility-2023",
+      "reviewed_at": "2026-11-12T05:52:30.190Z",
+      "detail_url": "https://vis.hwpark.net/gallery/on-upward-mobility-2023/",
+      "detail_sha256": "c4dfc3ee6137a99d182da66f217f74c2fb149df4eb7dc781ab6b5032cbd0b192",
+      "requested_original_url": "https://pudding.cool/2022/11/upward-mobility/",
+      "observed_url": "https://pudding.cool/2022/11/upward-mobility/",
+      "observed_title": "On Upward Mobility - The Pudding",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 가족 이동 서사의 도입과 미국 윤곽선을 검토; 상세의 Du Bois 디자인 참조는 기법 자체가 아니며 관찰 범위에 이동량을 인코딩한 흐름선 근거가 없어 비움.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "691bad23e564a576794cbe29b6c1b854f43f4fc8287dd7de4958d961ba36ded6",
+        "focus.png": "2a606a9b9799a4777480853c614596e66abb6d24ffc03783b5a33f04632ab1b3"
+      }
+    },
+    {
+      "slug": "ripple-effect-2023",
+      "reviewed_at": "2026-11-12T05:52:52.318Z",
+      "detail_url": "https://vis.hwpark.net/gallery/ripple-effect-2023/",
+      "detail_sha256": "7bcfe55696d4fa6a7d780e09e0ffe8d4c79efde8438c81c1e618f4a93403cac1",
+      "requested_original_url": "https://www.dorseykaufmann.com/rippleeffect",
+      "observed_url": "https://www.dorseykaufmann.com/rippleeffect",
+      "observed_title": "Ripple Effect — Dorsey Bromwell Kaufmann",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 설치 설명과 수면 진동 사진을 확인; 상세는 오염 농도를 진동·빛·소리로 바꾸는 물리화. 차트 카탈로그에 없는 감각 인코딩을 임의 형태로 태깅하지 않음. 현장 설치는 미검토.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "24b8d3d95a505d3fca82de4918d248bb2ff9b0c4f5069e36cc3116dcdc49767c",
+        "focus.png": "c325d8a9cd9f27fd71bf768f0b9e02c888e9ca32ab062c4ae91057ef97d7c620"
+      }
+    },
+    {
+      "slug": "say-cheese-with-your-chart-2023",
+      "reviewed_at": "2026-11-12T05:52:52.318Z",
+      "detail_url": "https://vis.hwpark.net/gallery/say-cheese-with-your-chart-2023/",
+      "detail_sha256": "a75a64fa01d69723ce7ac127c65b9f0b265698b0277dde294867fe55c6139223",
+      "requested_original_url": "https://webbzhou.cargo.site/Say-Cheese-with-your-Chart",
+      "observed_url": "https://webbzhou.cargo.site/Say-Cheese-with-your-Chart",
+      "observed_title": "Webb",
+      "navigation_errors": [],
+      "original_status": "원본 대체·제한 화면",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 This site is private 화면으로 작품 접근 불가; 상세는 74개 차트를 정리한 책의 물성을 설명하므로 책 전체에 하나의 태그를 붙일 수 없음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "290b2e60421b9d702433f7ed457d4e6b798ff7d2c690dcbdaa3848513577d7e1",
+        "focus.png": "2b3466d9631b8d1c75117683b19da21f7fb1ec4703405cfc5f2fb9ac645a4131"
+      }
+    },
+    {
+      "slug": "screens-of-august-2023",
+      "reviewed_at": "2026-11-12T05:52:52.318Z",
+      "detail_url": "https://vis.hwpark.net/gallery/screens-of-august-2023/",
+      "detail_sha256": "4c1550bb77b12f027a25a31d84ec32564a48902e3b34d49f7bce7a302d92752c",
+      "requested_original_url": "https://karthikeyags.myportfolio.com/screens-of-august-tangible-dataviz",
+      "observed_url": "https://portfolio.adobe.com/missing",
+      "observed_title": "Adobe Portfolio | 나만의 개인 맞춤화된 웹 사이트 제작",
+      "navigation_errors": [],
+      "original_status": "원본 대체·제한 화면",
+      "judgement": "근거 확인",
+      "techniques": [
+        "stacked-bar-chart"
+      ],
+      "tag_basis": "상세",
+      "scope_and_basis": "원본 Adobe Portfolio가 페이지 없음 화면을 반환; 상세가 일별 아크릴 카드에 앱 9범주의 사용 시간을 누적 막대로 표현한다고 명시하므로 상세 기반 태그를 유지.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "686ba6aafd61af352740c851dbb906fce02c7ee8fb6fec678f3ffc47dbb0e81e",
+        "focus.png": "686ba6aafd61af352740c851dbb906fce02c7ee8fb6fec678f3ffc47dbb0e81e"
+      }
+    },
+    {
+      "slug": "shades-of-darkness-2023",
+      "reviewed_at": "2026-11-12T05:52:52.318Z",
+      "detail_url": "https://vis.hwpark.net/gallery/shades-of-darkness-2023/",
+      "detail_sha256": "e25cda860b81cfdacab4983a0faea539f0fb0d4e142ed0f87c0dc5e82c5ea8b2",
+      "requested_original_url": "https://texty.org.ua/articles/108745/vidtinky-temryavy-yak-vidklyuchaly-elektroenerhiyu-v-kyyevi-ta-lvovi-infohrafika/",
+      "observed_url": "https://texty.org.ua/articles/108745/vidtinky-temryavy-yak-vidklyuchaly-elektroenerhiyu-v-kyyevi-ta-lvovi-infohrafika/",
+      "observed_title": "Відтінки темряви. Як відключали електроенергію в Києві та Львові — Тексти.org.ua",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "heatmap"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 정전 기록 도판에서 시간 격자의 명도 변화와 범례를 확인; 색·명도가 정전 지속 패턴을 인코딩하는 행렬형 표현. 정적 인포그래픽이며 별도 조작 없음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "2a07e204001ca56d3089fd7ae7244d06cc98f84fc07ed07aa3f4687c6824deff",
+        "focus.png": "c15195da55417bb414a7434afe6f96fea0f36a3180ebb042cea5c85278bbfc3f"
+      }
+    },
+    {
+      "slug": "the-sounds-of-cdmx-2023",
+      "reviewed_at": "2026-11-12T05:53:04.076Z",
+      "detail_url": "https://vis.hwpark.net/gallery/the-sounds-of-cdmx-2023/",
+      "detail_sha256": "a2b1de6745d1688d81e00273f0b8c919d34844422beb4f3cefe0c2d7f30ab9a1",
+      "requested_original_url": "https://pudding.cool/2022/09/cdmx/",
+      "observed_url": "https://pudding.cool/2022/09/cdmx/",
+      "observed_title": "The Sounds of CDMX",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 Start audio story 선택 후 스크롤로 소개에서 노점상 소리와 일러스트 본문으로 전환됨을 확인. 전체 오디오 청취는 미검토; 상세의 오디오 서사만으로 특정 데이터 차트를 정할 수 없어 비움. 조작: Start audio story 선택 후 스크롤 → 소개에서 The Sounds of CDMX 본문·장면으로 전환; 소리 내용 전체 청취는 미검토.",
+      "interaction": {
+        "actions": "Start audio story 선택 후 스크롤",
+        "result": "소개에서 The Sounds of CDMX 본문·장면으로 전환; 소리 내용 전체 청취는 미검토",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "a2e2593f7a9d379ff1ca998945efcc1892b65894f4cb017968b7a00c38ac951a",
+        "focus.png": "a2e2593f7a9d379ff1ca998945efcc1892b65894f4cb017968b7a00c38ac951a",
+        "interaction.png": "59f9302be42cd43665bb08b3c388d95f265e2e7da3987276c2c8517541cf615b"
+      }
+    },
+    {
+      "slug": "the-collapse-of-insects-2023",
+      "reviewed_at": "2026-11-12T05:53:03.898Z",
+      "detail_url": "https://vis.hwpark.net/gallery/the-collapse-of-insects-2023/",
+      "detail_sha256": "2d12a7ea82eb95f26028f2e11446bb62f90ac0e9ef5ca23b496fcf63f5446f52",
+      "requested_original_url": "https://www.reuters.com/graphics/GLOBAL-ENVIRONMENT/INSECT-APOCALYPSE/egpbykdxjvq/",
+      "observed_url": "https://www.reuters.com/graphics/GLOBAL-ENVIRONMENT/INSECT-APOCALYPSE/egpbykdxjvq/",
+      "observed_title": "The collapse of insects",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 곤충 일러스트와 본문 초반을 검토; 상세는 생명의 나무를 설명하지만 실제 노드·계층 표현이 검토 화면에 나타나지 않아 임의의 트리 태그는 비움.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "2ef625fbfddf30e6287ce168fd0a5a208b60f43a77490f5ef621eeac5e87cd47",
+        "focus.png": "6d75b5a9aee4ef74fc4ed68193697426f2c05acf930968de1f2e9dc65c37898b"
+      }
+    },
+    {
+      "slug": "traditional-chinese-color-libraries-2023",
+      "reviewed_at": "2026-11-12T05:53:03.853Z",
+      "detail_url": "https://vis.hwpark.net/gallery/traditional-chinese-color-libraries-2023/",
+      "detail_sha256": "5bd7046d2027d014339c3b61145009becbae3447556d9711815505fbc8b31013",
+      "requested_original_url": "http://www.buyingfang.com/chinesecolor",
+      "observed_url": "chrome-error://chromewebdata/",
+      "observed_title": "www.buyingfang.com",
+      "navigation_errors": [
+        "Error: page.goto failed: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "original_status": "원본 접근 실패",
+      "judgement": "근거 확인",
+      "techniques": [
+        "click-to-select"
+      ],
+      "tag_basis": "상세",
+      "scope_and_basis": "원본 DNS_PROBE_FINISHED_NXDOMAIN으로 로드 실패; 상세가 물고기를 클릭해 색상 값을 선택한다고 구체적으로 명시하므로 클릭 선택만 상세 근거로 태깅. 복사 기능은 카탈로그 태그로 만들지 않음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "8db0e7929f4602f0697b162a04c541831759b392d0a9ef19015f831f2551d472",
+        "focus.png": "8db0e7929f4602f0697b162a04c541831759b392d0a9ef19015f831f2551d472"
+      }
+    },
+    {
+      "slug": "turkey-s-toxic-dust-2023",
+      "reviewed_at": "2026-11-12T05:53:03.694Z",
+      "detail_url": "https://vis.hwpark.net/gallery/turkey-s-toxic-dust-2023/",
+      "detail_sha256": "77c7bf0916d42e84d6032f7dc3999e42efee4f0b9338e19bd3330da682d47874",
+      "requested_original_url": "https://www.reuters.com/graphics/TURKEY-QUAKE/TOXINS/znvnbmyrzvl/",
+      "observed_url": "https://www.reuters.com/graphics/TURKEY-QUAKE/TOXINS/znvnbmyrzvl/",
+      "observed_title": "The toxic dust from Turkey’s earthquakes",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 먼지 관련 기사 표지·스크롤 도입을 검토; 상세는 유해물질과 잔해 처리의 보도 주제만 설명하여 형태를 특정 못함.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "8ae6b1285536488ca11ba1de107ab260808a036e330213381eabf3a4eb4b1881",
+        "focus.png": "0dea934b3b945c913817101d3a2e6d9491a809f30ecb4567ff5b5cb8c7cda2ad"
+      }
+    },
+    {
+      "slug": "climate-conscious-india-2024",
+      "reviewed_at": "2026-11-12T05:53:16.567Z",
+      "detail_url": "https://vis.hwpark.net/gallery/climate-conscious-india-2024/",
+      "detail_sha256": "44c7674535a81bbfcbaeb38216faf3f9e0b0b8b0d2292ecb4bf0fd20d652139a",
+      "requested_original_url": "https://designlab.godrejenterprises.com/research/2024/building-climate-conscious-india/Building_Climate_Conscious_India_December2024.pdf",
+      "observed_url": "https://designlab.godrejenterprises.com/research/2024/building-climate-conscious-india/Building_Climate_Conscious_India_December2024.pdf",
+      "observed_title": "",
+      "navigation_errors": [],
+      "original_status": "원본 대체·제한 화면",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 PAGE NOT FOUND 화면; 상세의 100쪽·50여 차트라는 규모 설명으로는 개별 차트 기법을 판단할 수 없음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "2b2a7740d7032c694ed762d760f4c9d260170d6441a5d83f77b64808ccb008d3",
+        "focus.png": "2b2a7740d7032c694ed762d760f4c9d260170d6441a5d83f77b64808ccb008d3"
+      }
+    },
+    {
+      "slug": "a-torrent-of-trash-2024",
+      "reviewed_at": "2026-11-12T05:53:16.475Z",
+      "detail_url": "https://vis.hwpark.net/gallery/a-torrent-of-trash-2024/",
+      "detail_sha256": "e589c0e6f6039f40567584b6d806a310a1497cb89659c9cb655457c0c4360b01",
+      "requested_original_url": "https://www.reuters.com/graphics/NORTHKOREA-SOUTHKOREA/TRASH/klvynygmjpg/",
+      "observed_url": "https://www.reuters.com/graphics/NORTHKOREA-SOUTHKOREA/TRASH/klvynygmjpg/",
+      "observed_title": "North Korea’s trash balloons explained",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 스크롤에 따라 다수 풍선이 화면에 나타나는 3D 도입을 확인; 상세는 풍선 개수·이동 거리를 다룬다고 하지만 각 풍선의 고정 수량 대응이 확인되지 않아 unit-chart로 단정하지 않음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "4091b2e5413b998905cbd8872bd311d14de57e8e37ae168d32343cf25d906980",
+        "focus.png": "ca6c72c2c9283de72c0139eb88123bb4f12e8765d994fc8e79136f58d9c17fa1"
+      }
+    },
+    {
+      "slug": "beyond-crisis-lives-saved-2024",
+      "reviewed_at": "2026-11-12T05:53:16.318Z",
+      "detail_url": "https://vis.hwpark.net/gallery/beyond-crisis-lives-saved-2024/",
+      "detail_sha256": "f9424fc561d8186b9f51a1940521fa28c50d37615f896b0de39507d8cc9a8483",
+      "requested_original_url": "https://www.beyondtheopioidcrisis.com/",
+      "observed_url": "https://www.beyondtheopioidcrisis.com/",
+      "observed_title": "Beyond Crisis: Lives Saved | Strategies for hope amidst the opioid and fentanyl crises",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "bar-chart",
+        "tooltip"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 연도별 사망자 기호 막대와 Where is the data from? 호버 시 CDC·FDA·NIH 출처·See all sources 링크가 나타나는 부유 패널을 확인. 상세의 출처 툴팁 설명과 부합. 조작: Where is the data from? 호버 → CDC·FDA·NIH 출처 안내와 See all sources 링크가 부유 패널로 나타남.",
+      "interaction": {
+        "actions": "Where is the data from? 호버",
+        "result": "CDC·FDA·NIH 출처 안내와 See all sources 링크가 부유 패널로 나타남",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "7acb4fe2bad96b38f5cb7034e8176f57cc74a14be7a6d54a1c1197f52ca187ec",
+        "focus.png": "20b3cbfbd15219e808864298bc808c11fd8389c70bb5f7cb28353e3da942ceef",
+        "interaction.png": "cb98e9ab5c3c73f629a4d34654402519e2e4757a31c25b5ea9c55967bc410aa0"
+      }
+    },
+    {
+      "slug": "beyond-the-score-wynton-marsalis-2024",
+      "reviewed_at": "2026-11-12T05:53:16.245Z",
+      "detail_url": "https://vis.hwpark.net/gallery/beyond-the-score-wynton-marsalis-2024/",
+      "detail_sha256": "ca21c078558d600bb5a08376b721e23570dd13c5a2d9f373061ad9ae5ad5e96c",
+      "requested_original_url": "https://www.behance.net/gallery/213780701/Beyond-the-Score",
+      "observed_url": "https://www.behance.net/gallery/213780701/Beyond-the-Score",
+      "observed_title": "Beyond the Score :: Behance",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "timeline"
+      ],
+      "tag_basis": "상세",
+      "scope_and_basis": "원본 책 도판 일부와 표지·설명을 검토; 상세가 음반 활동을 시간선으로 배치한다고 명시하므로 상세 기반 태그를 추가. 세계 투어 지도는 세부 부호화 미확인.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "efd05257e6ab4944b5d9278f61fede24ff758112b28987e73af2eca072608818",
+        "focus.png": "66e5ae3967c7faa140e9866bbcc8bf9023f2375746441009f40c12d9fe69d896"
+      }
+    },
+    {
+      "slug": "born-to-be-wild-an-investigation-into-australian-magpie-2024",
+      "reviewed_at": "2026-11-12T05:53:29.620Z",
+      "detail_url": "https://vis.hwpark.net/gallery/born-to-be-wild-an-investigation-into-australian-magpie-2024/",
+      "detail_sha256": "1921b540994ed3da005d1957418211d0ab8a78cc8557606220e3bcda01f7c47e",
+      "requested_original_url": "https://themagpiekid.carrd.co",
+      "observed_url": "https://themagpiekid.carrd.co",
+      "observed_title": null,
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; the navigation to \"https://themagpiekid.carrd.co\" had not committed and was stopped, so the Page still shows its previous document. Retry page.goto(url, { timeout }) with a longer timeout, or continue on a new Page from task.newPage().",
+        "Error: 원본 탐색 실패: 이전 문서는 검토 증거에서 제외"
+      ],
+      "original_status": "원본 접근 실패",
+      "judgement": "근거 확인",
+      "techniques": [
+        "unit-chart"
+      ],
+      "tag_basis": "상세",
+      "scope_and_basis": "원본 탐색 시간 초과; 상세가 레고 점 하나를 1퍼센트로 정의한 6개 3D 차트를 설명하여 고정 단위 대응 근거로 태깅. 실물과 원본 조작은 미확인.",
+      "interaction": null,
+      "screenshots": {}
+    },
+    {
+      "slug": "buildings-wrapped-in-solid-gasoline-2024",
+      "reviewed_at": "2026-11-12T05:53:29.570Z",
+      "detail_url": "https://vis.hwpark.net/gallery/buildings-wrapped-in-solid-gasoline-2024/",
+      "detail_sha256": "a6c81f1275597b78486f245b5a7d7a678b365b11625771984001cd8fff54f55f",
+      "requested_original_url": "https://www.reuters.com/graphics/BUILDING-FIRES/byprqyryzve/",
+      "observed_url": "https://www.reuters.com/graphics/BUILDING-FIRES/byprqyryzve/",
+      "observed_title": "Years after Grenfell Tower tragedy, buildings still wrapped in “solid gasoline”",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 화재 영상과 시간별 설명 도입을 검토; 상세는 외장재 단면과 화재 작동 원리의 설명형 그래픽이므로 수치 차트로 강제 분류하지 않음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "066d5b61330056c6e5444dee5807fcb06604876eb7d3555f1fbe5e50b68edb2a",
+        "focus.png": "dfc277d6a559deb09179fbb36566ad51700bbd9d27877c3d0e7d15a2d7257d63"
+      }
+    },
+    {
+      "slug": "databeads-2024",
+      "reviewed_at": "2026-11-12T05:53:29.359Z",
+      "detail_url": "https://vis.hwpark.net/gallery/databeads-2024/",
+      "detail_sha256": "fd6701a198c372ec57e40ddc163ab54ae3e46ffcfb4d2f8e37f49834a8023db0",
+      "requested_original_url": "https://databeads.eu",
+      "observed_url": "https://databeads.eu/",
+      "observed_title": "Data Beads",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 팔찌 프로젝트 소개와 제작자 설명을 검토; 상세도 수공예 팔찌라는 매체만 설명하며 구슬별 변수·단위의 명확한 대응을 확인 못해 비움.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "17d8d7925863ffc5358457185d0c17720c825fa22a2bdbda6b0b2c2dd1b7601b",
+        "focus.png": "2438cfe6b25212081c49f0c75ad5fed6cd41a54c425febde6972875f85b7d765"
+      }
+    },
+    {
+      "slug": "games-of-two-eras-2024",
+      "reviewed_at": "2026-11-12T05:53:29.191Z",
+      "detail_url": "https://vis.hwpark.net/gallery/games-of-two-eras-2024/",
+      "detail_sha256": "b2ba2890fc76a58a5dc821db0ec14d5b8746e9a5a0176a510b87a66fa56061e7",
+      "requested_original_url": "https://multimedia.scmp.com/infographics/sport/article/3270445/olympics-games-2024/",
+      "observed_url": "https://multimedia.scmp.com/infographics/sport/article/3270445/olympics-games-2024/",
+      "observed_title": "Paris Olympics a century on: history of the Games told through infographics",
+      "navigation_errors": [],
+      "original_status": "원본 대체·제한 화면",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 range 입력에 End 키를 보내 비교 구간을 열었으나 구독 모달이 가리고 Close도 포인터 가로채기로 실패. 상세의 시대별 기록·색·질감만으로 차트 형태를 특정 못해 비움. 조작: 첫 비교 슬라이더에 End, 구독 모달 Close 시도 → 구독 모달이 내용을 가렸고 Close 동작도 모달의 포인터 가로채기로 실패; 비교 결과는 미확인.",
+      "interaction": {
+        "actions": "첫 비교 슬라이더에 End, 구독 모달 Close 시도",
+        "result": "구독 모달이 내용을 가렸고 Close 동작도 모달의 포인터 가로채기로 실패; 비교 결과는 미확인",
+        "status": "제한"
+      },
+      "screenshots": {
+        "top.png": "d3340df6c2585afeacc6df749f4c9f47b12fa5ec5ab6a4c9a802725f9f76e33b",
+        "focus.png": "dbd35632349e6be1f2a4572a498878ffa92c363281ea5ef6484875358902836a",
+        "interaction.png": "4fcb72b3a0076e36aa94d45a650dc413680d586a7de638bb0caa68b1471c57c9"
+      }
+    },
+    {
+      "slug": "hello-from-the-data-vandals-2024",
+      "reviewed_at": "2026-11-12T05:53:40.402Z",
+      "detail_url": "https://vis.hwpark.net/gallery/hello-from-the-data-vandals-2024/",
+      "detail_sha256": "9404f31af7f559073fba4d0266d93b5e34ec780e306a0fc55ee119ce31d5d864",
+      "requested_original_url": "https://datavandals.com/hello-from-the-data-vandals",
+      "observed_url": "https://datavandals.com/hello-from-the-data-vandals",
+      "observed_title": "Hello From the Data Vandals — Data Vandals",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 전시 소개와 일정·후기 부분을 검토; 상세는 조각·퍼포먼스·음악·노점 수레의 전시를 설명하므로 한 가지 차트로 일반화하지 않음. 현장 전시는 미검토.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "1424e71a0b51e5d5bb204ff270fb7242e5a1f77e25e11ae7e84d70c3df1cf1a8",
+        "focus.png": "bad8c1b1fde7856aafff3886edec3bb5903c98391cf84e2615b78fcbf833cfeb"
+      }
+    },
+    {
+      "slug": "how-san-francisco-s-japantown-was-devastated-by-mass-in-2024",
+      "reviewed_at": "2026-11-12T05:53:44.707Z",
+      "detail_url": "https://vis.hwpark.net/gallery/how-san-francisco-s-japantown-was-devastated-by-mass-in-2024/",
+      "detail_sha256": "a4dc7ab224f1e7a7e103df7d7e7931abb7e2cf8ba4fecf91f4a3a9f7cf379af6",
+      "requested_original_url": "https://www.sfchronicle.com/projects/2024/sf-japantown-incarceration/",
+      "observed_url": "https://www.sfchronicle.com/projects/2024/sf-japantown-incarceration/",
+      "observed_title": null,
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; the navigation to \"https://www.sfchronicle.com/projects/2024/sf-japantown-incarceration/\" had not committed and was stopped, so the Page still shows its previous document. Retry page.goto(url, { timeout }) with a longer timeout, or continue on a new Page from task.newPage().",
+        "Error: 원본 탐색 실패: 이전 문서는 검토 증거에서 제외"
+      ],
+      "original_status": "원본 접근 실패",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 탐색 시간 초과; 상세는 수용·인구조사·상점 기록을 결합한 서사만 설명하여 특정 기법 판단 불가.",
+      "interaction": null,
+      "screenshots": {}
+    },
+    {
+      "slug": "2024-u-s-election-vote-by-vote-2024",
+      "reviewed_at": "2026-11-12T05:53:44.554Z",
+      "detail_url": "https://vis.hwpark.net/gallery/2024-u-s-election-vote-by-vote-2024/",
+      "detail_sha256": "12728637437629e8135e89e3c4ad66205a50c8cb2efd8ef5021e0550417d4966",
+      "requested_original_url": "https://www.washingtonpost.com/elections/interactive/2024/2024-election-vote-map/",
+      "observed_url": "https://www.washingtonpost.com/elections/interactive/2024/2024-election-vote-map/",
+      "observed_title": "Mapping where key votes drove Trump’s election victory - Washington Post",
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; navigation committed at \"https://www.washingtonpost.com/elections/interactive/2024/2024-election-vote-map/\" with document.readyState=\"interactive\". Continue on this Page; call page.waitForLoadState(\"domcontentloaded\") if that lifecycle state is still required."
+      ],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "dot-map"
+      ],
+      "tag_basis": "상세",
+      "scope_and_basis": "원본 도입과 지형 윤곽을 검토; 상세가 표 하나를 입자 하나로 나타내고 지리 위치에 배치한다고 명시하여 점 지도 태그를 상세 기반으로 유지. 3D 입자 장면의 렌더링은 검토 범위에서 불완전.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "1f0bca8b00e9ec3d8d5b39b238346829a2cff886369a94bec7b714241ff673e9",
+        "focus.png": "cb587012cf4cfe2531c695bb703c464272ac0448f11c59612117cad5be3b11a9"
+      }
+    },
+    {
+      "slug": "i-want-a-better-catastrophe-2024",
+      "reviewed_at": "2026-11-12T05:53:44.442Z",
+      "detail_url": "https://vis.hwpark.net/gallery/i-want-a-better-catastrophe-2024/",
+      "detail_sha256": "668693e3853639eafc22849ad8584fa2c513d8437720f609775cd63cb738249f",
+      "requested_original_url": "https://flowchart.bettercatastrophe.com/",
+      "observed_url": "https://flowchart.bettercatastrophe.com/",
+      "observed_title": "I Want a Better Catastrophe · Flowchart",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 이야기·오디오 안내 패널과 흐름도 미니맵을 검토; 상세도 분기형 플로차트를 명시하지만 카탈로그에 flowchart slug가 없어 비움. 분기별 경로 선택·오디오 재생은 미검토. 조작: 기후 질문 오른쪽 분기 노드 클릭 → 다음 분기 일부가 드러남; 오디오·모든 경로는 미검토.",
+      "interaction": {
+        "actions": "기후 질문 오른쪽 분기 노드 클릭",
+        "result": "다음 분기 일부가 드러남; 오디오·모든 경로는 미검토",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "b3de3ddad5c3cd4328e4ca7f8057d6fae083699031cc7aaae73e3c7b6e611de2",
+        "focus.png": "435df33eff38b390aad3b02b02cf9bfb8dca6545d76c48a9e41cbd0d4e0563f2",
+        "interaction.png": "60aceb7f586e245b3c46cb6f96d022c50513c4a67cce350552041ada77637ea2"
+      }
+    },
+    {
+      "slug": "is-the-love-song-dying-2024",
+      "reviewed_at": "2026-11-12T05:54:06.674Z",
+      "detail_url": "https://vis.hwpark.net/gallery/is-the-love-song-dying-2024/",
+      "detail_sha256": "09b03da23e69beb7d1bfa9aefb6590ad4b0cfdf5e58d6fe2555aa589590f8f95",
+      "requested_original_url": "https://pudding.cool/2024/11/love-songs/",
+      "observed_url": "https://pudding.cool/2024/11/love-songs/",
+      "observed_title": "Is the Love Song Dying?",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "area-graph",
+        "stepper"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 방향키로 1→24단계를 진행하며 곡별 원 마크와 1960–2020년대 러브송 비중의 누적 영역 그래프를 확인. 앞뒤 단계 탐색도 실행 확인해 기존 영역 태그를 유지하고 stepper 추가. 조작: ArrowRight로 1단계에서 24단계까지 이동 → 댓글 도입→곡별 원 마크→시대별 러브송 비중의 누적 영역 그래프로 전환.",
+      "interaction": {
+        "actions": "ArrowRight로 1단계에서 24단계까지 이동",
+        "result": "댓글 도입→곡별 원 마크→시대별 러브송 비중의 누적 영역 그래프로 전환",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "cc65c2504489ae3b02e9cea0d56799abb70a26563d5a8da4367c44a751576a95",
+        "focus.png": "619a83b8283a27dd26347ffb88ec739463204a7cfc9e7ff65012f15949fc7a94",
+        "interaction.png": "e0bebaa4023942c23cea9f57d2c4287300a45d9c94deb1703b660dcc0923bfb2"
+      }
+    },
+    {
+      "slug": "lives-in-limbo-2024",
+      "reviewed_at": "2026-11-12T05:54:06.674Z",
+      "detail_url": "https://vis.hwpark.net/gallery/lives-in-limbo-2024/",
+      "detail_sha256": "4fdaed0363744eb1349b0b86b0713dbf8404c3b14e06ef8f295811a8ca6bd70f",
+      "requested_original_url": "https://multimedia.scmp.com/infographics/news/hong-kong/article/3267178/asylum-seekers/",
+      "observed_url": "https://multimedia.scmp.com/infographics/news/hong-kong/article/3267178/asylum-seekers/",
+      "observed_title": "Struggles of asylum seekers in Hong Kong living on US$13 a day - a visual explainer",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 홍콩 난민 도입 일러스트와 스크롤 구간을 검토; 상세의 대기 기간·승인율은 데이터 내용이며 특정 차트 기법 근거는 부족.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "2e133c4358164d2d067959d868fad17866abe25e4ea59d37d52f2ba92f3d5ce5",
+        "focus.png": "d5bad5f0fa552ea85ede259677763354a9d0eaec246c35f26a04fb3ea88ff001"
+      }
+    },
+    {
+      "slug": "material-interactions-quilting-2024",
+      "reviewed_at": "2026-11-12T05:54:06.674Z",
+      "detail_url": "https://vis.hwpark.net/gallery/material-interactions-quilting-2024/",
+      "detail_sha256": "af214ec793cc83c7b076cb64312f6f021e9decef558dae8586c35eeecf9a085c",
+      "requested_original_url": "https://archivy.net/art-and-design/material-interactions-data-driven-community-quilting/",
+      "observed_url": "https://archivy.net/art-and-design/material-interactions-data-driven-community-quilting/",
+      "observed_title": "Page not found – Archivy.net",
+      "navigation_errors": [],
+      "original_status": "원본 대체·제한 화면",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 Oops, page not found 화면; 상세의 조각보에 출신·거리·참여 연수를 재료로 표시한 설명만으로 특정 카탈로그 차트를 확정 못함.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "bde0ad110dd1963accbafaf1e38fd92e5cc1779cf8904a22c0d89afd11921220",
+        "focus.png": "bde0ad110dd1963accbafaf1e38fd92e5cc1779cf8904a22c0d89afd11921220"
+      }
+    },
+    {
+      "slug": "moody-s-10-major-risks-shaping-insurance-today-2024",
+      "reviewed_at": "2026-11-12T05:54:06.674Z",
+      "detail_url": "https://vis.hwpark.net/gallery/moody-s-10-major-risks-shaping-insurance-today-2024/",
+      "detail_sha256": "a0589079a72806fc18df8d9dd8c74e0d5723fa2a377226537be0a52e6b403c04",
+      "requested_original_url": "https://www.moodys.com/web/en/us/about/insights/data-stories/10-key-insurers-risks-in-charts.html",
+      "observed_url": "https://www.moodys.com/web/en/us/insights/data-stories/10-key-insurers-risks-in-charts.html",
+      "observed_title": "Insuring tomorrow: 10 risks transforming the industry",
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; navigation committed at \"https://www.moodys.com/web/en/us/insights/data-stories/10-key-insurers-risks-in-charts.html\" with document.readyState=\"loading\". Continue on this Page; call page.waitForLoadState(\"domcontentloaded\") if that lifecycle state is still required."
+      ],
+      "original_status": "원본 렌더링 실패",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본은 내비게이션·법적 고지·푸터만 표시되고 기사 시각화가 나타나지 않음; 상세도 보험 위험 열 가지의 서사이므로 차트 형태를 특정 못함.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "37ac48750db819caba8afcab0e90b1260f857dd5482d119d3baf6ca8da30cffc",
+        "focus.png": "78f0126943d16ca22e733773c05efb4a932a33555252cc2b67fddf5212ec7ecc"
+      }
+    },
+    {
+      "slug": "moody-s-office-vacancies-2024",
+      "reviewed_at": "2026-11-12T05:54:18.705Z",
+      "detail_url": "https://vis.hwpark.net/gallery/moody-s-office-vacancies-2024/",
+      "detail_sha256": "84a22fa314de9d64c7d78a403da8160fb0423b6452382e40978b05680a0820e6",
+      "requested_original_url": "https://www.moodys.com/web/en/us/about/insights/data-stories/us-commercial-real-estate-vacancies-downtown-vs-suburbs.html",
+      "observed_url": "https://www.moodys.com/web/en/us/insights/data-stories/us-commercial-real-estate-vacancies-downtown-vs-suburbs.html",
+      "observed_title": "US CRE Vacancy Rate Nears 40-Year High",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "line-graph"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 공실 기사에서 도시별 공실률을 시간축에 연결한 선과 범례를 확인; 상세의 공실·임대료 흐름 설명과 부합. 다른 후속 차트는 이번 태그의 근거에서 제외.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "b2a4ac31bb3f26cf0ab3a32a6bd91912746b492ab2947f77b007bf462c5c0247",
+        "focus.png": "e52978ba11b2d04adf754bd21753af216dd579969f3d943d688ed4945268d04e"
+      }
+    },
+    {
+      "slug": "navigate-obstacles-to-electrification-2024",
+      "reviewed_at": "2026-11-12T05:54:18.803Z",
+      "detail_url": "https://vis.hwpark.net/gallery/navigate-obstacles-to-electrification-2024/",
+      "detail_sha256": "cf317ec40de12278467ea29bebb25a595f1b34546ad2a2e156dd1dbaf86a1039",
+      "requested_original_url": "https://ici.radio-canada.ca/info/2024/voitures-electriques/trajets-voyages-vehicules-quebec/",
+      "observed_url": "https://ici.radio-canada.ca/info/2024/voitures-electriques/trajets-voyages-vehicules-quebec/",
+      "observed_title": "Parcourez les obstacles de l’électrification des transports | Radio-Canada.ca",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 총 차량 수와 반복된 차량 아이콘 도입을 검토; 상세는 전기차 비율·구매가·주행거리 비교를 설명하나 이 아이콘의 고정 단위 범례는 확인 못해 유닛 차트로 확정하지 않음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "97bbc9bde03468ce6f958a785510aef3926d5c47da98fde51cf6fa9ac1e250e0",
+        "focus.png": "4633988588f1ce9547d64014a07ade030dbaf13ca9272d8bc8249dc3d3eb9e41"
+      }
+    },
+    {
+      "slug": "pathways-to-prosperity-2024",
+      "reviewed_at": "2026-11-12T05:54:18.868Z",
+      "detail_url": "https://vis.hwpark.net/gallery/pathways-to-prosperity-2024/",
+      "detail_sha256": "321d6e8d085a83ca80bc5c0b500f443e6fd2fce4be73fb4b9e5c5efa03edcc1e",
+      "requested_original_url": "https://a3.popcouncil.org/aag-report/#/",
+      "observed_url": "https://a3.popcouncil.org/aag-report/#/",
+      "observed_title": "Pathways for Girls in Africa – A3",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "bar-chart"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 청소년 유형별 도입과 본문의 bar charts가 국가별 여섯 프로필 비율을 표시한다는 설명을 확인. 국가 비교의 모든 조합은 미검토. 조작: Grace 프로필 버튼 선택 → 국가별 프로필 비율 막대 구간으로 이동해 Grace 관련 비중과 나머지 프로필을 확인; 다른 연령별 조합은 미검토.",
+      "interaction": {
+        "actions": "Grace 프로필 버튼 선택",
+        "result": "국가별 프로필 비율 막대 구간으로 이동해 Grace 관련 비중과 나머지 프로필을 확인; 다른 연령별 조합은 미검토",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "cc8e9ecc81cb1c14f7dc593da33a80421f27c52ea47df9124678e565d8ab6bf2",
+        "focus.png": "8cd8474214d935ae272cc046573a1ca1bac671b15bd5e72364bc15502343c53f",
+        "interaction.png": "5c942c658307acf18e142ac5d11f45c9982bd09e89e69a1b26cf1701b7a3dc82"
+      }
+    },
+    {
+      "slug": "seeing-agent-based-modelling-2024",
+      "reviewed_at": "2026-11-12T05:54:18.998Z",
+      "detail_url": "https://vis.hwpark.net/gallery/seeing-agent-based-modelling-2024/",
+      "detail_sha256": "5593cdb942ebb3bc624c0495272bcf9689e7c5d4b118bd391615c10a4fbde045",
+      "requested_original_url": "https://vis.csh.ac.at/seeing-ABM/",
+      "observed_url": "https://vis.csh.ac.at/seeing-ABM/",
+      "observed_title": "Seeing Agent-based modelling",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "line-graph",
+        "playback-scrub"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 Free Play에서 재생·정지를 실행해 시간 단계가 0→50으로 진행되고 Happiness Over Time 선 그래프가 그려짐을 확인. 시민 수 편집 창까지 열었으나 매개변수 변경 후 재실행은 미검토. 조작: Free play 진입, 재생·정지, 시민 수 편집 창 열기 → 시간 단계 0→50과 행복 추세선, Number of citizens 편집 창 확인; 매개변수 변경·재실행은 미검토.",
+      "interaction": {
+        "actions": "Free play 진입, 재생·정지, 시민 수 편집 창 열기",
+        "result": "시간 단계 0→50과 행복 추세선, Number of citizens 편집 창 확인; 매개변수 변경·재실행은 미검토",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "d07a962f4a0dbeb636a289aa2123b155fd1fe0a07531fbd3a527bbf49852e120",
+        "focus.png": "ebfa6802fce59c181a44c384158f99cfc49954c459550bb800a81a6adb5a7fd2",
+        "interaction.png": "f787064e1f1036b0626c03f9efc307fc9e11436740434647029279b639439d46"
+      }
+    },
+    {
+      "slug": "seeking-shadow-2024",
+      "reviewed_at": "2026-11-12T05:54:34.359Z",
+      "detail_url": "https://vis.hwpark.net/gallery/seeking-shadow-2024/",
+      "detail_sha256": "67380661a22657151fcd8ed5dd5513c555e9b3bf6e0c0a738e40d6fcf0b4a7bc",
+      "requested_original_url": "https://atlas.urbi.ae/seeking-shadow/",
+      "observed_url": "chrome-error://chromewebdata/",
+      "observed_title": "atlas.urbi.ae",
+      "navigation_errors": [
+        "Error: page.goto failed: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "original_status": "원본 접근 실패",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 DNS_PROBE_FINISHED_NXDOMAIN 오류; 상세의 그늘·디지털 트윈·도시 분석이라는 설명에는 특정 차트 인코딩이 없어 비움.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "e2e0c48b67cd22a78e3a6d59134ba49daf34e582d3276b4e8ac2e9c8cc16a915",
+        "focus.png": "e2e0c48b67cd22a78e3a6d59134ba49daf34e582d3276b4e8ac2e9c8cc16a915"
+      }
+    },
+    {
+      "slug": "swiss-mountains-2024",
+      "reviewed_at": "2026-11-12T05:54:34.540Z",
+      "detail_url": "https://vis.hwpark.net/gallery/swiss-mountains-2024/",
+      "detail_sha256": "f2298412eb199fabb3d3a2dc1fcb60bda92d2d07b5ec2fb952f43b612c7ace45",
+      "requested_original_url": "https://www.fabianlang.net/schweizer-bergwelten/",
+      "observed_url": "https://www.fabianlang.net/schweizer-bergwelten/",
+      "observed_title": "Schweizer Bergwelten · Montagnes suisses – Fabian Lang",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 책 제작자 소개·도판 자리·제목을 검토; 일부 이미지가 로딩되지 않았고 상세도 다양한 산악 인포그래픽 목록이므로 책 전체를 한 기법으로 정하지 않음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "7d38c6fc91141493a87c3f27315319dd1219d668009a2bc9667c801a933e0096",
+        "focus.png": "9381efbfca2f7915076dd39fdc39c9b24c494ad920ed8612f9362291790791f0"
+      }
+    },
+    {
+      "slug": "the-birdsong-of-sorrow-above-ukraine-2024",
+      "reviewed_at": "2026-11-12T05:54:34.796Z",
+      "detail_url": "https://vis.hwpark.net/gallery/the-birdsong-of-sorrow-above-ukraine-2024/",
+      "detail_sha256": "deceb4d98a30463a7e92170393f02735b9840588e9c55347dbf65a6847b42c87",
+      "requested_original_url": "https://birdsong-of-sorrow-above-ukraine.github.io/",
+      "observed_url": "https://birdsong-of-sorrow-above-ukraine.github.io/",
+      "observed_title": "The Birdsong of Sorrow above Ukraine | Data Story",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "unit-chart"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 Each bird represents a life lost 범례와 다수의 새 마크를 확인; 한 생명에 하나의 새라는 고정 단위로 판단. 월별 전환은 미검토. 조작: MONTH BY MONTH 선택 시도 → 원본 버튼이 뷰포트에서 보이지 않아 입력 실패; 월별 전환 결과 미확인.",
+      "interaction": {
+        "actions": "MONTH BY MONTH 선택 시도",
+        "result": "원본 버튼이 뷰포트에서 보이지 않아 입력 실패; 월별 전환 결과 미확인",
+        "status": "제한"
+      },
+      "screenshots": {
+        "top.png": "bdff579efe07ae32eb1b8f9ee7f9d5890524b3bb2a6f0a0391ac1155018d5550",
+        "focus.png": "cc2edb14b136ac670d428257e648ed186c51021cf42050dfbd716b8c1976f3ba"
+      }
+    },
+    {
+      "slug": "the-emoji-biosphere-2024",
+      "reviewed_at": "2026-11-12T05:54:35.011Z",
+      "detail_url": "https://vis.hwpark.net/gallery/the-emoji-biosphere-2024/",
+      "detail_sha256": "0f5b952f43e042897836e9597c07156976168d1312cbc6a69a4e852f0c86f6b2",
+      "requested_original_url": "https://www.scientificamerican.com/article/whats-missing-from-the-emoji-animal-kingdom/",
+      "observed_url": "https://www.scientificamerican.com/article/whats-missing-from-the-emoji-animal-kingdom/",
+      "observed_title": "What's Missing from the Emoji Animal Kingdom? | Scientific American",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 기사 제목·도입·쿠키 안내를 검토; 실제 이모지 비교 도판이 관찰 범위에 나타나지 않았고 상세도 비교 수량만 설명하여 차트 형식을 확정 못함.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "e9a02f61ddf7f7e7a027731bc84980751f97aa92da4e2eaef508a579dc6adf7b",
+        "focus.png": "0b2f378fe5be9c325d6d29ce8e8ca51636cf813767387abfd5e9a96f91af9c2b"
+      }
+    },
+    {
+      "slug": "the-roots-of-racism-2024",
+      "reviewed_at": "2026-11-12T05:54:44.334Z",
+      "detail_url": "https://vis.hwpark.net/gallery/the-roots-of-racism-2024/",
+      "detail_sha256": "069a05636d9357f2e11420e86bca30bfa9cd528c6e6e2e7ae224f6243914440d",
+      "requested_original_url": "https://rootsofracism.taaf.org/",
+      "observed_url": "https://rootsofracism.taaf.org/",
+      "observed_title": "Map of Anti-Asian Hate Incidents in the United States | TAAF",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "parametric-manipulation"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 데이터 탐색 구간에서 Homeownership Rate 슬라이더를 46.0→90.0%로 바꾸자 예상 사건 수가 16→10으로 갱신됨. 상세의 사건 분석 프로젝트 중 실제 실행한 모델 입력 조작만 태깅. 지도 부호화는 미검토. 조작: 데이터 탐색 구간으로 스크롤, Homeownership Rate 슬라이더에 End 입력 → 주택 보유율 46.0→90.0%, 예상 사건 수 16→10으로 즉시 갱신됨.",
+      "interaction": {
+        "actions": "데이터 탐색 구간으로 스크롤, Homeownership Rate 슬라이더에 End 입력",
+        "result": "주택 보유율 46.0→90.0%, 예상 사건 수 16→10으로 즉시 갱신됨",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "0456b55bae3322aaa726489dc0e915466fb9c8eb79e8bd806d557a5541ba8a8f",
+        "focus.png": "fc66c42f2e49b89978c87a2514639b3bb1474f408187c612eabc6ed0b35e66c2",
+        "interaction.png": "242ea7fa483758e0eddfd4b18a6e24f07b837cfca29aa12bf0c1a249d149b8d4"
+      }
+    },
+    {
+      "slug": "the-united-states-of-abortion-mazes-2024",
+      "reviewed_at": "2026-11-12T05:54:44.386Z",
+      "detail_url": "https://vis.hwpark.net/gallery/the-united-states-of-abortion-mazes-2024/",
+      "detail_sha256": "dfb10b44bd6ddcb6c57ccca32023f930300abc750b4ef7710c90af00c93e7ce3",
+      "requested_original_url": "https://pudding.cool/2024/10/abortion-mazes/",
+      "observed_url": "https://pudding.cool/2024/10/abortion-mazes/",
+      "observed_title": "The United States of Abortion Mazes",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "sort"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 See all mazes 뒤 By barriers 선택으로 전체 미로가 Most to fewest barriers 순서로 재배열됨을 확인. 상세의 주별 정책을 미로 난이도로 바꾼 설명과 부합. 51개 미로 전체 풀이는 미검토. 조작: See all mazes, By barriers 선택 후 Arkansas 열기, START MAZE와 ArrowRight → 전체 미로가 Most to fewest barriers 순서로 재배열됨; Arkansas 미로가 시작 상태에서 RESTART MAZE 상태로 전환.",
+      "interaction": {
+        "actions": "See all mazes, By barriers 선택 후 Arkansas 열기, START MAZE와 ArrowRight",
+        "result": "전체 미로가 Most to fewest barriers 순서로 재배열됨; Arkansas 미로가 시작 상태에서 RESTART MAZE 상태로 전환",
+        "status": "확인"
+      },
+      "screenshots": {
+        "top.png": "c06c5db7cc7171aaca54da7ca275dcc2a6294399bb1243a0dce29d0f2acdc2cc",
+        "focus.png": "eeaa55add333851b8371c8f83ca5cfd82312742f146b6afd50f3fd27708ba351",
+        "interaction.png": "31fb018e36c3b6b23729aef0b0e1f219aa9f00ce818e3c2d1bd1e618fab4f9c1"
+      }
+    },
+    {
+      "slug": "the-sudan-famine-watchdog-2024",
+      "reviewed_at": "2026-11-12T05:54:44.748Z",
+      "detail_url": "https://vis.hwpark.net/gallery/the-sudan-famine-watchdog-2024/",
+      "detail_sha256": "8fc909eeafd136392026967373357f45eee925d7c369b69a41aeaf2ba67d0ea8",
+      "requested_original_url": "https://www.reuters.com/graphics/FAMINE-RESPONSE/SUDAN/zdvxqkqxnpx/",
+      "observed_url": "https://www.reuters.com/graphics/FAMINE-RESPONSE/SUDAN/zdvxqkqxnpx/",
+      "observed_title": "The world’s hunger watchdog warned of catastrophe in Sudan. Famine struck anyway.",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 스크롤에 따라 난민 캠프 삽화와 시설 설명이 나타남을 확인; 상세는 기아 감시 절차와 현장 이야기를 결합한 보도라 특정 수치 차트 기법 근거 부족.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "2af850c41f459ab341040a1c59db9620a2d7240fdb9493fc11a03f5e38bf3d9d",
+        "focus.png": "4f7712fe00c728488210da923d7296ac037f54f50fe059e11c2d9513efb3bd5b"
+      }
+    },
+    {
+      "slug": "this-is-a-teenager-2024",
+      "reviewed_at": "2026-11-12T05:54:44.833Z",
+      "detail_url": "https://vis.hwpark.net/gallery/this-is-a-teenager-2024/",
+      "detail_sha256": "2d2a82089926f2500f40834c2373accfd29141190aacbaacf54e72af3b077a83",
+      "requested_original_url": "https://pudding.cool/2024/03/teenagers/",
+      "observed_url": "https://pudding.cool/2024/03/teenagers/",
+      "observed_title": "This is a teenager",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "line-graph",
+        "small-multiples"
+      ],
+      "tag_basis": "상세·원본",
+      "scope_and_basis": "원본 후반부에서 학력 범주별로 나란히 놓인 소형 시간 추세선과 행복·소득 추이 선을 확인; 상세의 개인별 장기 변화 주제와 부합. 전체 개인의 모든 경로는 미검토.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "ce7fd7d07d6282f46f5613ad7ebbd5e6a08ae4655f6d13a8f3281b7698429d2a",
+        "focus.png": "ea61fd65bd81b152bde427b5d645609285ce4a8964a75b6ae50ba49510228c03"
+      }
+    },
+    {
+      "slug": "total-eclipse-2024",
+      "reviewed_at": "2026-11-12T05:54:54.089Z",
+      "detail_url": "https://vis.hwpark.net/gallery/total-eclipse-2024/",
+      "detail_sha256": "3cb5cf7da7ba0b0000d6aa387cbacfbf644f53912a813b38c166094615bcbc50",
+      "requested_original_url": "https://carto.maps.arcgis.com/home/item.html?id=83bccec072d244aa97b0a3b53b182cb3",
+      "observed_url": "https://carto.maps.arcgis.com/home/item.html?id=83bccec072d244aa97b0a3b53b182cb3#overview",
+      "observed_title": "Total Eclipse 2024 - Overview",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "근거 확인",
+      "techniques": [
+        "small-multiples"
+      ],
+      "tag_basis": "상세",
+      "scope_and_basis": "원본 ArcGIS 항목 설명을 검토했으나 지도 미리보기는 미완료; 상세가 1500여 지점의 일식 모양을 동일한 작은 패널 격자로 배치한다고 명시하여 상세 기반으로 유지.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "1d545805fcc42ddf1297a6a93b12b524ade05f7de4dda7f71b90baaaa04f9048",
+        "focus.png": "a95a0f7e421fff87247e41df56368e3c0f1ad97b9a7ad7c74eda04aa6be3dc0e"
+      }
+    },
+    {
+      "slug": "vertical-momentum-2024",
+      "reviewed_at": "2026-11-12T05:54:54.154Z",
+      "detail_url": "https://vis.hwpark.net/gallery/vertical-momentum-2024/",
+      "detail_sha256": "8945ca2090c44d5b8a50df36194b972b6c6501d4e54ed7daef0deeff6a62382f",
+      "requested_original_url": "https://krisztinaszucs.com/blog/20241211_highjump/index.html",
+      "observed_url": "https://krisztinaszucs.com/blog/20241211_highjump/index.html",
+      "observed_title": "Krisztina Szucs - Data Visualization Designer Portfolio",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 높이뛰기·장대높이뛰기 결과의 표와 애니메이션 제작 단계 예시를 검토; 표·특수 경기 기호를 특정 차트 태그로 일반화하지 않음. 자동 GIF 외 별도 조작 없음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "fdb42235195dac3e1d15d571cc4fe8b4964db51ea906401ea94c59d5f9a41c41",
+        "focus.png": "a8236d3768aa1a463a0c95eae04143d038615db9c444f755c368d902ebe21432"
+      }
+    },
+    {
+      "slug": "world-in-tangible-fragments-2024",
+      "reviewed_at": "2026-11-12T05:54:54.341Z",
+      "detail_url": "https://vis.hwpark.net/gallery/world-in-tangible-fragments-2024/",
+      "detail_sha256": "e9bc5c18dc1ed88058ce01b53c208aba705985880b59369bd9e3f5bc116b6c12",
+      "requested_original_url": "https://designingnumbers.tilda.ws/worldintangiblefragments_en",
+      "observed_url": "https://designingnumbers.tilda.ws/worldintangiblefragments_en",
+      "observed_title": "World in Tangible Fragments",
+      "navigation_errors": [],
+      "original_status": "원본 화면 검토",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 스케치북 제작 과정의 글·재료 사진 일부를 검토; 상세는 자르기·꿰매기 등 물리적 매체와 연작을 설명하므로 전체를 하나의 차트로 분류하지 않음.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "8451786c5d06679e6459fb11db6bc79cf03eae5aaf0f8207ab994b576335c84e",
+        "focus.png": "8b6a7cc85ee38cde458a764a6653daff15eeb72f54367585570dcfa2371a13c9"
+      }
+    },
+    {
+      "slug": "zoonotic-web-2024",
+      "reviewed_at": "2026-11-12T05:54:54.479Z",
+      "detail_url": "https://vis.hwpark.net/gallery/zoonotic-web-2024/",
+      "detail_sha256": "83a4c96b824b2de652e2bf25e40f4b8e3e45580abcd8cc3a7feef404f87cf99b",
+      "requested_original_url": "https://vis.csh.ac.at/zoonotic-web/",
+      "observed_url": "https://vis.csh.ac.at/zoonotic-web/",
+      "observed_title": "Zoonotic Web",
+      "navigation_errors": [
+        "PageNavigationTimeoutError: page.goto timed out after 10000ms waiting for domcontentloaded; navigation committed at \"https://vis.csh.ac.at/zoonotic-web/\" with document.readyState=\"loading\". Continue on this Page; call page.waitForLoadState(\"domcontentloaded\") if that lifecycle state is still required."
+      ],
+      "original_status": "원본 렌더링 실패",
+      "judgement": "검토 후 판단 불가",
+      "techniques": [],
+      "tag_basis": "-",
+      "scope_and_basis": "원본 문서가 커밋됐으나 빈 화면으로 시각화가 나타나지 않음; 상세는 전파 경로·대시보드의 연구 주제를 설명할 뿐 실제 네트워크 마크나 조작 구현은 확인 못해 비움.",
+      "interaction": null,
+      "screenshots": {
+        "top.png": "4fe2e634f6a0711cd094147516e83a40e1fae2e2cdcd6f7a926fb28c0a2ffb8d",
+        "focus.png": "4fe2e634f6a0711cd094147516e83a40e1fae2e2cdcd6f7a926fb28c0a2ffb8d"
+      }
+    }
+  ],
+  "source_sha": "e6a3e166a010680dc9eba0c9806015de6c4024b6"
+}
