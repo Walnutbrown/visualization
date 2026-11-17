@@ -1,0 +1,14 @@
+{
+  "source": "6ee8f2fb116435bb02e6ac4062c88186ee6bab70",
+  "fetched_on": "2026-11-17",
+  "tests": 30,
+  "gallery_replay_matches": true,
+  "manual_rows_preserved": true,
+  "existing_gallery_metadata_preserved": true,
+  "png_bytes": 101596,
+  "png_sha256": "e7d56e2b6c82063e208e2c5e4781f38223e20d5634265105fbc24b4a24135307",
+  "png_size": [
+    1200,
+    1250
+  ]
+}

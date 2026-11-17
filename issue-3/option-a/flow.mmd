@@ -1,0 +1,8 @@
+flowchart LR
+  Site[vis.hwpark.net] --> Sync[sync_vis_rules.py]
+  Saved["--from-dir HTML"] --> Sync
+  Sync --> Gallery[gallery.md 생성]
+  Review[작품 상세와 원본 검토] --> Tags[gallery-tags.md 수동 관리]
+  Gallery --> Tests[오프라인 누락 검사]
+  Tags --> Tests
+  Catalog[catalog.md] --> Tests

@@ -1,0 +1,54 @@
+{
+  "source": "6ee8f2fb116435bb02e6ac4062c88186ee6bab70",
+  "total": 120,
+  "manual_tagged": 40,
+  "manual_blank": 80,
+  "site_tagged": 43,
+  "site_links": 77,
+  "site_technique_types": 28,
+  "blank_with_site": 22,
+  "blank_both": 58,
+  "either_source": 62,
+  "manual_top10": [
+    [
+      "click-to-select",
+      4
+    ],
+    [
+      "line-graph",
+      4
+    ],
+    [
+      "small-multiples",
+      4
+    ],
+    [
+      "text-search-filter",
+      4
+    ],
+    [
+      "timeline",
+      4
+    ],
+    [
+      "bar-chart",
+      3
+    ],
+    [
+      "sort",
+      3
+    ],
+    [
+      "dot-map",
+      2
+    ],
+    [
+      "flow-map",
+      2
+    ],
+    [
+      "network-diagram",
+      2
+    ]
+  ]
+}
