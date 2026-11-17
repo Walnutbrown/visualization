@@ -137,9 +137,14 @@ def parse_gallery(slug, page):
     link = re.search(r'href="([^"]+)"[^>]*>\s*<span class="lang-ko">원본 프로젝트 보기', page)
     creator, year, field = ([ko(x) for x in re.split(r'<span class="text-border">.*?</span>', meta.group(1), flags=re.S)] + ["", "", ""])[:3]
     kind = ko(chip.group(1))
+    techniques = []
+    for part in re.split(r"<h2[^>]*>", page)[1:]:
+        head, _, body = part.partition("</h2>")
+        if ko(head) == "사용된 기법":
+            techniques = list(dict.fromkeys(re.findall(r'href="/catalog/([a-z0-9-]+)/"', body)))
     return {"slug": slug, "title": text(re.search(r"<h1[^>]*>(.*?)</h1>", page, re.S).group(1)), "creator": creator, "year": year,
             "kind": "고전" if kind == "고전" else "IIB", "award": "" if kind == "고전" else kind, "field": field,
-            "summary": ko(quote.group(1)) if quote else "", "url": html.unescape(link.group(1)) if link else ""}
+            "summary": ko(quote.group(1)) if quote else "", "url": html.unescape(link.group(1)) if link else "", "techniques": techniques}
 
 
 def gallery_index(entries):
@@ -147,11 +152,14 @@ def gallery_index(entries):
     rows = ["# 갤러리 색인 (vis.hwpark.net 스냅샷)", "",
             f"{SITE}/gallery/ 작품 {len(entries)}개 (고전 {sum(e['kind'] == '고전' for e in entries)} + IIB {sum(e['kind'] == 'IIB' for e in entries)}). "
             "시안과 완성 단계에서 같은 형태로 잘 만든 작품을 찾는 용도다. 고전은 사이트에 수상·한 줄 설명이 없어 `-`로 둔다. "
-            "작품과 기법의 연결은 `gallery-tags.md`에서 별도로 검토·관리한다. 생성 파일이므로 직접 고치지 말고 `scripts/sync_vis_rules.py`로 갱신한다.", "",
-            "| slug | 제목 | 제작자 | 연도 | 구분 | 수상 | 분야 | 한 줄 설명 | 사이트 | 원본 |", "|---|---|---|---|---|---|---|---|---|---|"]
+            "사이트 기법은 상세의 ‘사용된 기법’ 링크를 그대로 수집하며, `-`는 사이트에 링크가 없다는 뜻이다. "
+            "`gallery-tags.md`는 사이트 링크와 별개인 우리 판단으로, 빈 태그는 기법 없음이 아니라 검토 범위에서 판단 불가를 뜻한다. "
+            "기법으로 작품을 찾을 때는 두 파일을 같은 작품 slug로 함께 확인한다. 생성 파일이므로 직접 고치지 말고 `scripts/sync_vis_rules.py`로 갱신한다.", "",
+            "| slug | 제목 | 제작자 | 연도 | 구분 | 수상 | 분야 | 한 줄 설명 | 사이트 | 원본 | 사이트 기법 |", "|---|---|---|---|---|---|---|---|---|---|---|"]
     for e in sorted(entries, key=lambda e: (e["kind"] != "고전", e["year"], e["title"])):
         rows.append(f"| `{e['slug']}` | " + " | ".join(cell(e[k]) for k in ["title", "creator", "year", "kind", "award", "field", "summary"])
-                    + f" | {SITE}/gallery/{e['slug']}/ | {cell(e['url'])} |")
+                    + f" | {SITE}/gallery/{e['slug']}/ | {cell(e['url'])} | "
+                    + (", ".join(f"[`{slug}`]({SITE}/catalog/{slug}/)" for slug in e["techniques"]) or "-") + " |")
     return "\n".join(rows) + "\n"
 
 

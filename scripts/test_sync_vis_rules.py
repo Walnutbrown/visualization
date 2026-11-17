@@ -29,6 +29,12 @@ class SnapshotTest(unittest.TestCase):
         gallery_slugs = {row[0][3:-1] for row in rows}
         self.assertEqual(len(gallery_slugs), 120)
         known = set(re.findall(r"^\| `([^`]+)`", read(VIS / "catalog.md"), re.M))
+        for row in rows:
+            self.assertEqual(len(row), 11, row[0])
+            slugs = re.findall(r"\[`([^`]+)`\]\(https://vis\.hwpark\.net/catalog/\1/\)", row[10])
+            self.assertEqual(len(slugs), len(set(slugs)), row[0])
+            self.assertLessEqual(set(slugs), known, row[0])
+            self.assertEqual(row[10].removesuffix(" |"), ", ".join(f"[`{slug}`]({sync.SITE}/catalog/{slug}/)" for slug in slugs) or "-", row[0])
         tag_rows = [line.split(" | ") for line in read(VIS / "gallery-tags.md").splitlines() if line.startswith("| `")]
         self.assertEqual({row[0][3:-1] for row in tag_rows}, gallery_slugs)
         self.assertEqual(len(tag_rows), 120)
@@ -109,6 +115,16 @@ class ParseTest(unittest.TestCase):
                          ("Example & work", "Author", "2024", "IIB", "금상", "분야", "설명", "https://example.com/?x=1&y=2"))
         historic = sync.parse_gallery("example", page.replace("금상", "고전"))
         self.assertEqual((historic["kind"], historic["award"]), ("고전", ""))
+        self.assertEqual(e["techniques"], [])
+        self.assertTrue(sync.gallery_index([e]).rstrip().endswith(" | - |"))
+
+        page += '''<a href="/catalog/tooltip/">탐색 링크</a>
+        <h2><span class="lang-ko">사용된 기법</span><span class="lang-en">Techniques used</span></h2>
+        <a href="/catalog/bubble-chart/">버블 차트</a><a href="/catalog/network-diagram/">네트워크</a>
+        <a href="/catalog/bubble-chart/">중복</a><h2>다른 절</h2><a href="/catalog/bar-chart/">다른 링크</a>'''
+        e = sync.parse_gallery("example", page)
+        self.assertEqual(e["techniques"], ["bubble-chart", "network-diagram"])
+        self.assertIn("[`bubble-chart`](https://vis.hwpark.net/catalog/bubble-chart/)", sync.gallery_index([e]))
 
     def setUp(self):
         self.e = sync.parse("histogram", read(FIXTURE))
