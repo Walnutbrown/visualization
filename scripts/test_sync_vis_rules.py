@@ -3,6 +3,8 @@ import re
 import sys
 import unittest
 from pathlib import Path
+from tempfile import TemporaryDirectory
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import sync_vis_rules as sync
@@ -19,6 +21,38 @@ def read(path):
 
 
 class SnapshotTest(unittest.TestCase):
+    def test_gallery_and_tags(self):
+        rows = [line.split(" | ") for line in read(VIS / "gallery.md").splitlines() if line.startswith("| `")]
+        self.assertEqual(len(rows), 120)
+        self.assertEqual(sum(row[4] == "고전" for row in rows), 20)
+        self.assertEqual(sum(row[4] == "IIB" for row in rows), 100)
+        gallery_slugs = {row[0][3:-1] for row in rows}
+        self.assertEqual(len(gallery_slugs), 120)
+        known = set(re.findall(r"^\| `([^`]+)`", read(VIS / "catalog.md"), re.M))
+        for row in rows:
+            self.assertEqual(len(row), 11, row[0])
+            slugs = re.findall(r"\[`([^`]+)`\]\(https://vis\.hwpark\.net/catalog/\1/\)", row[10])
+            self.assertEqual(len(slugs), len(set(slugs)), row[0])
+            self.assertLessEqual(set(slugs), known, row[0])
+            self.assertEqual(row[10].removesuffix(" |"), ", ".join(f"[`{slug}`]({sync.SITE}/catalog/{slug}/)" for slug in slugs) or "-", row[0])
+        tag_rows = [line.split(" | ") for line in read(VIS / "gallery-tags.md").splitlines() if line.startswith("| `")]
+        self.assertEqual({row[0][3:-1] for row in tag_rows}, gallery_slugs)
+        self.assertEqual(len(tag_rows), 120)
+        for row in tag_rows:
+            self.assertLessEqual(set(re.findall(r"`([^`]+)`", row[1])), known, row[0])
+
+    def test_gallery_review_scope_and_basis(self):
+        rows = [line.split(" | ") for line in read(VIS / "gallery-tags.md").splitlines() if line.startswith("| `")]
+        for row in rows:
+            self.assertEqual(len(row), 6, row[0])
+            self.assertIn(row[2], {"근거 확인", "검토 후 판단 불가"}, row[0])
+            self.assertEqual(row[1] == "-", row[2] == "검토 후 판단 불가", row[0])
+            self.assertIn(row[3], {"원본 화면 검토", "원본 접근 실패", "원본 대체·제한 화면", "원본 렌더링 실패"}, row[0])
+            self.assertGreater(len(row[4]), 35, row[0])
+            self.assertNotIn("별도 기록", row[4], row[0])
+            if row[3] != "원본 화면 검토":
+                self.assertIn("상세", row[4], row[0])
+
     def test_counts_match_index(self):
         self.assertEqual((len(MAIN), len(DETAIL), len(PRINCIPLES)), (95, 95, 20))
         rows = [l for l in read(VIS / "catalog.md").splitlines() if l.startswith("| `")]
@@ -61,6 +95,37 @@ class SnapshotTest(unittest.TestCase):
 
 
 class ParseTest(unittest.TestCase):
+    def test_sync_does_not_overwrite_gallery_tags(self):
+        with TemporaryDirectory() as directory:
+            target = Path(directory)
+            tags = target / "gallery-tags.md"
+            tags.write_text("hand edited", encoding="utf-8")
+            with patch.object(sync, "OUT", target), patch.object(sync, "collect", return_value=[]), patch.object(sys, "argv", ["sync_vis_rules.py"]):
+                sync.main()
+            self.assertEqual(tags.read_text(encoding="utf-8"), "hand edited")
+
+    def test_gallery_detail(self):
+        page = '''<h1>Example &amp; work</h1><span><span class="lang-ko">금상</span></span></div>
+        <div class="flex flex-wrap text-muted-foreground"><span>Author</span><span class="text-border">·</span>
+        <span>2024</span><span class="text-border">·</span><span><span class="lang-ko">분야</span></span></div>
+        <div class="rounded-lg border-l-4"><span class="lang-ko">설명</span></div>
+        <a href="https://example.com/?x=1&amp;y=2"><span class="lang-ko">원본 프로젝트 보기</span></a>'''
+        e = sync.parse_gallery("example", page)
+        self.assertEqual((e["title"], e["creator"], e["year"], e["kind"], e["award"], e["field"], e["summary"], e["url"]),
+                         ("Example & work", "Author", "2024", "IIB", "금상", "분야", "설명", "https://example.com/?x=1&y=2"))
+        historic = sync.parse_gallery("example", page.replace("금상", "고전"))
+        self.assertEqual((historic["kind"], historic["award"]), ("고전", ""))
+        self.assertEqual(e["techniques"], [])
+        self.assertTrue(sync.gallery_index([e]).rstrip().endswith(" | - |"))
+
+        page += '''<a href="/catalog/tooltip/">탐색 링크</a>
+        <h2><span class="lang-ko">사용된 기법</span><span class="lang-en">Techniques used</span></h2>
+        <a href="/catalog/bubble-chart/">버블 차트</a><a href="/catalog/network-diagram/">네트워크</a>
+        <a href="/catalog/bubble-chart/">중복</a><h2>다른 절</h2><a href="/catalog/bar-chart/">다른 링크</a>'''
+        e = sync.parse_gallery("example", page)
+        self.assertEqual(e["techniques"], ["bubble-chart", "network-diagram"])
+        self.assertIn("[`bubble-chart`](https://vis.hwpark.net/catalog/bubble-chart/)", sync.gallery_index([e]))
+
     def setUp(self):
         self.e = sync.parse("histogram", read(FIXTURE))
 

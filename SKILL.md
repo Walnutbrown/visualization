@@ -21,9 +21,9 @@ description: Create standalone data visualizations using the vis.hwpark.net tech
 
 ## 3. 작은 시안
 
-읽기: 후보 3개의 `references/vis/techniques/<slug>.detail.md`, `references/vis/gallery-tags.md`, 필요하면 `references/vis/gallery.md`, `references/style.md`, `scripts/assemble.py`, `assets/vendor/`, `examples/`.
+읽기: 후보 3개의 `references/vis/techniques/<slug>.detail.md`, `references/vis/gallery.md`, `references/vis/gallery-tags.md`, `references/style.md`, `scripts/assemble.py`, `assets/vendor/`, `examples/`.
 
-각 상세 파일의 `코드 레퍼런스`에서 출발해 실제 데이터로 주석과 인터랙션 없는 정적 시안 3개를 만든다. 갤러리 태그에서 같은 기법의 작품 링크를 함께 보여 주고 사용자가 하나를 고르게 한다. 조각은 `python3 scripts/assemble.py <fragment.html> <output.html> --title "제목"`으로 독립 HTML에 조립한다.
+각 상세 파일의 `코드 레퍼런스`에서 출발해 실제 데이터로 주석과 인터랙션 없는 정적 시안 3개를 만든다. 갤러리 색인의 사이트 기법과 별도 수동 태그에서 같은 기법의 작품을 찾아, 출처가 사이트 연결인지 우리 판단인지 구분해 작품 링크를 보여 주고 사용자가 하나를 고르게 한다. 빈 태그는 판단 보류이며 기법이 없다는 근거로 쓰지 않는다. 조각은 `python3 scripts/assemble.py <fragment.html> <output.html> --title "제목"`으로 독립 HTML에 조립한다.
 
 ## 4. 완성
 
